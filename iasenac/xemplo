@@ -1,0 +1,53 @@
+#append
+num = []
+num.append("1"), num.append("2"), num.append("3"), num.append("4"), num.append("5")
+print(num)
+ 
+#insert
+frutas = ["maçã", "banana", "laranja"]
+frutas.insert(1,"abacaxi")
+print(frutas)
+ 
+#extend
+lista = [1,2]
+lista1 = [3,4,5]
+lista.extend(lista1)
+print(lista)
+ 
+#remove
+lista = [10,20,30,20,40]
+lista.remove(20)
+print(lista)
+ 
+ 
+#pop
+lista = [5, 10, 15, 20]
+lista.pop()
+print(lista)
+lista.pop(1)
+print(lista)
+ 
+#clear
+lista = ["arroz", "feijão", "macarrão"]
+lista.clear()
+print(lista)
+ 
+#index
+lista = ["a", "b", "c", "d"]
+print(lista.index("c"))
+ 
+#count
+lista = [7, 1, 7, 3, 7, 5]
+print(lista.count(7))
+ 
+#sort
+lista = [12, 4, 19, 1, 8]
+lista.sort()
+print(lista)
+lista.sort(reverse=True)
+print(lista)
+ 
+#reverse
+lista = [1,2,3,4,5]
+lista.reverse()
+print(lista)
