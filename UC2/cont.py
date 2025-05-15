@@ -225,5 +225,30 @@
 # ultimo = len(entrada) - 1
 # print(f"O último caracter da palavra é -{entrada[ultimo]}-")
 
+# exer:
+# string = input("Digite uma string: ")
+# penul = len(string) - 2 
+# ult = len(string) -1
+# if string[penul] == string[ult]: #== string[1]:
+#     print(f"As ultimas letras são iguais, a penúltima letra é -{string[penul]}- e a última é -{string[ult]}- ")
+# else:
+#     print("As últimas letras são diferente")
+
+
+#Atv:55,56
+#hash = "#"
+# largura = int(input("Digite a largura desejada: "))
+# print("#" * largura)
+# largura = input("Digite a largura desejada: ")
+# print("#" * len(largura))
+
 
 #Atv:56
+# while True:
+    
+#     string = input("Digite uma string: ")
+#     if string != "":
+#         print(string)
+#         print("-" * len(string))
+#     else:
+#         break
