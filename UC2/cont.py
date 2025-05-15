@@ -252,3 +252,50 @@
 #         print("-" * len(string))
 #     else:
 #         break
+
+
+#Atv:57
+# string = input("Digite uma palavra: ")
+# if len(string) < 20:
+#     print("*" * (20 - len(string)) + string)
+# else:
+#     print(string[:20])
+
+#outra forma
+# string = input("Digite uma palavra: ")
+# if len(string) < 20:
+#     aste = "*" *(20 - len(string))
+#     resul = aste + string
+# else:
+#     resul = string[:20]
+
+# print(resul)
+
+#Atv:58
+# string = input("Digite uma palavra: ")
+# print("*" * 30)
+# print(f"         *{string}*")
+# print("*" * 30)
+
+# texto = input("Digite uma palavra ou frase: ")
+# #largura total
+# largura_total = 30
+# #Linhas do topo e do rodapé
+# linha_borda = "*" * largura_total
+# #aqui é o espaço total disponivel tirando o tamanho da palavra
+# espacos_total = largura_total - len(texto)
+# #aqui é quanto de espaço para esquerda que é o espaco_total dividido por 2
+# espacos_esquerda = espacos_total // 2 
+# #aqui é o espaço da direita
+# espacos_direita = espacos_total - espacos_esquerda-2
+# #aqui monta a linha central
+
+# if len(texto) % 2 == 0:    
+#     linha_central = "*" + " " * espacos_esquerda + texto + " " * espacos_direita + "*"
+# else:
+#     linha_central = "*"+ texto + "*"
+
+
+# print(linha_borda)
+# print(linha_central)
+# print(linha_borda)
