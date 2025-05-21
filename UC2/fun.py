@@ -189,21 +189,45 @@
 #         contador += 1
     
 # triangulo(10)
-        
+
 
 #Atv: 9
 # def o_maior_numero(x, y ,z):
 #     return max(x ,y , z)
-# print(o_maior_numero(10 ,37, 5))
+# print(o_maior_numero(10 ,37, 55))
     
 #Outra forma:
 # def o_maior_numero(x, y ,z):
 #     maior = x
 #     if y > maior:
 #         maior = y
-#     elif z > maior:
+#     if z > maior:
 #         maior = z
 #     return maior
-# print(o_maior_numero(10 ,37, 5))
+# print(o_maior_numero(10 ,37, 55))
 
-#Atv
+
+
+#Atv:10
+# escreva uma funcao chamada mesmo_caracter, que receba uma string e dois interios como argumento. Os interos se referem a indice(numero letra string) dentro a string.
+# A função deve retorna True se os dois carateres no índice especificados forem os mesmos. Caso contrario, e especialmente se qualquer um dos indices 
+# estiver fora do escobo da string, a função retorna False.
+
+# def mesmo_caracter(a, b, c):
+#     if  b == len(a) or c == len(a):
+#         return False
+#     return a[b] == a[c]
+# print(mesmo_caracter("hojee", 3, 4))
+
+# #outra forma prof
+# def mesmo_caracter(a, b, c):
+#     if b < 0 or c < 0 or b >= len(a) or c >= len(a):
+#         return False
+#     else:
+#         if a[b] != a[c]:
+#             return False
+#         else:
+#             return True
+# print(mesmo_caracter("hojee", 1, 1))
+
+
