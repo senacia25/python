@@ -55,6 +55,7 @@
 # numero.append(10)
 # print(numero)
 
+
 #Ex:
 # list = []
 # adc = int(input("Quantos itens: "))
@@ -73,6 +74,123 @@
 
 # numero.pop
 
-#Ex:
-list = []
-opcao = input("Selecione o número:-1- Adição: \n-2- remoção:" )
+#Ex: 
+# list = []
+# while True:
+#     opcao = input("Selecione o número:-1- Adição: \n-2- remoção:" )
+    
+#     if opcao == "1":
+#         if len(list) == 0:
+#             list.append(1)
+#         else:
+#             list.append(list[-1] + 1)
+    
+#     else:
+#         if len(list) == 0:
+#             print("A lista está vazia")
+#         else:
+#             list.pop(len(list) -1)
+#     print(list)
+
+#outra forma
+# Função principal
+# def main():
+#     while True:
+#         print("\nLista atual:", lista)
+#         escolha = input("Digite 'a' para adicionar, 'r' para remover ou 's' para sair: ").strip().lower()
+
+#         if escolha == 'a':
+#             # Define o próximo número a adicionar
+#             if lista:
+#                 proximo = lista[-1] + 1
+#             else:
+#                 proximo = 1
+#             lista.append(proximo)
+#             print(f"{proximo} foi adicionado à lista.")
+
+#         elif escolha == 'r':
+#             # Remove o último item da lista
+#             removido = lista.pop()
+#             print(f"{removido} foi removido da lista.")
+
+#         elif escolha == 's':
+#             print("Encerrando o programa.")
+#             break
+
+#         else:
+#             print("Opção inválida. Tente novamente.")
+
+# # Executa o programa
+# main()
+
+
+# valores = []
+# while True:
+#     numero = int(input("Digite um número: "))
+#     if numero == 0:
+#         print("errado")
+#         break
+#     valores.append(numero)
+#     print(valores)
+#     print(valores)
+    
+    
+#maximo, minimo, soma
+# lista_numeros = [0,45,34,23,1,34]
+# print(max(lista_numeros))
+# print(min(lista_numeros))
+# print(sum(lista_numeros))#soma
+
+# lista_mediana = [15,24,2,525,58,74,5,74,54,658,5,22,54,7,9]
+# def mediana(minha_lista: list):
+#     ordenada = sorted(minha_lista)
+#     centro_lista = len(ordenada) // 2
+#     return ordenada[centro_lista]
+# print(f"a mediana é: {mediana(lista_mediana)}")
+
+# Ex:
+# list = [1,54,25,548,558,51]
+# def tamanho(lista):
+#     return len(lista)
+# print(tamanho(list))
+    
+    
+#Atv:1
+# list = [1,5,54,85,18,8]
+
+# def media(list):
+#     return sum(list) / len(list)
+    
+# print(media(list))
+    
+
+#Atv:2
+# num = [8,3,15,1,9]
+
+# def range(lista):
+#     return max(lista) - min(lista)
+
+# print(range(num))
+
+#ex
+# num = [8,3,15,1,9]
+# x = 10
+# if x in num:
+#     print("existe")
+# else:
+#     print("não existe")
+
+
+#Atv:3
+lista_nome = []
+def nome():
+    while len(lista_nome) < 5:
+        lista = input("Digite um nome: ")
+            
+        if lista in lista_nome:
+            print("Nome já existe!")
+        else:
+            lista_nome.append(lista)
+            
+        print(lista_nome)
+nome()
