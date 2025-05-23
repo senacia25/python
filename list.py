@@ -182,15 +182,132 @@
 
 
 #Atv:3
-lista_nome = []
-def nome():
-    while len(lista_nome) < 5:
-        lista = input("Digite um nome: ")
+# lista_nome = []
+# def nome():
+#     while len(lista_nome) < 5:
+#         lista = input("Digite um nome: ")
             
-        if lista in lista_nome:
-            print("Nome já existe!")
+#         if lista in lista_nome:
+#             print("Nome já existe!")
+#         else:
+#             lista_nome.append(lista)
+            
+#         print(lista_nome)
+# nome()
+
+
+#Atv:4
+# notas = []
+# contador = 0
+# while len(notas) < 5:
+#     nota = float(input(f"Digite a nota {contador + 1}: "))
+#     notas.append(nota)
+#     contador += 1
+
+# notas_aprovadas = [nota for nota in notas if nota >= 6]
+
+# print("Notas aprovadas:", notas_aprovadas)
+
+#forma prof******
+
+# notas = []
+# aprovadas = []
+
+# while len(notas) < 5:
+#     nota = float(input(f"Digite a nota: "))
+#     notas.append(nota)
+#     if nota >= 6:
+#         aprovadas.append(nota)  
+# print(f"aprovadas: {aprovadas}")  
+
+
+#Atv:5
+
+# list = []
+# def menu():
+#     print("=====LISTA DE TAREFAS=====")
+#     print("1. Adicionar tarefa")
+#     print("2. Remover tarefa")
+#     print("3. Mostrar tarefas")
+#     print("4. Sair")
+    
+    
+# while True:
+#     menu()
+#     opcao = int(input("Escolha uma opção: "))
+    
+#     if opcao == 4:
+#         print("Saindo...")
+#         break
+    
+#     elif opcao == 1:
+#         adc = input("digite a tarefa: ")
+#         list.append(adc)      
+#         print(adc,"Foi adicionado")
+        
+#     elif opcao == 2:
+#         print(list)
+#         remove = input("Qual tarefa deseja remover: ")
+#         list.remove(remove)      
+#         print(f"{remove}Foi removido")
+        
+#     elif opcao == 3:
+#         print(list)
+#         input("Aperte enter para voltar ao menu: ")
+        
+#     else:
+#         input("Opção inválida!\nDigite enter para voltar ao menu inicial: ")
+
+
+#Atv:6
+#tentar mais
+# num = []
+# repetidos = []
+# while len(num) < 10:
+#     dig = int(input(f"Digite 10 número: "))
+#     num.append(dig)
+# i = 0   
+# if num[i] not in repetidos:
+#     repetidos.append(num[i])
+#     print(num)
+
+
+#prof:      
+# def eli_duplicado():
+#     num = []
+#     while len(num) < 10:
+#         dig = int(input(f"Digite 10 número: "))
+#         num.append(dig)
+#     unicos = []
+#     repetidos = []    
+#     i = 0   
+#     while i < len(num):
+#         if num[i] not in unicos:
+#             unicos.append(num[i])
+#         else:
+#             repetidos.append(num[i])
+#         i += 1
+#     print("numeros", num)
+#     print("unicos",unicos)
+#     print("repetidos", repetidos)
+    
+# eli_duplicado()
+        
+
+#Atv: 7
+
+frutas = ["maça", "melancia", "laranja", "limão"]
+def comprar(frutas):
+    while True:
+        nome = input("Digite a fruta: ")
+        if nome in frutas:
+            print("fruta já esta na lista")
+        
+        elif nome == "sair":
+            print("saindo")        
+            break
+        
         else:
-            lista_nome.append(lista)
-            
-        print(lista_nome)
-nome()
+            print("frutas não está na lista")
+
+comprar(frutas)
