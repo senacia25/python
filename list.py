@@ -296,18 +296,123 @@
 
 #Atv: 7
 
-frutas = ["maça", "melancia", "laranja", "limão"]
-def comprar(frutas):
-    while True:
-        nome = input("Digite a fruta: ")
-        if nome in frutas:
-            print("fruta já esta na lista")
+# frutas = ["maça", "melancia", "laranja", "limão"]
+# def comprar(frutas):
+#     while True:
+#         nome = input("Digite a fruta: ")
         
-        elif nome == "sair":
-            print("saindo")        
+#         if nome in frutas:
+#             print("fruta já esta na lista")
+        
+#         elif nome == "sair":
+#             print("saindo")        
+#             break
+        
+#         else:
+#             print("frutas não está na lista")
+
+# comprar(frutas)
+# #finaliza a primeira ao sair e começa essa
+# produto = ["teclado", "monitor", "mouse"]
+# comprar(produto)
+
+
+#Atv: 8
+
+# import re
+
+# senh_cadas = []
+# ttl = 5
+# def save ():
+    
+#     while len(senh_cadas) < ttl:
+        
+#         senha = input("Digite a senha a ser salva: ")
+#         num = re.search("[0-9]", senha)   
+            
+#         if len(senha) < 8:
+#             print("deve ter pelo menos 8 caracter")
+        
+#         elif num == None:
+#             print("precisa numero")
+              
+#         else:
+#             senh_cadas.append(senha)
+#             print("senha cadastrada")
+#     print(senh_cadas)
+    
+# save()
+            
+#prof
+# import re
+
+# def cadastrar_senhas():
+#     senhas = []
+#     while len(senhas) < 5:
+#         senha = input(f"digite a {len(senhas)+1}° senha: ")
+        
+#         if len(senha) >= 8 and re.search("[0-9]", senha) != None:
+#             senhas.append(senha)
+        
+#         else:
+#             print("Senha inválida! deve ter pelo menos 8 caracteres e conter um número")
+            
+#     print("Senha válidas:")
+    
+#     i = 0
+#     while i < len(senhas):
+ 
+#         print(senhas[1]) 
+#         i += 1 
+        
+# cadastrar_senhas()      
+        
+    
+#Atv: 9
+# def cres():
+#     num = []
+
+#     while True:
+#         numero = int(input("Digite um número: "))
+#         num.append(numero)
+            
+#         if len(num) > 1 and num[-1] < num[-2]:
+         
+#             print("Final")
+#             break
+
+#     num_ord = sorted(num)
+#     print(f"Números digitados em ordem crescente:{num_ord}")
+    
+# cres()
+
+#Atv: 10
+
+list = []
+def lista_comprar():
+    while True:
+        print("Adicionar produto: == add\nRemover produto: == remover\nSair: == sair")
+        op = input("O que deseja fazer: ")
+        
+        
+        if op == "add":
+            prod = input("Digite o produto: ")
+            list.append(prod)
+            
+        if op == "sair":
+            print("Finalizado")
             break
         
+        elif op == "remover":
+            print(list)
+            remov =input("Qual produto deseja remover? ")
+            if remov in list:
+                list.remove(remov)
+            print(list)
+            
         else:
-            print("frutas não está na lista")
-
-comprar(frutas)
+            print("Opção inválida")
+    ord = sorted(list)
+    print(ord)
+    
+lista_comprar()
