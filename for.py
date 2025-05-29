@@ -203,3 +203,206 @@
 # print(conta_elementos_match(array, 5))
 
 
+#Ex: 
+
+# sudoku = [
+#   [9, 0, 0, 0, 8, 0, 3, 0, 0],
+#   [0, 0, 0, 2, 5, 0, 7, 0, 0],
+#   [0, 2, 0, 3, 0, 0, 0, 0, 4],
+#   [0, 9, 4, 0, 0, 0, 0, 0, 0],
+#   [0, 0, 0, 7, 3, 0, 5, 6, 0],
+#   [7, 0, 5, 0, 6, 0, 4, 0, 0],
+#   [0, 0, 7, 8, 0, 3, 9, 0, 0],
+#   [0, 0, 1, 0, 0, 0, 0, 0, 3],
+#   [3, 0, 0, 0, 0, 0, 0, 0, 2]
+# ]
+
+# for linha in sudoku:
+#     for numero in linha:
+#         if numero == 0:
+#             print(" _ ", end="")
+#         else:
+#             print(numero, end="")
+#     print("")
+
+
+#Atv: 7
+
+#prof:
+
+# mesa = [
+#     ["","",""],
+#     ["","",""],
+#     ["","",""]
+#     ]
+# contador = 0
+# print(F"Tempo: {contador} - Olá jogador 1, comece o jogo com X. BOA SORTE!")
+ 
+# def jogue_o_jogo(mesa,linha,coluna,caracter):
+#     mesa[linha][coluna] = caracter
+#     exibe_resultado()
+#     if contador % 2 != 0:
+#         jogador = "1 (x)"
+#     else:
+#         jogador = "2 (O)"
+       
+#     print(f"Tempo {contador} - Ótimo jogada, agora é a vez do jogador {jogador}")
+#     print("")
+ 
+# def exibe_resultado():
+#     for linhas in mesa:
+#         for items in linhas:
+#             if items == "":
+#                 print("_ ",end="")
+#             print(items,end=" ")
+ 
+#         print(" ")
+   
+# while True:
+#     linha = int(input("Qual a linha: "))
+#     coluna = int(input("Qual a coluna: "))
+#     caracter = input("Qual o caracter: ")
+#     jogue_o_jogo(mesa,linha, coluna, caracter)
+#     contador += 1
+#     if contador == 9:
+#         exibe_resultado()
+#         break
+
+#############################################################
+
+# # Inicializa a mesa vazia
+# mesa = [["" for _ in range(3)] for _ in range(3)]
+
+# contador = 0
+# jogador_atual = "X"
+
+# print(f"Tempo: {contador} - Olá jogador 1, comece o jogo com X. BOA SORTE!\n")
+
+# def exibe_resultado():
+#     print("\nEstado atual da mesa:")
+#     for i, linha in enumerate(mesa):
+#         linha_formatada = " | ".join([item if item != "" else " " for item in linha])
+#         print(" " + linha_formatada)
+#         if i < 2:
+#             print("---+---+---")
+#     print()
+
+# def jogue_o_jogo(linha, coluna):
+#     global contador, jogador_atual
+
+#     if mesa[linha][coluna] != "":
+#         print("Posição já ocupada! Tente novamente.")
+#         return
+
+#     mesa[linha][coluna] = jogador_atual
+#     exibe_resultado()
+
+#     contador += 1
+
+#     if verificar_vencedor(jogador_atual):
+#         print(f"Parabéns! Jogador {'1' if jogador_atual == 'X' else '2'} ({jogador_atual}) venceu o jogo!")
+#         exit()
+
+#     if contador == 9:
+#         print("Empate! O jogo terminou sem vencedor.")
+#         exit()
+
+#     # Alterna o jogador
+#     jogador_atual = "O" if jogador_atual == "X" else "X"
+#     proximo_jogador = "1 (X)" if jogador_atual == "X" else "2 (O)"
+#     print(f"Tempo: {contador} - Ótima jogada! Agora é a vez do jogador {proximo_jogador}\n")
+
+# def verificar_vencedor(simbolo):
+#     # Verifica linhas, colunas e diagonais
+#     for i in range(3):
+#         if all(mesa[i][j] == simbolo for j in range(3)) or all(mesa[j][i] == simbolo for j in range(3)):
+#             return True
+#     if all(mesa[i][i] == simbolo for i in range(3)) or all(mesa[i][2 - i] == simbolo for i in range(3)):
+#         return True
+#     return False
+
+# # Loop principal do jogo
+# while True:
+#     try:
+#         linha = int(input("Escolha a linha (0-2): "))
+#         coluna = int(input("Escolha a coluna (0-2): "))
+
+#         if 0 <= linha <= 2 and 0 <= coluna <= 2:
+#             jogue_o_jogo(linha, coluna)
+#         else:
+#             print("Linha e coluna devem estar entre 0 e 2.")
+#     except ValueError:
+#         print("Entrada inválida. Por favor, insira números inteiros.")
+
+
+#################################################################
+
+# def criar_tabuleiro():
+#     return [[" " for _ in range(3)] for _ in range(3)]
+
+# def exibir_tabuleiro(tabuleiro):
+#     print("\nTabuleiro:")
+#     for i, linha in enumerate(tabuleiro):
+#         print(" " + " | ".join(linha))
+#         if i < 2:
+#             print("---+---+---")
+#     print()
+
+# def verificar_vitoria(tabuleiro, jogador):
+#     # Linhas e colunas
+#     for i in range(3):
+#         if all(tabuleiro[i][j] == jogador for j in range(3)) or \
+#            all(tabuleiro[j][i] == jogador for j in range(3)):
+#             return True
+#     # Diagonais
+#     if all(tabuleiro[i][i] == jogador for i in range(3)) or \
+#        all(tabuleiro[i][2 - i] == jogador for i in range(3)):
+#         return True
+#     return False
+
+# def verificar_empate(tabuleiro):
+#     return all(tabuleiro[i][j] != " " for i in range(3) for j in range(3))
+
+# def jogar():
+#     tabuleiro = criar_tabuleiro()
+#     jogador_atual = "X"
+#     rodada = 1
+
+#     print("Bem-vindo ao Jogo da Velha!\nJogador 1 = X  |  Jogador 2 = O")
+#     exibir_tabuleiro(tabuleiro)
+
+#     while True:
+#         print(f"Rodada {rodada} - Jogador {jogador_atual}")
+#         try:
+#             linha = int(input("Escolha a linha (0-2): "))
+#             coluna = int(input("Escolha a coluna (0-2): "))
+#         except ValueError:
+#             print("Entrada inválida. Use apenas números de 0 a 2.\n")
+#             continue
+
+#         if not (0 <= linha <= 2 and 0 <= coluna <= 2):
+#             print("Coordenadas fora do intervalo! Tente novamente.\n")
+#             continue
+
+#         if tabuleiro[linha][coluna] != " ":
+#             print("Essa posição já está ocupada. Escolha outra.\n")
+#             continue
+
+#         tabuleiro[linha][coluna] = jogador_atual
+#         exibir_tabuleiro(tabuleiro)
+
+#         if verificar_vitoria(tabuleiro, jogador_atual):
+#             print(f"Parabéns! Jogador {jogador_atual} venceu o jogo!")
+#             break
+
+#         if verificar_empate(tabuleiro):
+#             print("Empate! O tabuleiro está cheio e ninguém venceu.")
+#             break
+
+#         jogador_atual = "O" if jogador_atual == "X" else "X"
+#         rodada += 1
+
+# # Inicia o jogo
+# jogar()
+
+
