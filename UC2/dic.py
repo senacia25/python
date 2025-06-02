@@ -223,10 +223,69 @@
 
 #Atv: 3
 
-def ivert(dicionario: dict):
-    invertido = {}
+# def invert(dicionario: dict):
+#     # Cria um dicionário vazio para armazenar o resultado invertido
+#     invertido = {}
+   
+#     # Percorre cada par chave-valor do dicionário recebido
+#     for chave, valor in dicionario.items():  # .items() permite acessar chave e valor
+#         # Inverte: valor vira chave, chave vira valor
+#         invertido[valor] = chave
+   
+#     # Retorna o dicionário invertido
+#     return invertido
+ 
+# # Cria um dicionário com dados de uma pessoa
+# Pessoa = {"nome": "Ariel", "altura": 150, "peso": 70, "idade": 18}
+ 
+# # Exibe o dicionário original
+# print("Dicionário original:")
+# print(Pessoa)
+ 
+# # Chama a função para inverter e armazena o resultado em uma variável
+# invertido = invert(Pessoa)
+ 
+# # Exibe o dicionário invertido
+# print("Dicionário invertido:")
+# print(invertido)    
+
+#======outra forma
+
+# dict_original = {'a': 1, 'b': 2, 'c': 3}
+
+# dict_invertido = {valor: chave for chave, valor in dict_original.items()}
+ 
+# print(dict_invertido)
+
+
+
+#Atv: 4
+
+# banco_de_dados = []
+
+# def add_filme(database: list, nome: str, diretor: str, ano: int, duracao: int):
+  
+#     filme = {"nome": nome,
+#              "diretor": diretor,
+#              "ano": ano,
+#              "tempo de execução": duracao}
     
+#     database.append(filme)
+    
+    
+# while True:
+        
+#     nome = input("Digite o nome do filme: ")
+#     diretor = input("Digite o nome do Diretor: ")
+#     ano = int(input("Digite o ano: "))
+#     tempo_de_execucao = int(input("Digite a duraçao: "))
+               
+#     add_filme(banco_de_dados, nome, diretor, ano, tempo_de_execucao)
 
-
+#     for filme in banco_de_dados:
+#         print(filme)
+        
+            
+#
 
 
