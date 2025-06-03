@@ -77,8 +77,73 @@
     
 # except ZeroDivisionError:
 #     print("Erro: Não é possível dividir por zero. ")
+   
     
 #Atv: 3
 
-frutas = ["manga", "goiaba", "laranja", "uva", "melancia"]
+# frutas = ["Manga", "Goiaba", "Laranja", "Uva", "Melancia"]
+
+# try:
+#     indice = int(input("Digite o índice da fruta que deseja ver: "))
+    
+#     print(frutas[indice])
+    
+# except IndexError:
+#     print("Índice fora de alcance")
+
+# except ValueError:
+#     print("Erro, digite um número inteiro! ")
+
+
+#Atv: 4
+
+
+# arquivo = None
+
+# try:
+#     arquivo = open("UC2/dados.txt", "r")
+#     conteudo = arquivo.read()
+#     print("Arquivo lido com sucesso!")
+#     # 
+# except FileNotFoundError:
+#     print("Erro: arquivo não encontrado")
+    
+# finally:
+#     if arquivo:
+#         arquivo.close()
+#         print("Arquivo fechado! ")
+  
+
+#Atv: 5
+
+# num = [10, 20, 30]
+
+# try:
+#     divisor = int(input("digite um número divisor: "))
+#     indice = int(input("digite um número divisor: "))
+    
+#     resultado = num[indice] / divisor
+#     print(f"Resultado da divisão: {resultado}")
+    
+# except ZeroDivisionError:
+#     print("Erro: Não é possível dividir por zero")
+    
+# except IndexError:
+#     print("Erro: Índice fora de alcance da lista.")
+
+# except Exception as e:
+#     print("Erro insperado:", e)
+
+
+#Atv: 6
+
+# lista = [1, 2, 5, 8, 4, 9]
+
+# try:
+#     "lista".append(10)
+#     print(lista)
+
+# except AttributeError:
+#     print("Erro: string não tem append")       
+
 

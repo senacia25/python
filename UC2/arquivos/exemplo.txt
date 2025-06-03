@@ -1,0 +1,3 @@
+Olá
+Este arquivo de exemplo contem 3 linhas de texto
+Esta é a última linha
