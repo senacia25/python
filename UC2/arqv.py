@@ -137,6 +137,66 @@
     
 
 #Atv: 5
+# strip igual a replace
+# split trasnfoma em lista
 
-
+# try:
+#     with open("UC2/arquivos/dados.csv", "r") as arquivo:
+#         with open("UC2/arquivos/dados_maiores.csv", "w") as arquivo_saida:
+#             for linha in arquivo:
+#                 linha = linha.replace("\n","")
+#                 if linha:
+#                     print(linha)
+#                     partes = linha.split(",")
+#                     nome = partes[0]
+#                     idade = partes[1]
+#                     if len(idade) <= 3:
+#                         if int(idade) >= 18:
+#                             arquivo_saida.write(linha +"\n")
+#         print("Arquivo 'dados_maiores' criado com sucesso!")
+        
+# except FileNotFoundError:
+#     print("Arquivo 'dados.csv' não encontrado.")
     
+# except ValueError:
+#     print("Erro: varifique se o arquivo está no formato 'nome,idade'.")                    
+    
+
+#===========
+#** os operation system sistema operacional
+
+# import os
+
+# #os.remove("UC2/dados.txt")" remove arquivo"
+
+# if os.path.exists("UC2/apagar"): # ver se existe pasta
+#     print("sim, a pasta existe")
+#     os.rmdir("UC2/apagar") # apaga diretorio
+    
+# else:
+#     print("Pasta não existe")
+#     os.mkdir("UC2/Numpy") #cria diretorio
+#=======
+
+#Atv: 6
+
+#dá pra criar um loop pra ficar retindo até sair
+
+# def adc_diario():
+    
+#     data = input("Digite a data: ")
+#     descricao = input("Digite a discrição: ")
+    
+#     entrada = {"data": data,
+#                "descricao": descricao}
+    
+#     with open("UC2/arquivos/diario.txt", "a", encoding="utf-8") as arquivo:
+#         arquivo.write(str(f"\nData: {entrada["data"]} - Descrição: {entrada["descricao"]}")) # coloquei o 'str' para pular só uma linha
+    
+#     print("Entrada adicionada em 'diario.txt' com sucesso! ")
+        
+# adc_diario()
+
+
+
+
