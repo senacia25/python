@@ -166,9 +166,73 @@
 
 #Atv: 2
 
-import numpy as np
+# import numpy as np
 
-def matriz_identidade(n):
-    return np.identity(n) # para numero inteiro return np.identity(n, dtype=int)
+# def matriz_identidade(n):
+#     return np.identity(n) # para numero inteiro return np.identity(n, dtype=int)
 
-print(matriz_identidade(10))
+# print(matriz_identidade(10))
+
+
+#Atv: 4
+
+# import numpy as np
+
+# def gerar_array_intervalo(inicio, fim):
+#     if inicio <= fim:
+#         return np.arange(inicio, fim + 1)
+# print(gerar_array_intervalo(3, 7))
+
+
+#Atv: 5 
+
+# import numpy as np
+
+# def estatistica_array(array):
+#     soma = np.sum(array) 
+#     media = np.mean(array)
+#     return soma, media
+# num = np.array([5,4,7,3]) 
+# print(estatistica_array(num))
+
+
+#Atv: 6
+# import numpy as np 
+
+# def somar_matrizes():
+#     matriz = np.array([[1,5,6,4,6],[5,4,2,6,8]])
+#     matriz2 = np.array([[1,5,6,4,6],[5,4,2,6,8]])
+#     soma = matriz + matriz2
+#     return(soma)    
+# print(somar_matrizes())
+           
+#outra
+
+#shape retorna o tamanho
+
+# def somar_matrizes(m1, m2):
+#     if np.shape(m1) == np.shape(m2):
+#         return m1 + m2
+#     else:
+#         return " Erro: As matrizes devez ter o mesmpo tamanho! "
+    
+# matriz = np.array([[1,5,6,4,6],[5,4,2,6,8]])
+# matriz2 = np.array([[1,5,6,4,6],[5,4,2,6,8]])
+
+# print(somar_matrizes(matriz,matriz2))
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
