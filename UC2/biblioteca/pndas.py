@@ -132,17 +132,104 @@
 # print("\n3. Filme de rank 1 a 5 com receita:")
 # print(top_5_rank.head())
         
+# #4 outra forma convertter para número        
+# df_filme["Released_Year"] = pd.to_numeric(df_filme["Released_Year"],errors="coerce")
+        
+# lancamento = df_filme[df_filme["Released_Year"] >= 2016]
+# print("\n4. Filmes a partir de 2016")
+# print(lancamento["Released_Year"].head())
+
+# #4 === 2016 fiz como string e funcionou mas não é muuito aconcelhavel, fazer da forma anterior
 # lancamento = df_filme[df_filme["Released_Year"] >= "2016"]
 # print("\n4. Filmes a partir de 2016")
 # print(lancamento["Released_Year"].head())
                                       
-            
-     
-     
-     
-     
-              
-                                 
-                                                 
-                                                 
-                                                 
+
+#===========                                                  
+#Criar uma nova coluna
+# import pandas as pd
+      
+# url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
+# df_filme = pd.read_csv(url_fillmes)
+
+# df_filme["Rating_x_10"] = df_filme["IMDB_Rating"] * 10
+# print("\n O Dataframe agora tem uma nova coluna")
+# print(df_filme.head())
+
+# #Conversão de coluna Gross para float e ignorando erros casos falhar
+# df_filme["Gross"] = pd.to_numeric(df_filme["Gross"], errors="coerce")
+                              
+# #Agora, convertido o número gross em número, é mais seguro fazer comparações
+# df_filme["Alta_receita"] = df_filme["Gross"] > 1000
+# print("\n Dataframe com nova coluna 'Alta Receita(Primeira linha)")              
+# print(df_filme.head())              
+                                               
+# #Drop - metodo drop remove uma linha (registro) da coluna
+# df_filme = df_filme.drop("Poster_Link", axis=1) # "axis 0 linha axis 1 coluna"       
+# print(df_filme.head())
+
+# #axis = 0 -exclui o registro
+# df_filme = df_filme.drop(4,axis=0)
+# print(df_filme.head())                                        
+                              
+
+#Atv: 3
+# import pandas as pd
+
+# url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
+# df_filme = pd.read_csv(url_fillmes)
+
+
+# df_filme["Rating_Metascore_Diff"] = df_filme["IMDB_Rating"] - (df_filme["Meta_score"] / 10)
+# print("\n O Dataframe agora tem uma nova coluna")
+# print(df_filme.head())
+
+
+# colunas = df_filme[["Series_Title", "IMDB_Rating", "Meta_score", "Rating_Metascore_Diff"]]
+# print("\n1. Coluna do title, Rating, matescore e rating metascore diff primeiras 5 linhas")
+# print(colunas.head())
+
+# #Criar um novo dataframe sem a coluna "overview"
+# df_filme_sem_overview = df_filme.drop(columns=["Overview"])
+
+# #renomear com inplace=True
+# df_filme.rename(columns={"No_of_votes":"Numero_votos"}, inplace=True)
+
+# #verificar se foi renomeada
+# print("\n Verificação das colunas após renomear 'no_of-vote':")
+# print(df_filme.columns.tolist())
+
+
+#===
+#Lidando com dados Ausentes
+#verificar dados ausentes com .isna() . sum()
+
+import pandas as pd
+
+url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
+df_filme = pd.read_csv(url_fillmes)
+
+
+print("\n Contagem de valores ausentes por coluna")
+print(df_filme.isna().sum()) #isna pra saber se tem numero ausente
+
+#Removendo linhas/colunas
+#Criando uma cópia para nan(not a number numero ausente)
+def_sem_nan_linhas = df_filme.copy()
+
+#Removendo todas as linhas que contanhm qualquer valor Nan
+def_sem_nan_linhas.dropna(inplace=True)
+print(f"\nNúmero de linhas original: {len(df_filme)}")
+print(f"\nNúmero de linhas após drop: {len(def_sem_nan_linhas)}")
+
+#Removendo colunas que tenham qualquer valor Nan
+def_sem_nan_linhas = df_filme.dropna(axis=1)
+print(f"\ncoluna originais : {df_filme.columns.tolist()}")
+print(f"\nColunas após dropna: {def_sem_nan_linhas.columns.tolist()}")
+
+
+#Atv: 4
+
+
+
+
