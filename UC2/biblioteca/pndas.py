@@ -204,32 +204,195 @@
 #Lidando com dados Ausentes
 #verificar dados ausentes com .isna() . sum()
 
+# import pandas as pd
+
+# url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
+# df_filme = pd.read_csv(url_fillmes)
+
+
+# print("\n Contagem de valores ausentes por coluna")
+# print(df_filme.isna().sum()) #isna pra saber se tem numero ausente
+
+# #Removendo linhas/colunas
+# #Criando uma cópia para nan(not a number numero ausente)
+# def_sem_nan_linhas = df_filme.copy()
+
+# #Removendo todas as linhas que contanhm qualquer valor Nan
+# def_sem_nan_linhas.dropna(inplace=True)
+# print(f"\nNúmero de linhas original: {len(df_filme)}")
+# print(f"\nNúmero de linhas após drop: {len(def_sem_nan_linhas)}")
+
+# #Removendo colunas que tenham qualquer valor Nan
+# def_sem_nan_linhas = df_filme.dropna(axis=1)
+# print(f"\ncoluna originais : {df_filme.columns.tolist()}")
+# print(f"\nColunas após dropna: {def_sem_nan_linhas.columns.tolist()}")
+
+
+#Atv: 4
+# import pandas as pd
+
+# url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
+# df_filme = pd.read_csv(url_fillmes)
+
+
+# print("Valores ausentes por colunas:")
+# print(df_filme[["Gross","Meta_score"]].isna().sum())
+
+# df_filme_completos = df_filme.dropna()
+
+# print(f"\nNúmero de linha no Dataframe original: {len(df_filme)}")
+# print(f"Número de linhas após remover todas com Nan: {len(df_filme_completos)}")
+
+# #Garantindo que as colunas estão númericas
+
+# df_filme["Gross"] = pd.to_numeric(df_filme["Gross"], errors="coerce")# coerce força a mudança pra numerco
+# df_filme["Mera_score"] = pd.to_numeric(df_filme["Meta_score"], errors="coerce")
+
+# # Criando a cópia do Dataframe
+# df_filme_preenchido_media = df_filme.copy()
+
+# #Preenchendo os nans 
+# df_filme_preenchido_media["Gross"] = df_filme_preenchido_media["Gross"].fillna(df_filme_preenchido_media["Gross"].mean()) #fill na fill prencher e na valores que nao existe preenche com mean                                      
+# df_filme_preenchido_media["Meta_score"] = df_filme_preenchido_media["Meta_score"].fillna(df_filme_preenchido_media["Meta_score"].median())
+
+# #verificando se ainda existem NaNs nessa colunas
+# print("\nValores ausentes após preenchimento: ")
+# print(df_filme_preenchido_media[["Gross", "Meta_score"]].isna().sum())
+
+#outra
+
+# url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
+# df_filme = pd.read_csv(url_fillmes)
+
+# print("Valores ausentes por coluna:")
+# print(df_filme[['Gross', 'Meta_score']].isna().sum())
+ 
+# df_filmes_completo = df_filme.dropna()
+ 
+# print(f"\nNúmero de linhas no DataFrame original: {len(df_filme)}")
+# print(f"Número de linhas após remover todas com NaN: {len(df_filmes_completo)}")
+ 
+# # Garantindo que as colunas estão numéricas
+# df_filmes_completo['Gross'] = df_filmes_completo['Gross'].str.replace(',','.')
+# df_filmes_completo['Gross'] = pd.to_numeric(df_filmes_completo['Gross'], errors='coerce')
+# df_filmes_completo['Meta_score'] = pd.to_numeric(df_filmes_completo['Meta_score'], errors='coerce')
+# print(df_filmes_completo['Gross'])
+# # Criando uma cópia do DataFrame original
+# df_filmes_preenchido_media = df_filmes_completo.copy()
+ 
+# # Preenchendo os NaNs
+# df_filmes_preenchido_media['Gross'] = df_filmes_preenchido_media['Gross'].fillna(df_filmes_preenchido_media['Gross'].mean())
+# df_filmes_preenchido_media['Meta_score'] = df_filmes_preenchido_media['Meta_score'].fillna(df_filmes_preenchido_media['Meta_score'].mean())
+ 
+# # Verificando se ainda existem NaNs nessas colunas
+# print("\nValores ausentes após preenchimento:")
+# print(df_filmes_preenchido_media[['Gross', 'Meta_score']].isna().sum())
+ 
+ 
+#====== 
+ 
+# import pandas as pd
+
+# url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
+# df_filme = pd.read_csv(url_fillmes)
+ 
+# #Contando as frequêcia de colunas
+# contagem_diretores = df_filme["Director"].value_counts()
+# print("\nOS 10 diretores mais frequentes")
+# print(contagem_diretores.head(10))
+
+# #Ordenando filmes pela nota (IMDB_Rating)
+# df_ordenado_por_nota = df_filme.sort_values(by="IMDB_Rating",ascending=False)
+# print("\nTop 5 filmes por nota (IMDB_Rating)")
+# print(df_ordenado_por_nota.head())
+
+# #Ordenando filmes por mais de um coluna
+# df_ordenado_por_duas_colunas = df_filme.sort_values(by=["Released_Year","Gross"],ascending=[False,True])
+# print("\nTop 5 filmes por ano e gross")
+# print(df_ordenado_por_duas_colunas.head())
+
+# #Converter caso necessário
+
+# df_filme["Gross"] = pd.to_numeric(df_filme["Gross"].str.replace(",",""))
+# df_filme["Gross"] = pd.to_numeric(df_filme["Gross"], errors="coerce")
+# df_filme["IMDB_Rating"] = pd.to_numeric(df_filme["IMDB_Rating"], errors="coerce")
+
+# #Calculando a media de IMDB e Gross para cada Released_Year=======mean- media / agg-agregar
+# metrica_por_ano = df_filme.groupby("Released_Year").agg(
+#     Media_Rating=("IMDB_Rating","mean"),
+#     Media_Receita=("Gross","mean"),
+#     Media_filmes=("Series_Title","count"))
+
+# print(metrica_por_ano)
+
+# #Salvando em um arquivo csv sem o indice
+# df_filme.to_csv("UC2/biblioteca/meus_filmes_bem_avaliados.csv",index=False)
+# print("znDataframe salvo  em 'UC2/biblioteca/meus_filmes_bem_avaliados.csv'")
+
+
+#Atv: 5
+
 import pandas as pd
 
 url_fillmes = "UC2/biblioteca/IMDB-Movie-Data.csv"
 df_filme = pd.read_csv(url_fillmes)
 
+#1 
+contagem_diretores = df_filme["Director"].value_counts()
+print("\nOS 5 diretores mais frequentes")
+print(contagem_diretores.head())
 
-print("\n Contagem de valores ausentes por coluna")
-print(df_filme.isna().sum()) #isna pra saber se tem numero ausente
+#2
+df_filme["Runtime"] = df_filme["Runtime"].str.replace("min","")
+df_filme["Runtime"] = pd.to_numeric(df_filme["Runtime"], errors="coerce")
 
-#Removendo linhas/colunas
-#Criando uma cópia para nan(not a number numero ausente)
-def_sem_nan_linhas = df_filme.copy()
+tempo_filme = df_filme.sort_values(by="Runtime",ascending=False)
+print("\n10 filmes mais longos: ")
+print(tempo_filme.head(10))
 
-#Removendo todas as linhas que contanhm qualquer valor Nan
-def_sem_nan_linhas.dropna(inplace=True)
-print(f"\nNúmero de linhas original: {len(df_filme)}")
-print(f"\nNúmero de linhas após drop: {len(def_sem_nan_linhas)}")
+#3
+ordenar = df_filme.sort_values(by=["Certificate","Meta_score"],ascending=[False,True])
+print("\nCertificate ordem alfabetica meta-score ordem decrecente")
+print(ordenar.head())
 
-#Removendo colunas que tenham qualquer valor Nan
-def_sem_nan_linhas = df_filme.dropna(axis=1)
-print(f"\ncoluna originais : {df_filme.columns.tolist()}")
-print(f"\nColunas após dropna: {def_sem_nan_linhas.columns.tolist()}")
+#4
+#df_filme["Meta_score"] = pd.to_numeric(df_filme["Meta_score"].str.replace(",",""))
+df_filme["Meta_score"] = pd.to_numeric(df_filme["Meta_score"], errors="coerce")
+df_filme["Runtime"] = pd.to_numeric(df_filme["Runtime"], errors="coerce")
 
+#5
+agrupando = df_filme.groupby("Certificate").agg(
+    Media_Runtime=("Runtime","mean"),
+    Media_Meta_score=("Meta_score","mean"),
+    Total_filmes=("Certificate","count"))
+print(agrupando)
 
-#Atv: 4
+#outra
 
-
-
-
+#Contar quantos filmes cada diretor dirigiu
+diretores_freq = df_filmes['Director'].value_counts().head(5)
+print("Diretores com mais filmes:")
+print(diretores_freq)
+ 
+# Ordenar os filmes pelo runtime e descrescente
+df_filmes['Runtime'] = df_filmes['Runtime'].str.replace(' min','')
+df_filmes['Runtime'] = pd.to_numeric(df_filmes['Runtime'], errors='coerce')
+filmes_mais_longos = df_filmes.sort_values(by='Runtime', ascending=False).head(10)
+print("\nTop 10 filmes mais longos:")
+print(filmes_mais_longos[['Series_Title', 'Runtime']])
+ 
+#Ordenar por 'Certificate' (ordem alfabética) e depois por 'Meta_score's
+df_filmes['Meta_score'] = pd.to_numeric(df_filmes['Meta_score'], errors='coerce')
+filmes_ordenados = df_filmes.sort_values(by=['Certificate', 'Meta_score'], ascending=[True, False])
+print("\nFilmes ordenados por Certificate e Meta_score:")
+print(filmes_ordenados[['Series_Title', 'Certificate', 'Meta_score']].head(5))
+ 
+#Agrupamento por 'Certificate'
+agrupado = df_filmes.groupby('Certificate').agg({
+    'Runtime': 'mean',
+    'Meta_score': 'mean',
+    'Series_Title': 'count'  # contar número de filmes
+}).rename(columns={'Title': 'Total_filmes'})
+ 
+print("\nEstatísticas por Certificate:")
+print(agrupado)
