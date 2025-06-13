@@ -1,0 +1,501 @@
+ID_Produto,Produto,Categoria,Preco_Kg,Estoque_Kg,Data_Ultima_Reposicao,Fornecedor,Vendas_Ultima_Semana_Kg
+1,Maçã,Fruta,,68.64,2024-06-04,Souza,30
+2,Banana,Fruta,5.9,117.17,2024-06-01,Gonçalves Pires e Filhos,55
+3,Pera,Fruta,4.2,142.84,2024-06-04,,40
+4,Uva,Fruta,6.8,26.13,2024-06-01,Pereira Ltda.,25
+5,Morango,Fruta,12.5,142.05,2024-06-01,Cardoso,15
+6,Laranja,Fruta,8.0,13.73,2024-06-03,Silveira,28
+7,Abacaxi,Fruta,15.0,,2024-06-01,Cavalcanti Ltda.,20
+8,Melancia,Fruta,3.5,78.51,2024-06-03,Lopes,35
+9,Manga,Fruta,7.9,90.27,2024-06-01,Rezende S/A,18
+10,Caju,Fruta,,185.35,2024-06-02,Ferreira - EI,60
+11,Kiwi,Fruta,8.2,17.57,2024-06-01,Silveira,32
+12,Mamão,Fruta,6.1,20.9,2024-06-01,Vieira - ME,50
+13,Ameixa,Fruta,4.5,196.6,2024-06-02,Melo,38
+14,Cereja,Fruta,9.0,147.6,2024-06-01,da Mata,22
+15,Pêssego,Fruta,14.0,174.65,2024-06-01,Mendes,10
+16,Cenoura,Legume,3.8,96.12,2024-06-02,Lopes Ribeiro Ltda.,80
+17,Batata,Legume,4.5,41.89,2024-06-02,Dias,120
+18,Beterraba,Legume,6.5,192.66,2024-06-04,da Cunha,70
+19,Alface,Verdura,5.0,186.93,2024-06-04,Santos,45
+20,Couve,Verdura,7.0,45.36,2024-06-03,Barbosa,30
+21,Maçã,Fruta,7.5,111.68,2024-06-03,da Conceição Moura Ltda.,30
+22,Banana,Fruta,5.9,114.85,2024-06-04,Cardoso,55
+23,Pera,Fruta,4.2,40.18,,da Mota,40
+24,Uva,Fruta,,98.65,,Oliveira,25
+25,Morango,Fruta,12.5,199.08,2024-06-03,Porto,15
+26,Laranja,Fruta,8.0,182.75,2024-06-04,Moreira S.A.,28
+27,Abacaxi,Fruta,15.0,83.82,2024-06-01,Ribeiro,20
+28,Melancia,Fruta,3.5,173.31,2024-06-02,Teixeira,35
+29,Manga,Fruta,,128.29,2024-06-02,Vieira Ltda.,18
+30,Caju,Fruta,4.0,129.49,2024-06-02,da Rosa das Neves - ME,60
+31,Kiwi,Fruta,8.2,195.87,2024-06-01,Rezende,32
+32,Mamão,Fruta,6.1,,2024-06-01,Ferreira Almeida - ME,50
+33,Ameixa,Fruta,4.5,68.45,2024-06-02,Nascimento das Neves Ltda.,38
+34,Cereja,Fruta,,105.47,2024-06-02,Barros Peixoto - ME,22
+35,Pêssego,Fruta,14.0,156.22,2024-06-03,Cunha,10
+36,Cenoura,Legume,3.8,93.91,2024-06-04,Porto,80
+37,Batata,Legume,4.5,12.43,2024-06-03,da Mata,120
+38,Beterraba,Legume,6.5,40.94,2024-06-01,Alves,70
+39,Alface,Verdura,5.0,80.17,2024-06-02,Moreira,45
+40,Couve,Verdura,7.0,186.21,2024-06-02,da Conceição,30
+41,Maçã,Fruta,7.5,153.37,2024-06-03,,30
+42,Banana,Fruta,5.9,190.09,2024-06-01,da Costa,55
+43,Pera,Fruta,4.2,188.2,,Silveira,40
+44,Uva,Fruta,6.8,25.49,,Duarte,25
+45,Morango,Fruta,12.5,67.47,2024-06-02,Nascimento da Rosa Ltda.,15
+46,Laranja,Fruta,8.0,77.57,2024-06-04,Ramos,28
+47,Abacaxi,Fruta,15.0,161.28,2024-06-01,Jesus,20
+48,Melancia,Fruta,3.5,160.66,2024-06-03,Castro,35
+49,Manga,Fruta,,104.7,2024-06-03,Barros S.A.,18
+50,Caju,Fruta,4.0,165.9,,Pereira - EI,60
+51,Kiwi,Fruta,8.2,,2024-06-03,Pereira,32
+52,Mamão,Fruta,6.1,88.56,2024-06-01,Nogueira - ME,50
+53,Ameixa,Fruta,4.5,58.8,2024-06-04,Santos,38
+54,Cereja,Fruta,9.0,116.78,2024-06-04,Pereira Melo S/A,22
+55,Pêssego,Fruta,14.0,167.11,2024-06-02,Araújo,10
+56,Cenoura,Legume,3.8,,2024-06-02,da Rosa,80
+57,Batata,Legume,4.5,104.92,2024-06-02,Porto S/A,120
+58,Beterraba,Legume,6.5,87.76,2024-06-02,,70
+59,Alface,Verdura,5.0,81.33,2024-06-01,Azevedo,45
+60,Couve,Verdura,7.0,77.01,2024-06-04,Almeida,30
+61,Maçã,Fruta,7.5,97.4,2024-06-02,Rodrigues - ME,30
+62,Banana,Fruta,5.9,,2024-06-04,Cunha,55
+63,Pera,Fruta,4.2,52.56,2024-06-04,Gomes Rezende - ME,40
+64,Uva,Fruta,6.8,161.3,2024-06-01,Nunes - ME,25
+65,Morango,Fruta,,,2024-06-03,Rodrigues S.A.,15
+66,Laranja,Fruta,8.0,148.3,2024-06-01,Fernandes Ltda.,28
+67,Abacaxi,Fruta,15.0,,2024-06-02,Teixeira,20
+68,Melancia,Fruta,3.5,150.93,2024-06-04,Martins S/A,35
+69,Manga,Fruta,7.9,191.21,2024-06-04,Nunes,18
+70,Caju,Fruta,4.0,49.36,2024-06-01,da Paz,60
+71,Kiwi,Fruta,8.2,,2024-06-03,Barros da Conceição - EI,32
+72,Mamão,Fruta,,80.76,2024-06-02,Alves S/A,50
+73,Ameixa,Fruta,4.5,94.15,2024-06-04,Costela,38
+74,Cereja,Fruta,,125.74,2024-06-02,Carvalho,22
+75,Pêssego,Fruta,14.0,123.72,2024-06-01,,10
+76,Cenoura,Legume,3.8,,2024-06-03,Castro - EI,80
+77,Batata,Legume,,67.1,2024-06-01,Azevedo Dias e Filhos,120
+78,Beterraba,Legume,6.5,170.2,2024-06-01,Rodrigues Fogaça Ltda.,70
+79,Alface,Verdura,5.0,197.91,2024-06-04,Dias,45
+80,Couve,Verdura,7.0,51.12,2024-06-02,da Mota,30
+81,Maçã,Fruta,7.5,82.45,2024-06-04,Santos,30
+82,Banana,Fruta,5.9,107.16,2024-06-04,Teixeira Moura S/A,55
+83,Pera,Fruta,4.2,126.95,2024-06-02,Fernandes,40
+84,Uva,Fruta,6.8,,2024-06-04,Oliveira,25
+85,Morango,Fruta,12.5,57.68,2024-06-01,,15
+86,Laranja,Fruta,8.0,134.0,2024-06-02,Mendes Monteiro - EI,28
+87,Abacaxi,Fruta,15.0,133.65,2024-06-02,Monteiro da Conceição - EI,20
+88,Melancia,Fruta,3.5,169.27,2024-06-04,Moura Silveira S/A,35
+89,Manga,Fruta,7.9,53.9,2024-06-04,,18
+90,Caju,Fruta,4.0,41.7,2024-06-02,,60
+91,Kiwi,Fruta,8.2,162.95,2024-06-02,Barbosa e Filhos,32
+92,Mamão,Fruta,6.1,,2024-06-02,Cunha,50
+93,Ameixa,Fruta,4.5,34.61,2024-06-01,Rezende,38
+94,Cereja,Fruta,9.0,125.95,,Pinto das Neves e Filhos,22
+95,Pêssego,Fruta,,119.78,2024-06-03,Monteiro,10
+96,Cenoura,Legume,3.8,181.94,2024-06-03,Dias - EI,80
+97,Batata,Legume,4.5,115.38,2024-06-04,Barros Sales S/A,120
+98,Beterraba,Legume,6.5,100.11,2024-06-01,Lopes da Cunha e Filhos,70
+99,Alface,Verdura,5.0,110.83,2024-06-03,Melo Fernandes Ltda.,45
+100,Couve,Verdura,7.0,,2024-06-01,da Cruz,30
+101,Maçã,Fruta,7.5,148.37,2024-06-01,Aragão da Conceição e Filhos,30
+102,Banana,Fruta,5.9,87.75,2024-06-03,Costela e Filhos,55
+103,Pera,Fruta,4.2,149.82,2024-06-02,Teixeira S.A.,40
+104,Uva,Fruta,6.8,,2024-06-03,Monteiro,25
+105,Morango,Fruta,12.5,70.21,2024-06-04,da Rocha,15
+106,Laranja,Fruta,8.0,,2024-06-03,Alves,28
+107,Abacaxi,Fruta,15.0,50.05,2024-06-01,da Cunha Barros Ltda.,20
+108,Melancia,Fruta,,155.0,2024-06-04,da Luz - EI,35
+109,Manga,Fruta,7.9,77.46,2024-06-02,Cardoso - EI,18
+110,Caju,Fruta,4.0,,2024-06-02,da Luz Ribeiro - ME,60
+111,Kiwi,Fruta,8.2,116.43,2024-06-02,da Mota - EI,32
+112,Mamão,Fruta,6.1,109.03,2024-06-02,da Conceição S.A.,50
+113,Ameixa,Fruta,4.5,166.27,2024-06-04,Santos Ltda.,38
+114,Cereja,Fruta,9.0,169.51,2024-06-02,Ribeiro Campos S.A.,22
+115,Pêssego,Fruta,14.0,137.5,2024-06-01,Dias,10
+116,Cenoura,Legume,3.8,157.27,,Nogueira e Filhos,80
+117,Batata,Legume,4.5,132.81,2024-06-02,Lima,120
+118,Beterraba,Legume,6.5,179.84,2024-06-03,Nascimento,70
+119,Alface,Verdura,5.0,144.43,2024-06-03,Melo,45
+120,Couve,Verdura,7.0,,2024-06-04,Freitas,30
+121,Maçã,Fruta,7.5,122.73,2024-06-04,Campos,30
+122,Banana,Fruta,5.9,42.7,2024-06-01,Cunha - EI,55
+123,Pera,Fruta,4.2,154.55,2024-06-04,Monteiro,40
+124,Uva,Fruta,6.8,130.47,2024-06-02,Pereira - EI,25
+125,Morango,Fruta,12.5,191.43,2024-06-03,da Costa,15
+126,Laranja,Fruta,8.0,153.42,2024-06-04,Cardoso da Rosa e Filhos,28
+127,Abacaxi,Fruta,15.0,150.01,2024-06-04,,20
+128,Melancia,Fruta,3.5,90.39,2024-06-03,da Mota - ME,35
+129,Manga,Fruta,7.9,,,Melo,18
+130,Caju,Fruta,4.0,147.83,2024-06-02,,60
+131,Kiwi,Fruta,8.2,25.95,2024-06-03,Moraes,32
+132,Mamão,Fruta,6.1,128.13,2024-06-03,Campos S/A,50
+133,Ameixa,Fruta,4.5,26.33,2024-06-04,Cardoso,38
+134,Cereja,Fruta,9.0,67.9,,da Costa,22
+135,Pêssego,Fruta,14.0,49.65,,Rezende,10
+136,Cenoura,Legume,3.8,126.2,2024-06-01,da Rosa Nunes Ltda.,80
+137,Batata,Legume,4.5,38.56,2024-06-02,Pinto,120
+138,Beterraba,Legume,6.5,123.85,2024-06-03,Correia da Paz S.A.,70
+139,Alface,Verdura,5.0,55.73,2024-06-02,,45
+140,Couve,Verdura,7.0,186.23,2024-06-03,Monteiro,30
+141,Maçã,Fruta,,13.47,2024-06-04,Pinto,30
+142,Banana,Fruta,5.9,141.42,2024-06-04,Rodrigues,55
+143,Pera,Fruta,4.2,96.36,2024-06-02,,40
+144,Uva,Fruta,6.8,128.19,2024-06-02,Barros - EI,25
+145,Morango,Fruta,12.5,138.28,2024-06-02,Monteiro,15
+146,Laranja,Fruta,8.0,161.7,2024-06-03,da Luz Gonçalves S.A.,28
+147,Abacaxi,Fruta,,69.25,,,20
+148,Melancia,Fruta,3.5,37.04,2024-06-04,Martins Nunes - EI,35
+149,Manga,Fruta,7.9,78.96,2024-06-03,Lima Cavalcanti - EI,18
+150,Caju,Fruta,4.0,72.42,2024-06-01,da Mata Farias e Filhos,60
+151,Kiwi,Fruta,8.2,43.21,,Fernandes,32
+152,Mamão,Fruta,6.1,75.37,2024-06-02,,50
+153,Ameixa,Fruta,4.5,,2024-06-04,Silveira S.A.,38
+154,Cereja,Fruta,9.0,93.69,2024-06-04,Novaes e Filhos,22
+155,Pêssego,Fruta,14.0,75.82,2024-06-03,Sales,10
+156,Cenoura,Legume,3.8,84.67,2024-06-01,Moura,80
+157,Batata,Legume,4.5,126.74,2024-06-04,das Neves,120
+158,Beterraba,Legume,6.5,135.05,,Ramos,70
+159,Alface,Verdura,,60.88,2024-06-02,Peixoto Costa - EI,45
+160,Couve,Verdura,7.0,132.06,2024-06-04,Peixoto,30
+161,Maçã,Fruta,7.5,104.94,2024-06-04,Lima,30
+162,Banana,Fruta,5.9,75.44,2024-06-04,,55
+163,Pera,Fruta,4.2,32.15,2024-06-01,Fogaça,40
+164,Uva,Fruta,6.8,143.64,2024-06-03,Viana,25
+165,Morango,Fruta,12.5,120.69,2024-06-04,Cardoso,15
+166,Laranja,Fruta,8.0,140.68,2024-06-04,Freitas,28
+167,Abacaxi,Fruta,15.0,143.11,2024-06-04,Mendes,20
+168,Melancia,Fruta,3.5,68.56,2024-06-04,Souza,35
+169,Manga,Fruta,7.9,171.07,2024-06-04,Moraes,18
+170,Caju,Fruta,4.0,121.8,2024-06-04,da Rosa Barros - EI,60
+171,Kiwi,Fruta,,123.29,2024-06-01,Duarte,32
+172,Mamão,Fruta,6.1,50.88,2024-06-02,Melo Nogueira e Filhos,50
+173,Ameixa,Fruta,4.5,90.86,2024-06-01,Monteiro,38
+174,Cereja,Fruta,9.0,81.34,2024-06-02,Castro Caldeira - ME,22
+175,Pêssego,Fruta,14.0,183.3,2024-06-01,Rodrigues S.A.,10
+176,Cenoura,Legume,3.8,36.09,2024-06-04,da Conceição,80
+177,Batata,Legume,4.5,109.74,2024-06-02,Cardoso - ME,120
+178,Beterraba,Legume,6.5,135.48,2024-06-01,Monteiro Dias S/A,70
+179,Alface,Verdura,5.0,90.82,2024-06-03,,45
+180,Couve,Verdura,7.0,19.58,,,30
+181,Maçã,Fruta,7.5,,,Correia,30
+182,Banana,Fruta,5.9,21.35,2024-06-02,Oliveira Pires e Filhos,55
+183,Pera,Fruta,,85.52,2024-06-01,Cavalcanti,40
+184,Uva,Fruta,6.8,173.28,,Rocha Ltda.,25
+185,Morango,Fruta,,168.75,2024-06-02,Silva - ME,15
+186,Laranja,Fruta,8.0,177.78,2024-06-01,Cardoso,28
+187,Abacaxi,Fruta,15.0,34.3,2024-06-01,Moura,20
+188,Melancia,Fruta,3.5,19.22,2024-06-04,Melo,35
+189,Manga,Fruta,7.9,87.95,2024-06-03,Jesus Caldeira - ME,18
+190,Caju,Fruta,4.0,190.06,2024-06-03,Lima,60
+191,Kiwi,Fruta,8.2,59.0,2024-06-04,Sales,32
+192,Mamão,Fruta,,65.32,,Teixeira,50
+193,Ameixa,Fruta,4.5,160.11,2024-06-01,Campos,38
+194,Cereja,Fruta,9.0,44.87,2024-06-02,Carvalho,22
+195,Pêssego,Fruta,14.0,,2024-06-02,da Cunha,10
+196,Cenoura,Legume,3.8,66.83,,da Cruz,80
+197,Batata,Legume,4.5,157.88,2024-06-04,Ribeiro - EI,120
+198,Beterraba,Legume,6.5,,2024-06-03,Novaes,70
+199,Alface,Verdura,5.0,108.42,2024-06-03,Silveira Ltda.,45
+200,Couve,Verdura,7.0,101.64,2024-06-02,Monteiro S.A.,30
+201,Maçã,Fruta,7.5,28.76,2024-06-01,Alves,30
+202,Banana,Fruta,5.9,142.66,2024-06-04,Cardoso,55
+203,Pera,Fruta,4.2,113.0,2024-06-01,,40
+204,Uva,Fruta,6.8,75.25,2024-06-02,da Paz e Filhos,25
+205,Morango,Fruta,12.5,,2024-06-03,Rezende e Filhos,15
+206,Laranja,Fruta,8.0,117.71,2024-06-02,Castro,28
+207,Abacaxi,Fruta,15.0,38.32,2024-06-01,Barbosa Cavalcanti S.A.,20
+208,Melancia,Fruta,3.5,180.33,2024-06-03,Almeida,35
+209,Manga,Fruta,7.9,14.0,2024-06-01,Rocha da Costa S/A,18
+210,Caju,Fruta,,102.67,2024-06-01,Porto Sales Ltda.,60
+211,Kiwi,Fruta,8.2,68.93,,Sales Azevedo e Filhos,32
+212,Mamão,Fruta,6.1,145.15,2024-06-01,Lopes,50
+213,Ameixa,Fruta,4.5,107.15,,Oliveira,38
+214,Cereja,Fruta,9.0,166.42,2024-06-03,Vieira,22
+215,Pêssego,Fruta,14.0,166.74,2024-06-04,Pereira S.A.,10
+216,Cenoura,Legume,3.8,,2024-06-03,Jesus - EI,80
+217,Batata,Legume,4.5,50.79,2024-06-02,Duarte,120
+218,Beterraba,Legume,,76.21,2024-06-03,Barbosa S.A.,70
+219,Alface,Verdura,5.0,,2024-06-03,Pinto e Filhos,45
+220,Couve,Verdura,7.0,51.12,2024-06-01,Duarte,30
+221,Maçã,Fruta,7.5,199.65,2024-06-02,Correia Azevedo S.A.,30
+222,Banana,Fruta,5.9,103.64,2024-06-03,,55
+223,Pera,Fruta,4.2,68.62,2024-06-04,Nunes Moraes Ltda.,40
+224,Uva,Fruta,6.8,47.19,2024-06-04,Carvalho,25
+225,Morango,Fruta,,134.98,2024-06-01,Mendes - ME,15
+226,Laranja,Fruta,8.0,180.79,2024-06-04,Moraes Costela S.A.,28
+227,Abacaxi,Fruta,15.0,88.26,2024-06-04,Barros Jesus S.A.,20
+228,Melancia,Fruta,3.5,87.76,2024-06-01,Duarte S.A.,35
+229,Manga,Fruta,7.9,146.17,2024-06-03,,18
+230,Caju,Fruta,4.0,15.48,2024-06-03,Caldeira,60
+231,Kiwi,Fruta,8.2,84.4,2024-06-01,Porto Souza e Filhos,32
+232,Mamão,Fruta,6.1,88.73,2024-06-02,Lopes - EI,50
+233,Ameixa,Fruta,4.5,48.74,2024-06-01,,38
+234,Cereja,Fruta,9.0,,2024-06-02,Cavalcanti e Filhos,22
+235,Pêssego,Fruta,,13.1,2024-06-02,Cavalcanti,10
+236,Cenoura,Legume,3.8,39.48,2024-06-01,Ribeiro e Filhos,80
+237,Batata,Legume,4.5,88.29,2024-06-02,Rezende,120
+238,Beterraba,Legume,6.5,146.63,2024-06-04,,70
+239,Alface,Verdura,5.0,160.52,2024-06-01,Araújo,45
+240,Couve,Verdura,7.0,149.14,2024-06-02,Peixoto e Filhos,30
+241,Maçã,Fruta,,117.73,2024-06-03,,30
+242,Banana,Fruta,5.9,80.16,,Dias,55
+243,Pera,Fruta,4.2,129.86,,Barbosa Ltda.,40
+244,Uva,Fruta,6.8,,2024-06-01,da Mata Barros - EI,25
+245,Morango,Fruta,12.5,24.15,2024-06-03,da Cunha,15
+246,Laranja,Fruta,8.0,158.67,2024-06-03,Moura,28
+247,Abacaxi,Fruta,15.0,31.27,2024-06-02,,20
+248,Melancia,Fruta,,68.47,2024-06-01,Gomes Silva S/A,35
+249,Manga,Fruta,7.9,196.43,2024-06-04,Oliveira,18
+250,Caju,Fruta,4.0,190.83,2024-06-02,Ribeiro,60
+251,Kiwi,Fruta,8.2,128.22,2024-06-01,Pereira Rezende - ME,32
+252,Mamão,Fruta,6.1,116.95,2024-06-03,Ferreira,50
+253,Ameixa,Fruta,4.5,186.64,2024-06-04,Cardoso,38
+254,Cereja,Fruta,,11.54,2024-06-01,Nunes,22
+255,Pêssego,Fruta,14.0,64.98,2024-06-03,,10
+256,Cenoura,Legume,3.8,28.94,,Teixeira - ME,80
+257,Batata,Legume,4.5,176.7,2024-06-01,,120
+258,Beterraba,Legume,6.5,56.8,2024-06-04,Martins e Filhos,70
+259,Alface,Verdura,5.0,89.88,2024-06-01,Aragão,45
+260,Couve,Verdura,7.0,53.34,2024-06-02,Cardoso Oliveira e Filhos,30
+261,Maçã,Fruta,7.5,157.26,,Moraes,30
+262,Banana,Fruta,5.9,48.0,2024-06-04,da Mota,55
+263,Pera,Fruta,4.2,81.29,2024-06-02,Almeida - ME,40
+264,Uva,Fruta,6.8,45.72,2024-06-04,Fogaça,25
+265,Morango,Fruta,12.5,62.42,2024-06-04,,15
+266,Laranja,Fruta,8.0,108.75,,Nunes S/A,28
+267,Abacaxi,Fruta,15.0,128.66,2024-06-02,Moura,20
+268,Melancia,Fruta,3.5,16.35,2024-06-01,,35
+269,Manga,Fruta,7.9,195.35,2024-06-03,Pinto,18
+270,Caju,Fruta,4.0,120.31,2024-06-02,Jesus,60
+271,Kiwi,Fruta,8.2,75.11,2024-06-01,da Rosa Barbosa Ltda.,32
+272,Mamão,Fruta,6.1,44.53,2024-06-04,Ramos,50
+273,Ameixa,Fruta,4.5,189.4,2024-06-04,Farias e Filhos,38
+274,Cereja,Fruta,9.0,65.17,2024-06-04,,22
+275,Pêssego,Fruta,,124.73,2024-06-02,Barros,10
+276,Cenoura,Legume,3.8,34.37,2024-06-02,Farias e Filhos,80
+277,Batata,Legume,4.5,184.5,2024-06-02,Mendes,120
+278,Beterraba,Legume,6.5,162.89,2024-06-03,da Mota,70
+279,Alface,Verdura,5.0,149.14,2024-06-02,da Costa - EI,45
+280,Couve,Verdura,7.0,26.85,2024-06-04,Cardoso,30
+281,Maçã,Fruta,7.5,146.85,2024-06-01,Moreira,30
+282,Banana,Fruta,5.9,135.9,2024-06-03,Barros,55
+283,Pera,Fruta,4.2,183.14,2024-06-01,Silveira,40
+284,Uva,Fruta,6.8,95.16,2024-06-01,Melo S/A,25
+285,Morango,Fruta,12.5,76.16,2024-06-04,Ribeiro,15
+286,Laranja,Fruta,8.0,125.96,2024-06-04,Monteiro S/A,28
+287,Abacaxi,Fruta,,11.62,2024-06-04,da Costa S/A,20
+288,Melancia,Fruta,3.5,167.43,2024-06-03,Ribeiro S.A.,35
+289,Manga,Fruta,,77.01,2024-06-02,Cunha - ME,18
+290,Caju,Fruta,4.0,194.8,2024-06-02,Monteiro Ribeiro e Filhos,60
+291,Kiwi,Fruta,8.2,166.88,2024-06-02,Campos Ramos S.A.,32
+292,Mamão,Fruta,6.1,107.64,2024-06-02,Melo,50
+293,Ameixa,Fruta,,193.25,2024-06-02,Farias da Conceição - EI,38
+294,Cereja,Fruta,9.0,155.43,2024-06-04,da Paz Ltda.,22
+295,Pêssego,Fruta,14.0,76.58,,Moura Teixeira Ltda.,10
+296,Cenoura,Legume,3.8,22.42,2024-06-04,Cunha,80
+297,Batata,Legume,4.5,88.35,2024-06-02,Melo,120
+298,Beterraba,Legume,6.5,51.39,2024-06-04,Monteiro,70
+299,Alface,Verdura,5.0,126.23,2024-06-03,Martins Ltda.,45
+300,Couve,Verdura,7.0,90.86,2024-06-02,Araújo,30
+301,Maçã,Fruta,7.5,85.61,2024-06-02,Nunes,30
+302,Banana,Fruta,5.9,,2024-06-02,da Mota,55
+303,Pera,Fruta,4.2,,2024-06-03,Pereira,40
+304,Uva,Fruta,6.8,109.76,2024-06-04,,25
+305,Morango,Fruta,12.5,80.25,2024-06-03,Silveira,15
+306,Laranja,Fruta,8.0,38.25,2024-06-01,,28
+307,Abacaxi,Fruta,15.0,144.21,2024-06-01,Gomes Lima S/A,20
+308,Melancia,Fruta,3.5,118.28,2024-06-02,,35
+309,Manga,Fruta,,116.52,2024-06-02,,18
+310,Caju,Fruta,4.0,137.43,2024-06-02,Alves,60
+311,Kiwi,Fruta,8.2,52.04,2024-06-01,Moreira Ltda.,32
+312,Mamão,Fruta,6.1,109.4,2024-06-01,Melo,50
+313,Ameixa,Fruta,4.5,61.53,2024-06-02,da Rocha Ltda.,38
+314,Cereja,Fruta,9.0,10.71,2024-06-04,Gomes,22
+315,Pêssego,Fruta,14.0,180.23,2024-06-01,da Luz,10
+316,Cenoura,Legume,3.8,147.73,2024-06-03,Monteiro e Filhos,80
+317,Batata,Legume,4.5,107.33,2024-06-04,da Cunha,120
+318,Beterraba,Legume,6.5,113.94,2024-06-03,Duarte,70
+319,Alface,Verdura,5.0,73.09,2024-06-01,Melo,45
+320,Couve,Verdura,7.0,120.11,2024-06-02,Cardoso,30
+321,Maçã,Fruta,7.5,129.94,2024-06-01,Moura,30
+322,Banana,Fruta,5.9,20.08,2024-06-04,,55
+323,Pera,Fruta,4.2,143.25,2024-06-01,Silva Moreira S/A,40
+324,Uva,Fruta,6.8,,2024-06-02,da Costa - EI,25
+325,Morango,Fruta,12.5,57.83,,Alves S/A,15
+326,Laranja,Fruta,8.0,192.72,2024-06-04,,28
+327,Abacaxi,Fruta,15.0,32.8,2024-06-01,Nunes,20
+328,Melancia,Fruta,3.5,,2024-06-01,Alves,35
+329,Manga,Fruta,7.9,62.35,2024-06-02,,18
+330,Caju,Fruta,4.0,134.2,2024-06-03,,60
+331,Kiwi,Fruta,,158.16,2024-06-01,Castro - ME,32
+332,Mamão,Fruta,6.1,137.74,2024-06-01,Cardoso Ramos - ME,50
+333,Ameixa,Fruta,4.5,41.54,2024-06-02,Dias Fogaça e Filhos,38
+334,Cereja,Fruta,,,2024-06-03,Santos Fernandes - EI,22
+335,Pêssego,Fruta,14.0,62.72,2024-06-04,Moura,10
+336,Cenoura,Legume,,,2024-06-03,Viana Gomes e Filhos,80
+337,Batata,Legume,4.5,36.12,2024-06-02,,120
+338,Beterraba,Legume,6.5,144.68,,Cardoso,70
+339,Alface,Verdura,5.0,59.52,2024-06-03,Cardoso,45
+340,Couve,Verdura,7.0,148.36,2024-06-01,Cavalcanti,30
+341,Maçã,Fruta,7.5,85.59,2024-06-02,Rocha Nunes S/A,30
+342,Banana,Fruta,,123.8,2024-06-03,,55
+343,Pera,Fruta,,160.86,2024-06-01,Jesus,40
+344,Uva,Fruta,,39.83,2024-06-04,Mendes,25
+345,Morango,Fruta,12.5,193.87,2024-06-03,Duarte,15
+346,Laranja,Fruta,8.0,37.18,2024-06-04,Porto,28
+347,Abacaxi,Fruta,,141.38,2024-06-03,Caldeira S/A,20
+348,Melancia,Fruta,3.5,17.71,2024-06-01,,35
+349,Manga,Fruta,7.9,29.87,2024-06-03,da Cruz,18
+350,Caju,Fruta,4.0,20.95,2024-06-02,Dias Ltda.,60
+351,Kiwi,Fruta,,17.83,2024-06-01,Cardoso,32
+352,Mamão,Fruta,6.1,87.57,2024-06-02,Pereira Aragão - EI,50
+353,Ameixa,Fruta,4.5,,,Viana,38
+354,Cereja,Fruta,,112.45,2024-06-02,Campos Novaes S.A.,22
+355,Pêssego,Fruta,14.0,,2024-06-03,Mendes,10
+356,Cenoura,Legume,3.8,150.35,2024-06-03,Cavalcanti,80
+357,Batata,Legume,4.5,137.44,2024-06-03,Fogaça - ME,120
+358,Beterraba,Legume,6.5,136.85,2024-06-03,Azevedo e Filhos,70
+359,Alface,Verdura,,20.13,2024-06-03,Mendes,45
+360,Couve,Verdura,,151.83,2024-06-03,Pires S.A.,30
+361,Maçã,Fruta,7.5,174.77,2024-06-03,Alves e Filhos,30
+362,Banana,Fruta,5.9,145.02,2024-06-02,Castro,55
+363,Pera,Fruta,4.2,63.61,2024-06-02,Souza,40
+364,Uva,Fruta,6.8,91.94,2024-06-01,Jesus Ltda.,25
+365,Morango,Fruta,,184.51,,Azevedo,15
+366,Laranja,Fruta,8.0,115.22,,Silveira Teixeira S/A,28
+367,Abacaxi,Fruta,15.0,70.23,2024-06-01,Porto - EI,20
+368,Melancia,Fruta,3.5,54.37,,Jesus,35
+369,Manga,Fruta,7.9,147.55,,Pires,18
+370,Caju,Fruta,4.0,86.92,2024-06-04,,60
+371,Kiwi,Fruta,8.2,,,Costa S.A.,32
+372,Mamão,Fruta,6.1,156.0,2024-06-02,Costela,50
+373,Ameixa,Fruta,4.5,43.67,,Lopes,38
+374,Cereja,Fruta,9.0,125.97,2024-06-04,Monteiro Ltda.,22
+375,Pêssego,Fruta,14.0,55.97,2024-06-01,Azevedo,10
+376,Cenoura,Legume,3.8,,,Moreira,80
+377,Batata,Legume,4.5,152.37,2024-06-03,Cardoso Teixeira - EI,120
+378,Beterraba,Legume,6.5,40.27,2024-06-01,Nogueira,70
+379,Alface,Verdura,,131.58,2024-06-03,,45
+380,Couve,Verdura,7.0,167.54,2024-06-02,,30
+381,Maçã,Fruta,7.5,,2024-06-01,da Luz - EI,30
+382,Banana,Fruta,5.9,,2024-06-03,Cardoso,55
+383,Pera,Fruta,4.2,111.57,2024-06-02,,40
+384,Uva,Fruta,6.8,85.91,2024-06-04,Fogaça,25
+385,Morango,Fruta,12.5,59.88,2024-06-03,Jesus Silva - EI,15
+386,Laranja,Fruta,8.0,167.22,2024-06-03,Costela Ltda.,28
+387,Abacaxi,Fruta,15.0,131.03,,Campos,20
+388,Melancia,Fruta,3.5,163.12,2024-06-02,Melo Castro Ltda.,35
+389,Manga,Fruta,7.9,15.74,2024-06-04,Nascimento Caldeira - EI,18
+390,Caju,Fruta,4.0,29.56,2024-06-01,Costela da Luz - ME,60
+391,Kiwi,Fruta,8.2,,2024-06-03,da Mota,32
+392,Mamão,Fruta,6.1,132.36,2024-06-01,da Rosa Gomes - EI,50
+393,Ameixa,Fruta,4.5,118.8,2024-06-01,Silveira Ltda.,38
+394,Cereja,Fruta,9.0,67.6,2024-06-04,Duarte Carvalho - EI,22
+395,Pêssego,Fruta,14.0,53.84,2024-06-01,Alves,10
+396,Cenoura,Legume,3.8,25.13,2024-06-01,Cunha,80
+397,Batata,Legume,4.5,62.19,,Moreira,120
+398,Beterraba,Legume,6.5,89.24,,Cardoso Cardoso Ltda.,70
+399,Alface,Verdura,5.0,166.57,2024-06-02,Nunes Ltda.,45
+400,Couve,Verdura,7.0,17.64,2024-06-01,Ribeiro S.A.,30
+401,Maçã,Fruta,7.5,50.44,,Fogaça Rodrigues - ME,30
+402,Banana,Fruta,5.9,,,Castro,55
+403,Pera,Fruta,4.2,158.32,2024-06-01,,40
+404,Uva,Fruta,6.8,88.23,2024-06-01,Correia,25
+405,Morango,Fruta,12.5,193.55,2024-06-04,Ramos Teixeira S.A.,15
+406,Laranja,Fruta,8.0,187.15,2024-06-04,Azevedo,28
+407,Abacaxi,Fruta,15.0,47.67,2024-06-01,Cardoso e Filhos,20
+408,Melancia,Fruta,3.5,,2024-06-04,Lopes,35
+409,Manga,Fruta,7.9,,2024-06-02,da Luz,18
+410,Caju,Fruta,4.0,13.74,2024-06-03,Barros Sales - EI,60
+411,Kiwi,Fruta,8.2,39.63,2024-06-03,Sales Farias S.A.,32
+412,Mamão,Fruta,6.1,79.91,2024-06-02,da Mata Nogueira S.A.,50
+413,Ameixa,Fruta,4.5,164.14,2024-06-01,Pereira,38
+414,Cereja,Fruta,9.0,148.11,,Cavalcanti,22
+415,Pêssego,Fruta,14.0,103.06,2024-06-03,Souza,10
+416,Cenoura,Legume,3.8,80.37,2024-06-01,Souza e Filhos,80
+417,Batata,Legume,4.5,165.57,2024-06-01,da Mota,120
+418,Beterraba,Legume,6.5,32.73,2024-06-04,Cunha,70
+419,Alface,Verdura,,88.26,2024-06-03,Peixoto S/A,45
+420,Couve,Verdura,7.0,89.12,2024-06-03,da Costa,30
+421,Maçã,Fruta,7.5,74.29,2024-06-03,da Costa,30
+422,Banana,Fruta,5.9,167.32,2024-06-01,da Costa,55
+423,Pera,Fruta,4.2,87.92,2024-06-02,Costela,40
+424,Uva,Fruta,,61.6,2024-06-02,Cardoso da Luz S.A.,25
+425,Morango,Fruta,12.5,148.08,2024-06-01,,15
+426,Laranja,Fruta,8.0,,2024-06-01,,28
+427,Abacaxi,Fruta,,97.63,2024-06-04,Rocha,20
+428,Melancia,Fruta,3.5,49.07,2024-06-04,da Costa,35
+429,Manga,Fruta,7.9,52.57,2024-06-02,Souza,18
+430,Caju,Fruta,4.0,56.13,2024-06-03,Nascimento Aragão S.A.,60
+431,Kiwi,Fruta,8.2,139.33,2024-06-04,Campos,32
+432,Mamão,Fruta,6.1,102.59,2024-06-04,Cavalcanti Ltda.,50
+433,Ameixa,Fruta,4.5,62.01,2024-06-04,Fogaça da Luz - ME,38
+434,Cereja,Fruta,9.0,40.35,2024-06-04,da Costa,22
+435,Pêssego,Fruta,,166.83,2024-06-04,Jesus,10
+436,Cenoura,Legume,3.8,162.63,,Rocha,80
+437,Batata,Legume,4.5,80.67,2024-06-04,Santos,120
+438,Beterraba,Legume,6.5,93.86,2024-06-01,Campos Viana Ltda.,70
+439,Alface,Verdura,5.0,157.35,2024-06-03,Freitas - EI,45
+440,Couve,Verdura,7.0,17.44,2024-06-03,Ribeiro Novaes e Filhos,30
+441,Maçã,Fruta,7.5,,2024-06-02,Ferreira e Filhos,30
+442,Banana,Fruta,5.9,141.91,2024-06-03,Vieira S.A.,55
+443,Pera,Fruta,4.2,181.81,2024-06-04,da Cunha,40
+444,Uva,Fruta,6.8,148.89,2024-06-01,,25
+445,Morango,Fruta,12.5,197.28,2024-06-03,Novaes Monteiro - ME,15
+446,Laranja,Fruta,8.0,65.63,2024-06-04,Ramos e Filhos,28
+447,Abacaxi,Fruta,15.0,108.25,2024-06-02,Campos S/A,20
+448,Melancia,Fruta,3.5,,2024-06-04,Costa S/A,35
+449,Manga,Fruta,7.9,16.14,2024-06-04,da Mota Costa S.A.,18
+450,Caju,Fruta,4.0,49.53,2024-06-04,Ribeiro,60
+451,Kiwi,Fruta,8.2,155.59,2024-06-04,Ramos,32
+452,Mamão,Fruta,6.1,51.99,2024-06-02,Castro Silva - EI,50
+453,Ameixa,Fruta,4.5,108.89,2024-06-02,da Conceição,38
+454,Cereja,Fruta,9.0,136.91,2024-06-01,Castro,22
+455,Pêssego,Fruta,14.0,,,,10
+456,Cenoura,Legume,3.8,106.17,2024-06-01,Freitas,80
+457,Batata,Legume,4.5,56.94,2024-06-03,Monteiro Ltda.,120
+458,Beterraba,Legume,6.5,64.6,,Gomes Cavalcanti - EI,70
+459,Alface,Verdura,5.0,14.27,,Cavalcanti - EI,45
+460,Couve,Verdura,7.0,,2024-06-01,Monteiro,30
+461,Maçã,Fruta,7.5,75.9,2024-06-01,Fogaça,30
+462,Banana,Fruta,5.9,111.26,2024-06-03,Duarte Ltda.,55
+463,Pera,Fruta,,168.6,2024-06-01,Pinto S/A,40
+464,Uva,Fruta,6.8,99.5,2024-06-02,Castro Souza S/A,25
+465,Morango,Fruta,12.5,72.34,2024-06-02,Lopes,15
+466,Laranja,Fruta,8.0,56.93,2024-06-02,Peixoto S/A,28
+467,Abacaxi,Fruta,15.0,,2024-06-02,Sales,20
+468,Melancia,Fruta,3.5,39.49,2024-06-01,Moreira S.A.,35
+469,Manga,Fruta,7.9,165.01,,Pires,18
+470,Caju,Fruta,4.0,77.41,2024-06-02,Silveira Cardoso e Filhos,60
+471,Kiwi,Fruta,8.2,120.28,2024-06-03,Santos,32
+472,Mamão,Fruta,6.1,165.85,2024-06-04,Nunes Ltda.,50
+473,Ameixa,Fruta,4.5,10.82,2024-06-03,Porto - ME,38
+474,Cereja,Fruta,9.0,164.48,,da Cunha S/A,22
+475,Pêssego,Fruta,14.0,63.25,2024-06-01,da Cunha,10
+476,Cenoura,Legume,3.8,151.49,2024-06-03,Pereira e Filhos,80
+477,Batata,Legume,4.5,156.18,2024-06-03,,120
+478,Beterraba,Legume,6.5,122.07,2024-06-03,Pires S.A.,70
+479,Alface,Verdura,5.0,108.02,2024-06-04,,45
+480,Couve,Verdura,7.0,55.45,2024-06-01,Barros,30
+481,Maçã,Fruta,7.5,177.37,2024-06-01,Cardoso Silveira - EI,30
+482,Banana,Fruta,5.9,96.78,2024-06-04,Moura,55
+483,Pera,Fruta,,14.56,2024-06-01,Ribeiro,40
+484,Uva,Fruta,6.8,70.44,2024-06-04,Pereira S.A.,25
+485,Morango,Fruta,12.5,24.61,2024-06-04,Porto da Cruz - ME,15
+486,Laranja,Fruta,8.0,173.38,2024-06-03,Nascimento,28
+487,Abacaxi,Fruta,15.0,195.75,2024-06-04,Porto S/A,20
+488,Melancia,Fruta,3.5,16.37,2024-06-03,Sales Freitas - ME,35
+489,Manga,Fruta,7.9,122.66,2024-06-04,da Cruz - EI,18
+490,Caju,Fruta,4.0,74.3,2024-06-03,Ribeiro,60
+491,Kiwi,Fruta,8.2,177.52,2024-06-02,Cardoso,32
+492,Mamão,Fruta,6.1,174.15,2024-06-01,Viana da Conceição e Filhos,50
+493,Ameixa,Fruta,4.5,32.63,2024-06-01,Viana,38
+494,Cereja,Fruta,9.0,154.1,,Gomes Ferreira Ltda.,22
+495,Pêssego,Fruta,14.0,,2024-06-01,Melo - ME,10
+496,Cenoura,Legume,3.8,72.35,2024-06-02,Sales - EI,80
+497,Batata,Legume,4.5,19.9,2024-06-03,Freitas S/A,120
+498,Beterraba,Legume,6.5,161.76,2024-06-04,Teixeira,70
+499,Alface,Verdura,5.0,,,Souza,45
+500,Couve,Verdura,7.0,51.54,2024-06-04,Oliveira,30
