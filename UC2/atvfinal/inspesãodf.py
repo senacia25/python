@@ -21,6 +21,6 @@ print(f"\n===== As três últimas linhas são =====\n{tres_ultimas}")
 print(df_pdmrc.tail(3))
 
 #6
-print("\n===== Resumo estatístico das colunas nméricas =====\n",df_pdmrc.describe())
+print("\n===== Resumo estatístico das colunas numéricas =====\n",df_pdmrc.describe())
 
 
