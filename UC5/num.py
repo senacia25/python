@@ -33,13 +33,34 @@ produtos_com_lucro_baixo = df[indices]
 print(produtos_com_lucro_baixo[['preco_custo', 'preco_venda', 'estoque_atual']])
 
 #Indice de rentabilidade
-indice_rentbilidade = (lucro_unitario / preco_custo) * 100  # colocar em parenteses para preferencia de calculo primiro vai dividir
-df["rentabilidade"] = np.round(indice_rentbilidade, 2) # round = arrendondar
+indice_rentabilidade = (lucro_unitario / preco_custo) * 100  # colocar em parenteses para preferencia de calculo primiro vai dividir
+df["rentabilidade"] = np.round(indice_rentabilidade, 2) # round = arrendondar
 print(df[['preco_custo', "preco_venda", "rentabilidade"]])
 
 
+print("=============\n")
 
 #PRATICA
 #analizar os produtos em estoque e calcular, produtos com rentabilidade abaixo da media.
 
+# 1. Calcular a média da rentabilidade
+media_rentabilidade = df["rentabilidade"].mean()
+print(f"Média de rentabilidade: {media_rentabilidade:.2f}%")
 
+# 2. Filtrar produtos com rentabilidade abaixo da média
+abaixo_da_media = df["rentabilidade"] < media_rentabilidade
+produtos_abaixo_media = df[abaixo_da_media]
+
+# 3. Exibir os produtos com rentabilidade abaixo da média
+print("Produtos com rentabilidade abaixo da média:")
+print(produtos_abaixo_media[['preco_custo', 'preco_venda', 'estoque_atual', 'rentabilidade']])
+
+
+#outra forma
+
+print("=====prof=====\n")
+media_rentabilidade = df['rentabilidade'].mean()
+abaixo_da_media = df[df['rentabilidade'] < media_rentabilidade]
+ 
+print("Produtos com rentabilidade abaixo da média:")
+print(abaixo_da_media[['preco_custo', 'preco_venda', 'rentabilidade']])
