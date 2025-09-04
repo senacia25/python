@@ -93,49 +93,14 @@ print("\n--- MÉTRICAS DE AVALIAÇÃO ---")
 print(f"Erro Médio Quadrático (MSE): {erro:.2f}")
 print(f"Coeficiente de Determinação (R²): {r2:.4f}")
 
-# Mostra previsões vs reais
-resultados = pd.DataFrame({
-    'Data': df_teste['Data'].dt.strftime('%Y-%m-%d'),
-    'Preço Real': y_teste.values,
-    'Preço Previsto': previsoes
-})
-print("\n--- PREVISÕES VS VALORES REAIS ---")
-print(resultados)
-
-
-
-
-
-# plt.figure(figsize=(12, 6))
-# plt.plot(df_teste['Data'], y_teste, label='Preço Real', marker='o')
-# plt.plot(df_teste['Data'], previsoes, label='Preço Previsto', marker='x')
-# plt.xlabel('Data')
-# plt.ylabel('Preço de Fechamento (BTC)')
-# plt.title('Previsão do Preço do Bitcoin (Regressão Linear)')
-# plt.legend()
-# plt.grid(True)
-# plt.xticks(rotation=45)
-# plt.tight_layout()
-# plt.savefig('grafico_previsao_bitcoin.png')
-# plt.show()
-
-
-# ==============
-# # ==============
-
-# # Gráfico
-# plt.figure(figsize=(12, 6))
-# plt.plot(df_teste["Data"], y_teste, label="Real", marker='o')
-# plt.plot(df_teste["Data"], previsoes, label="Previsto", marker='x')
-# plt.xlabel("Data")
-# plt.ylabel("Cotação (Último)")
-# plt.title("Comparação entre valores reais e previstos")
-# plt.legend()
-# plt.grid(True)
-# plt.xticks(rotation=45)
-# plt.tight_layout()
-# plt.show()
-
+# # Mostra previsões vs reais
+# resultados = pd.DataFrame({
+#     'Data': df_teste['Data'].dt.strftime('%Y-%m-%d'),
+#     'Preço Real': y_teste.values,
+#     'Preço Previsto': previsoes
+# })
+# print("\n--- PREVISÕES VS VALORES REAIS ---")
+# print(resultados)
 
 
 
@@ -158,3 +123,57 @@ plt.tight_layout()
 
 # Exibe o gráfico
 plt.show()
+
+
+
+# =====tentando prever o futuro===================
+
+# from datetime import timedelta
+
+# # Último dia com dados disponíveis
+# ultimo_dia = df["Data"].max()
+
+# # Cria datas futuras de 2 a 15 de setembro de 2025
+# datas_futuras = pd.date_range(start="2025-09-02", end="2025-09-15")
+
+# # Obtém o último valor conhecido para usar como base
+# ultimo_registro = df[df["Data"] == ultimo_dia].iloc[0]
+
+# # Cria um novo DataFrame com os dados simulados
+# futuro = pd.DataFrame({
+#     "Data": datas_futuras
+# })
+
+# # Simulação dos dados
+# np.random.seed(42)  # para reprodutibilidade
+
+# futuro["Abertura"] = ultimo_registro["Último"]
+# futuro["Máxima"] = futuro["Abertura"] * (1 + np.random.uniform(0.005, 0.015, len(futuro)))
+# futuro["Mínima"] = futuro["Abertura"] * (1 - np.random.uniform(0.005, 0.015, len(futuro)))
+# futuro["Vol."] = df["Vol."].tail(10).mean()  # média dos últimos 10 dias
+# futuro["Var%"] = np.random.uniform(-1.0, 1.0, len(futuro))  # variação percentual aleatória
+
+# # Previsão usando o modelo treinado
+# X_futuro = futuro[["Abertura", "Máxima", "Mínima", "Vol.", "Var%"]]
+# previsoes_futuras = modelo.predict(X_futuro)
+
+# # Adiciona as previsões ao DataFrame
+# futuro["Preço Previsto"] = previsoes_futuras
+
+# # Mostra os resultados
+# print(futuro[["Data", "Preço Previsto"]])
+
+# # Plot
+# plt.figure(figsize=(12, 6))
+# plt.plot(futuro["Data"], futuro["Preço Previsto"], label="Previsão Futura", color="orange", marker='o')
+# plt.title("Previsão do Bitcoin – 02 a 15 de Setembro")
+# plt.xlabel("Data")
+# plt.ylabel("Preço Previsto")
+# plt.xticks(rotation=45)
+# plt.grid(True)
+# plt.legend()
+# plt.tight_layout()
+# plt.show()
+
+
+
