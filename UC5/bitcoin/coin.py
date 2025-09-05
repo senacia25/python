@@ -68,13 +68,13 @@ X_teste = df_teste[["Abertura", "Máxima", "Mínima", "Vol.", "Var%"]]
 y_teste = df_teste["Último"]
 
 
-# print("Treino:")
-# print(df_treino["Data"].min(), "→", df_treino["Data"].max())
-# print("Registros:", len(df_treino))
+print("Treino:")
+print(df_treino["Data"].min(), "→", df_treino["Data"].max())
+print("Registros:", len(df_treino))
 
-# print("\nTeste:")
-# print(df_teste["Data"].min(), "→", df_teste["Data"].max())
-# print("Registros:", len(df_teste))
+print("\nTeste:")
+print(df_teste["Data"].min(), "→", df_teste["Data"].max())
+print("Registros:", len(df_teste))
 
 
 # Modelo
@@ -93,14 +93,14 @@ print("\n--- MÉTRICAS DE AVALIAÇÃO ---")
 print(f"Erro Médio Quadrático (MSE): {erro:.2f}")
 print(f"Coeficiente de Determinação (R²): {r2:.4f}")
 
-# # Mostra previsões vs reais
-# resultados = pd.DataFrame({
-#     'Data': df_teste['Data'].dt.strftime('%Y-%m-%d'),
-#     'Preço Real': y_teste.values,
-#     'Preço Previsto': previsoes
-# })
-# print("\n--- PREVISÕES VS VALORES REAIS ---")
-# print(resultados)
+# Mostra previsões vs reais
+resultados = pd.DataFrame({
+    'Data': df_teste['Data'].dt.strftime('%Y-%m-%d'),
+    'Preço Real': y_teste.values,
+    'Preço Previsto': previsoes
+})
+print("\n--- PREVISÕES VS VALORES REAIS ---")
+print(resultados)
 
 
 
