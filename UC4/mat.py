@@ -9,7 +9,6 @@
 # print(f"Desvio padrão { np.std(dados):.2f}")
 # print(f"Variância { np.var(dados):.2f}")
 
-
 #================
 #================
 
@@ -221,28 +220,245 @@
 # print(f"Probabilidade experimental (par): {p_exp:.4f}")
 # print(f"Erro absoluto: {abs(p_teorica - p_exp):.4f}")
 
+#====================
+#====================
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+
+# horas_dormidas = np.array([4, 5, 6, 7, 8, 9])
+# desempenho = np.array([50, 55, 65, 75, 80, 85])
+
+# # Cálculo da correlação de Pearson
+# correlacao = np.corrcoef(horas_dormidas, desempenho)[0, 1]
+# print(f"Coeficiente de correlação: {correlacao:.2f}")
+
+
+# plt.scatter(horas_dormidas, desempenho, color='red')
+# plt.plot(horas_dormidas, desempenho, color='blue')
+# plt.title('Relação entre Horas Dormidas e Desempenho')
+# plt.xlabel('Horas Dormidas')
+# plt.ylabel('Desempenho')
+# plt.grid(True) #plt.grid() mesma coisa sem precisar especificar true e pode personalizar como a baixo
+# #plt.grid(True, linestyle='aa', color='green', alpha=0.7)
+# plt.show()
 
 #====================
 #====================
 
-import numpy as np
+# from scipy import stats
+# import numpy as np
+
+# grupo_A = np.random.normal(70, 10, 30)
+# grupo_B = np.random.normal(65, 10, 30)
+
+# t_stat, p_val = stats.ttest_ind(grupo_A, grupo_B)
+# print("t =", t_stat, "p-valor =", p_val)
+
+#====================
+#=====teste t===============
+
+# import numpy as np
+# from scipy import stats
+
+# # --- Parte 1 ---
+# notas_iniciais = [72, 68, 71, 69, 73, 74, 70, 67, 72, 71]
+
+# media_inicial = np.mean(notas_iniciais)
+# desvio_inicial = np.std(notas_iniciais, ddof=1)  # ddof=1 para amostral
+# print("Média inicial:", media_inicial)
+# print("Desvio padrão inicial:", desvio_inicial)
+
+# # Teste t (H0: média = 70)
+# t_stat, p_valor = stats.ttest_1samp(notas_iniciais, popmean=70)
+# print("t =", t_stat, "p =", p_valor)
+
+# # --- Parte 2 ---
+# notas_novas = [75, 78, 77, 74, 76, 79, 80, 81, 77, 76, 78, 75]
+
+# media_nova = np.mean(notas_novas)
+# desvio_novo = np.std(notas_novas, ddof=1)
+# print("\nMédia nova:", media_nova)
+# print("Desvio padrão novo:", desvio_novo)
+
+# # Teste t (H0: média = 70)
+# t_stat2, p_valor2 = stats.ttest_1samp(notas_novas, popmean=70)
+# print("t =", t_stat2, "p =", p_valor2)
+
+#====================
+#=======teste t =============
+#EX
+# import numpy as np
+# from scipy import stats
+
+# notas_alunos = [82, 76, 88, 91, 69, 73, 85, 79, 90, 77, 84, 80]
+
+# media_inicial = np.mean(notas_alunos)
+# desvio_inicial = np.std(notas_alunos, ddof=1)
+# print(f"Média inicial: {media_inicial:.5f} \nDesvio padrão inicial: {desvio_inicial:.5f}")
+
+# t_star, p_valor = stats.ttest_1samp(notas_alunos, popmean=75)
+# print(f"t = {t_star:.5f}, p = {p_valor:.5f}")
+
+#====================
+#====================
+
+# from scipy import stats
+# import numpy as np
+# antes = np.random.normal(70, 5, 20)
+# depois = antes - np.random.normal(2, 2, 20)  # melhoraram em média 2 pontos
+
+# t_stat, p_val = stats.ttest_rel(antes, depois)
+# print("t =", t_stat, "p-valor =", p_val)
+# diferencas = antes - depois
+# print("Média da variação de peso:", np.mean(diferencas))
+
+#====================
+#====================
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+
+# np.random.seed(42)
+
+# # Simulando lançamentos de moeda (1 = cara, 0 = coroa)
+# n_experimentos = 10000
+# lancamentos = np.random.choice([0, 1], size=n_experimentos, p=[0.5, 0.5])
+
+# # Média acumulada
+# medias_acumuladas = np.cumsum(lancamentos) / np.arange(1, n_experimentos + 1)
+
+# plt.plot(medias_acumuladas, label="Média acumulada")
+# plt.axhline(0.5, color="red", linestyle="--", label="Probabilidade real (0.5)")
+# plt.xlabel("Número de lançamentos")
+# plt.ylabel("Proporção de caras")
+# plt.legend()
+# plt.grid(color="orange")
+# plt.show()
+
+#====================
+#====================
+
+# import pandas as pd
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# from scipy import stats
+
+# def estatisticas_descritivas(csv_path):
+#     # Carregar dataset
+#     df = pd.read_csv(csv_path)
+#     print(f"\n📂 Dataset carregado com {df.shape[0]} linhas e {df.shape[1]} colunas.\n")
+    
+#     # Selecionar apenas colunas numéricas
+#     num_cols = df.select_dtypes(include=np.number).columns
+    
+#     if len(num_cols) == 0:
+#         print("⚠️ O dataset não possui colunas numéricas para análise.")
+#         return
+    
+#     resultados = {}
+    
+#     for col in num_cols:
+#         dados = df[col].dropna()  # remover NaN
+        
+#         estatisticas = {
+#             "média": np.mean(dados),
+#             "mediana": np.median(dados),
+#             "moda": stats.mode(dados, keepdims=True).mode[0],
+#             "variância": np.var(dados, ddof=1),  # ddof=1 para variância amostral
+#             "desvio padrão": np.std(dados, ddof=1),
+#             "assimetria": stats.skew(dados),
+#             "curtose": stats.kurtosis(dados)
+#         }
+#         resultados[col] = estatisticas
+        
+#         print(f"\n📊 Estatísticas para '{col}':")
+#         for k, v in estatisticas.items():
+#             print(f"   {k:15}: {v:.4f}")
+        
+#         # Histogramas
+#         plt.figure(figsize=(10,4))
+#         plt.subplot(1,2,1)
+#         sns.histplot(dados, kde=True, bins=20, color="skyblue")
+#         plt.title(f"Histograma - {col}")
+        
+#         # Boxplot
+#         plt.subplot(1,2,2)
+#         sns.boxplot(x=dados, color="lightgreen")
+#         plt.title(f"Boxplot - {col}")
+        
+#         plt.tight_layout()
+#         plt.show()
+    
+#     return pd.DataFrame(resultados).T
+
+
+# # ----------------- EXEMPLO DE USO -----------------
+# estatisticas = estatisticas_descritivas("UC4/dataset_exemplo.csv")
+# print(estatisticas)
+
+#====================
+#====================
+
+# import numpy as np
+# import pandas as pd
+# from scipy.stats import skew, kurtosis
+
+# # Definir a seed para reprodutibilidade
+# np.random.seed(42)
+
+# # Gerar dados normais centrados em 2, com baixa variância
+# dados_normais = np.random.normal(loc=2, scale=0.2, size=1000)
+
+# # Gerar outliers positivos com distribuição exponencial (assimetria positiva)
+# outliers = np.random.exponential(scale=10, size=20)
+
+# # Combinar os dados
+# dados_com_outliers = np.concatenate([dados_normais, outliers])
+
+# # Criar DataFrame
+# df = pd.DataFrame({
+#     'id': range(1, len(dados_com_outliers) + 1),
+#     'valor': dados_com_outliers
+# })
+
+# # Calcular skewness e kurtosis
+# skew_val = skew(dados_com_outliers)
+# kurt_val = kurtosis(dados_com_outliers)
+
+# print("Skewness:", skew_val)
+# print("Kurtosis:", kurt_val)
+
+# # Salvar o arquivo CSV
+# df.to_csv("UC4/dados_skew_kurtosis.csv", index=False)
+# print("Arquivo 'dados_skew_kurtosis.csv' criado com sucesso!")
+
+#====================
+#====================
+
 import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
 
-horas_dormidas = np.array([4, 5, 6, 7, 8, 9])
-desempenho = np.array([50, 55, 65, 75, 80, 85])
+# Carrega o arquivo CSV gerado anteriormente
+df = pd.read_csv('UC4/dados_skew_kurtosis.csv')
 
-# Cálculo da correlação de Pearson
-correlacao = np.corrcoef(horas_dormidas, desempenho)[0, 1]
-print(f"Coeficiente de correlação: {correlacao:.2f}")
+# Tamanho da figura
+plt.figure(figsize=(14, 6))
 
+# Histograma
+plt.subplot(1, 2, 1)
+sns.histplot(df['valor'], bins=50, kde=True, color='skyblue')
+plt.title('Histograma com KDE (Distribuição dos Dados)')
+plt.xlabel('Valor')
+plt.ylabel('Frequência')
 
-plt.scatter(horas_dormidas, desempenho, color='red')
-plt.plot(horas_dormidas, desempenho, color='blue')
-plt.title('Relação entre Horas Dormidas e Desempenho')
-plt.xlabel('Horas Dormidas')
-plt.ylabel('Desempenho')
-plt.grid(True)
+# Boxplot
+plt.subplot(1, 2, 2)
+sns.boxplot(x=df['valor'], color='lightgreen')
+plt.title('Boxplot dos Dados')
 
-
-
+# Mostrar os gráficos
+plt.tight_layout()
 plt.show()
