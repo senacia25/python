@@ -437,28 +437,206 @@
 #====================
 #====================
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# import pandas as pd
 
-# Carrega o arquivo CSV gerado anteriormente
-df = pd.read_csv('UC4/dados_skew_kurtosis.csv')
+# # Carrega o arquivo CSV gerado anteriormente
+# df = pd.read_csv('UC4/dados_skew_kurtosis.csv')
 
-# Tamanho da figura
-plt.figure(figsize=(14, 6))
+# # Tamanho da figura
+# plt.figure(figsize=(14, 6))
 
-# Histograma
-plt.subplot(1, 2, 1)
-sns.histplot(df['valor'], bins=50, kde=True, color='skyblue')
-plt.title('Histograma com KDE (Distribuição dos Dados)')
-plt.xlabel('Valor')
-plt.ylabel('Frequência')
+# # Histograma
+# plt.subplot(1, 2, 1)
+# sns.histplot(df['valor'], bins=50, kde=True, color='skyblue')
+# plt.title('Histograma com KDE (Distribuição dos Dados)')
+# plt.xlabel('Valor')
+# plt.ylabel('Frequência')
 
-# Boxplot
-plt.subplot(1, 2, 2)
-sns.boxplot(x=df['valor'], color='lightgreen')
-plt.title('Boxplot dos Dados')
+# # Boxplot
+# plt.subplot(1, 2, 2)
+# sns.boxplot(x=df['valor'], color='lightgreen')
+# plt.title('Boxplot dos Dados')
 
-# Mostrar os gráficos
-plt.tight_layout()
-plt.show()
+# # Mostrar os gráficos
+# plt.tight_layout()
+# plt.show()
+
+#====================
+#====================
+
+#EX:
+
+# import numpy as np 
+# import matplotlib.pyplot as plt
+
+# # Garantir reprodutibilidade
+# np.random.seed(42)
+
+# # Parâmetro da distribuição exponencial
+# lambda_param = 2
+# valor_esperado = 1 / lambda_param  # E[X] = 1/λ = 0.5
+
+# # Número total de experimentos (amostras)
+# n_experimentos = 10000
+
+# # Gerar amostras da distribuição exponencial
+# # scale = 1/λ porque np.random.exponential usa o parâmetro de escala (θ = 1/λ)
+# amostras = np.random.exponential(scale=1/lambda_param, size=n_experimentos)
+
+# # Calcular a média acumulada (média amostral a cada novo ponto)
+# medias_acumuladas = np.cumsum(amostras) / np.arange(1, n_experimentos + 1)
+
+# # Plotando o gráfico
+# plt.figure(figsize=(10, 5))
+# plt.plot(medias_acumuladas, label="Média acumulada")
+# plt.axhline(valor_esperado, color="red", linestyle="--", label=f"Valor esperado (E[X] = {valor_esperado})")
+# plt.xlabel("Número de amostras")
+# plt.ylabel("Média acumulada")
+# plt.title("Lei dos Grandes Números - Distribuição Exponencial (λ = 2)")
+# plt.legend()
+# plt.grid(True, color="purple", linestyle="--", alpha=0.9)
+# plt.tight_layout()  # garante que nada do grafico fique cortado
+# plt.show()
+
+# # O QUE MUDA É O PLT.AXHLINE, ABAIXO 1 SOBRE LAMBDA O OUTRO FOI CRIADO UMA VARIAVEL, DÁ NA MESMA
+# import numpy as np
+# import matplotlib.pyplot as plt
+
+# np.random.seed(42)
+
+# # Parâmetros
+# lambda_ = 2
+# n_experimentos = 10000
+
+# # Gerando amostras da distribuição exponencial com lambda=2
+# # Escala da exponencial é 1/lambda
+# amostras = np.random.exponential(scale=1/lambda_, size=n_experimentos)
+
+# # Média acumulada
+# medias_acumuladas = np.cumsum(amostras) / np.arange(1, n_experimentos + 1)
+
+# # Plotando
+# plt.figure(figsize=(10, 5))
+# plt.plot(medias_acumuladas, label="Média acumulada")
+# plt.axhline(1/lambda_, color="red", linestyle="--", label="Valor esperado (0.5)")
+# plt.xlabel("Número de amostras")
+# plt.ylabel("Média acumulada")
+# plt.title("Lei dos Grandes Números para Distribuição Exponencial (λ = 2)")
+# plt.legend()
+# plt.grid(True)
+# plt.tight_layout()  # garante que nada do grafico fique cortado
+# plt.show()
+
+#====================
+#====================
+
+####nova print(\n = pula linha , \t = dá espaço )
+
+#EX:
+
+# import numpy as np
+# from collections import Counter
+
+# np.random.seed(42)
+
+# # Espaço amostral dos lançamentos
+# resultados = ['B', 'C']
+
+# # Número de experimentos
+# n_experimentos = 10000
+
+# # Simulando 10.000 lançamentos de 2 moedas
+# moeda1 = np.random.choice(resultados, size=n_experimentos)
+# moeda2 = np.random.choice(resultados, size=n_experimentos)
+
+# # Combinando os resultados em tuplas (moeda1, moeda2)
+# #lancamentos = list(zip(moeda1, moeda2))
+# lancamentos = [(str(m1), str(m2)) for m1, m2 in zip(moeda1, moeda2)]  # aparece mais simples ao executar
+
+
+# # Contando as frequências empíricas
+# contagem = Counter(lancamentos)
+
+# # Frequência empírica (proporção)
+# frequencias_empiricas = {k: v / n_experimentos for k, v in contagem.items()}
+
+# # Probabilidade teórica (uniforme)
+# prob_teorica = 1 / 4
+
+# print("Frequências empíricas:")
+# for resultado, freq in frequencias_empiricas.items():
+#     print(f"{resultado}: {freq:.4f} (teórica: {prob_teorica:.4f})")
+
+
+# # # outra forma
+
+# import random
+# from collections import Counter
+
+# # Definindo o espaço amostral
+# espaco_amostral = [('B', 'B'), ('C', 'C'), ('B', 'C'), ('C', 'B')]
+
+# # Probabilidade teórica para cada evento (moeda justa)
+# prob_teorica = 1 / 4
+
+# # Simulando 10.000 lançamentos de dois lançamentos de moeda
+# resultados = []
+# for _ in range(10000):
+#     lancamento1 = random.choice(['B', 'C'])
+#     lancamento2 = random.choice(['B', 'C'])
+#     resultados.append((lancamento1, lancamento2))
+
+# # Contando as frequências empíricas
+# frequencias_empiricas = Counter(resultados)
+
+# # Exibindo resultados
+# print("Evento\tFreq. Empírica\tProb. Teórica")
+# for evento in espaco_amostral:
+#     freq = frequencias_empiricas[evento] / 10000
+#     print(f"{evento}\t{freq:.4f}\t\t{prob_teorica:.4f}")
+
+
+# #forma prof
+
+# import random
+# from collections import Counter
+
+# espaco_amostral = [(a,b) for a in ['B','C'] for b in ['B','C']]
+# print("Espacço amostral", espaco_amostral)
+
+# resultado = [(random.choice(['B','C']), random.choice(['B','C'])) for _ in range(10000)]
+# #print(resultado)
+# frequencia = Counter(resultado)
+# print(frequencia)
+
+
+#EX:
+#dica pares =  
+# pares = [x for x in range(1,7) if x % 2 == 0]
+#random.randint(1,6) 
+
+import random
+
+lancamentos = 10000
+pares = 0
+
+for _ in range(lancamentos):
+    if random.randint(1, 6) % 2 == 0:
+        pares += 1
+
+prob_simulada = pares / lancamentos
+
+print(f"Probabilidade simulada: {prob_simulada}")
+
+
+#form prof
+
+pares = [x for x in range(1,7) if x % 2 == 0]
+prob_teorica = len(pares) / 6
+
+simulacao = [random.randint(1,6) for _ in range(10000)]
+freq_par = sum(1 for x in simulacao if x % 2 == 0) / len(simulacao)
+
+print(f"Probalidade teórica: {prob_teorica}, Simulada: {freq_par}")
