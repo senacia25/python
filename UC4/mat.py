@@ -617,26 +617,28 @@
 # pares = [x for x in range(1,7) if x % 2 == 0]
 #random.randint(1,6) 
 
+# import random
+
+# lancamentos = 10000
+# pares = 0
+
+# for _ in range(lancamentos):
+#     if random.randint(1, 6) % 2 == 0:
+#         pares += 1
+
+# prob_simulada = pares / lancamentos
+
+# print(f"Probabilidade simulada: {prob_simulada}")
+
+
+##form prof
+
 import random
 
-lancamentos = 10000
-pares = 0
+pares = [x for x in range(1,7) if x % 2 == 0] # range 1 a 6 exclui 7, gera um numero interio aleatório de 1 a 6
+prob_teorica = len(pares) / 6 # len quantida no caso 3- (2, 4, 6)
 
-for _ in range(lancamentos):
-    if random.randint(1, 6) % 2 == 0:
-        pares += 1
-
-prob_simulada = pares / lancamentos
-
-print(f"Probabilidade simulada: {prob_simulada}")
-
-
-#form prof
-
-pares = [x for x in range(1,7) if x % 2 == 0]
-prob_teorica = len(pares) / 6
-
-simulacao = [random.randint(1,6) for _ in range(10000)]
+simulacao = [random.randint(1,6) for _ in range(10000)] #randint vai jogar esses 1000 vezes de 1 a 6
 freq_par = sum(1 for x in simulacao if x % 2 == 0) / len(simulacao)
 
 print(f"Probalidade teórica: {prob_teorica}, Simulada: {freq_par}")
