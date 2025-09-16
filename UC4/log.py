@@ -95,32 +95,175 @@
 #================
 #================
 
-import random
+# import random
+# from collections import Counter
 
-resultados = []
-bola = ["R", "R", "R", "B", "B"]
-for _ in range(10000):
-    lancamento1 = random.choice(['B', 'C'])
-    lancamento2 = random.choice(['B', 'C'])
-    resultados.append((lancamento1, lancamento2))
-frequencias_empiricas = Counter(resultados)
+# resultados = []
+# bola = ["R", "R", "R", "B", "B"]
+# for _ in range(10000):
+#     lancamento1 = random.choice(['B', 'C'])
+#     lancamento2 = random.choice(['B', 'C'])
+#     resultados.append((lancamento1, lancamento2))
+# frequencias_empiricas = Counter(resultados)
 
 
-#======outra
+# #======outra
 
-import random
-from collections import Counter
+# import random
+# from collections import Counter
 
-urna = ['R', 'R', 'R', 'B', 'B']
+# urna = ['R', 'R', 'R', 'B', 'B']
 
-simulacoes = [random.choice(urna) for _ in range(10000)]
-frequencia = Counter(simulacoes)
+# simulacoes = [random.choice(urna) for _ in range(10000)]
+# frequencia = Counter(simulacoes)
 
-print("Frequência dos resultados:")
-print(frequencia)
+# print("Frequência dos resultados:")
+# print(frequencia)
 
-prob_R = frequencia['R'] / 10000
-prob_B = frequencia['B'] / 10000
+# prob_R = frequencia['R'] / 10000
+# prob_B = frequencia['B'] / 10000
 
-print(f"\nProbabilidade estimada de sair 'R': {prob_R:.4f}")
-print(f"Probabilidade estimada de sair 'B': {prob_B:.4f}")
+# print(f"\nProbabilidade estimada de sair 'R': {prob_R:.4f}")
+# print(f"Probabilidade estimada de sair 'B': {prob_B:.4f}")
+
+#================ tecnica/simulação monte carlo
+#================
+
+# import numpy as np
+
+# bolas = ['R','R','R','B','B']
+# n_sim = 10000
+# resultados = []
+
+# for _ in range(n_sim):
+#     np.random.shuffle(bolas)
+#     sorteio = bolas[0]
+#     resultados.append(sorteio)
+
+# resultados = np.array(resultados)
+# A = resultados == 'R'
+# B = np.arange(n_sim) % 2 == 1
+
+# P_sim = np.mean(A | B) #|= ou, & e
+# print(f"Exercício - Probabilidade (bola vermelha ou índice ímpar) ~ {P_sim:.2f}")
+
+#================
+#================
+
+# import numpy as np
+
+# bolas = ['R','R','R','B','B']
+# n_sim = 10000
+# resultados = []
+
+# for _ in range(n_sim):
+#     np.random.shuffle(bolas)
+#     sorteio = bolas[0]
+#     resultados.append(sorteio)
+
+# resultados = np.array(resultados)
+# A = resultados == 'B'
+# B = np.arange(n_sim) % 5 == 1
+
+# P_sim = np.mean(A & B) 
+# print(f"Exercício - Probabilidade (bola vermelha ou índice ímpar) ~ {P_sim:.2f}")
+
+#================
+#================
+
+# import numpy as np
+
+# bolas = ['R','R','R','B','B']
+# n_sim = 10000
+
+# sorteio = np.random.choice(bolas, size=(n_sim, 3), replace=True)
+
+# A = np.all(sorteio == 'R', axis=1) #axis=1 = verifica se todos sao true
+
+# P_sim = np.mean(A) 
+# print(f"Exercício - Probabilidade (bola vermelha ou índice ímpar) ~ {P_sim:.2f}")
+
+#================
+# | Função                    | O que faz?                                                                                           |
+# | ------------------------- | ---------------------------------------------------------------------------------------------------- |
+# | `random.shuffle(lista)`   | Embaralha toda a lista original.                                                                     |
+# | `random.sample(lista, n)` | Retorna uma nova lista com `n` itens aleatórios da original, **sem repetição**. A original não muda. |
+
+#================
+#================
+
+# import random
+# import numpy as np
+# import statistics
+
+# # numeros = [random.randint(1, 50)for _ in range(10)] # pode repetir alguns numeros que já sairam
+# # print("Lista de números:", numeros)
+
+# numeros = random.sample(range(1, 51), 25) # nao repeti nem um numero a sequencia
+# print("Lista de números:", numeros)
+
+# # numeros = list(range(1, 51), 10)
+# # print(numeros)
+
+# media = np.mean(numeros)
+# mediana = np.median(numeros)
+# moda = statistics.mode(numeros)
+# # moda = statistics.multimode(numeros)
+
+# # try:
+# #     moda = statistics.mode(numeros)
+# # except statistics.StatisticsError:
+# #     moda = "Sem moda (todos os valores são únicos)"
+
+# print(f"Média: {media}")
+# print(f"Mediana: {mediana}")
+# print(f"Moda: {moda}")
+
+#================
+#======EX==========
+
+# import numpy as np
+
+# n = [12, 15, 12, 18, 20, 15, 22, 19, 15, 10]
+
+# print("Desvio padrão", np.std(n))
+# print("Variância", np.var(n))
+# print("media", np.mean(n))
+# print("mediana", np.median(n))
+
+##outro
+# # Cálculo da variância e desvio padrão
+# variancia = np.var(n, ddof=0)  # Populacional
+# desvio_padrao = np.std(n, ddof=0)  # Populacional
+
+# print("Lista de números:", n)
+# print(f"Variância: {variancia}")
+# print(f"Desvio padrão: {desvio_padrao}")
+
+#================
+#======EX==========
+
+# import matplotlib.pyplot as plt
+# from collections import Counter
+
+# n = [12, 15, 12, 18, 20, 15, 22, 19, 15, 10]
+# frequencia = dict(Counter(n))
+# print(frequencia)
+
+# # f = Counter(n)
+# # print(f)
+
+
+# # Dados para o gráfico
+# valores = list(frequencia.keys())
+# ocorrencias = list(frequencia.values())
+
+# # Criar histograma
+# #plt.hist(n, bins=range(min(n), max(n)+2), edgecolor="black") # outra forma
+# plt.bar(valores, ocorrencias, color='red', edgecolor='black')
+# plt.xlabel('Números')
+# plt.ylabel('Frequência')
+# plt.title('Histograma de Frequência dos Números')
+# plt.grid(axis='y',color='black', alpha=0.7)
+# plt.show()
+

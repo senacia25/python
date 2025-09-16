@@ -15,7 +15,7 @@
 # import matplotlib.pyplot as plt
 # from collections import Counter
 
-# dados = [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5]
+# dados = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5]
 # frequencia = Counter(dados)
 
 # plt.bar(frequencia.keys(), frequencia.values())
