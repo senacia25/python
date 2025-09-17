@@ -267,3 +267,172 @@
 # plt.grid(axis='y',color='black', alpha=0.7)
 # plt.show()
 
+#================
+#================
+
+# import numpy as np
+
+# altura = [160, 165, 170, 175, 180, 185, 160, 170, 175, 180]
+# peso = [55,  60,  65,  70,  75,  80,  58,  68,  72,  77]
+
+# corr = np.corrcoef(altura, peso)[0, 1]
+# print(f"Coeficiente de correlação de Pearson: {corr:.2f}")
+
+#================
+#=======percentil quartil=========
+
+# import numpy as np
+
+# numeros = [12, 15, 12, 18, 20, 15, 22, 19, 15, 10]
+
+# q1 = np.percentile(numeros, 25) 
+# q2 = np.percentile(numeros, 50) 
+# q3 = np.percentile(numeros, 75) 
+
+# print("25%:", q1)
+# print("50%:", q2)
+# print("75%:", q3)
+
+## só pra testar # Filtra os valores menores ou iguais a cada percentil
+## abaixo_q1 = [n for n in numeros if n <= q1]
+## abaixo_q2 = [n for n in numeros if n <= q2]
+## abaixo_q3 = [n for n in numeros if n <= q3]
+
+## # Mostra os resultados
+## print("25% (Q1):", q1, "-> Números:", abaixo_q1)
+## print("50% (Q2):", q2, "-> Números:", abaixo_q2)
+## print("75% (Q3):", q3, "-> Números:", abaixo_q3)
+
+#================
+#================
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+# dados = [10, 12, 12, 15, 18, 20, 22, 100,]
+
+# # 1. Média
+# media = np.mean(dados)
+
+# # 2. Desvio padrão (padrão populacional)
+# desvio_padrao = np.std(dados)
+
+# # 3. Limites para detecção de outliers (> 2 desvios da média)
+# limite_inferior = media - 2 * desvio_padrao
+# limite_superior = media + 2 * desvio_padrao
+
+# # 4. Detectar valores fora desses limites
+# outliers = [x for x in dados if x < limite_inferior or x > limite_superior] # x for x dados= pecorre a lista
+
+# #jeito prof
+
+# outliers1 = [x for x in dados if abs(x - media) > 2 * desvio_padrao] #abs = pega o valor absoluto, ignora se a diferença é positivva ou negativa
+
+# # 5. Exibir resultados
+# print("Média:", media)
+# print(f"Desvio padrão: {desvio_padrao:.2f}")
+# print(f"Limite inferior: {limite_inferior:.2f}")
+# print(f"Limite superior: {limite_superior:.2f}")
+# print("Outliers (> 2 desvios da média):", outliers)
+# print("jeito prof: não precisa fazer parte 2 e 3\nOutliers (> 2 desvios da média):", outliers1)
+
+# plt.boxplot(dados, vert=False)
+# plt.title("Boxplot dos dados com outlier")
+# plt.xlabel("Valores")
+# plt.grid()
+# plt.show()
+
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+
+# # Dados
+# dados = [10, 12, 12, 15, 18, 20, 22, 100]
+
+# # 1. Média
+# media = np.mean(dados)
+
+# # 2. Desvio padrão (populacional)
+# desvio_padrao = np.std(dados)
+
+# # 3. Limites para detecção de outliers (> 2 desvios da média)
+# limite_inferior = media - 2 * desvio_padrao
+# limite_superior = media + 2 * desvio_padrao
+
+# # 4. Detectar outliers
+# outliers = [x for x in dados if x < limite_inferior or x > limite_superior]
+
+# # 5. Exibir resultados no console
+# print("Média:", media)
+# print(f"Desvio padrão: {desvio_padrao:.2f}")
+# print(f"Limite inferior: {limite_inferior:.2f}")
+# print(f"Limite superior: {limite_superior:.2f}")
+# print("Outliers (> 2 desvios da média):", outliers)
+
+# # 6. Gráfico
+# plt.figure(figsize=(10, 5))
+# plt.plot(dados, 'bo-', label='Dados')
+# plt.axhline(media, color='green', linestyle='--', label='Média')
+# plt.axhline(limite_inferior, color='red', linestyle='--', label='Limite Inferior')
+# plt.axhline(limite_superior, color='red', linestyle='--', label='Limite Superior')
+
+# # Destacar os outliers no gráfico
+# for i, valor in enumerate(dados):
+#     if valor in outliers:
+#         plt.plot(i, valor, 'ro', markersize=10, label='Outlier' if 'Outlier' not in plt.gca().get_legend_handles_labels()[1] else "")
+
+# plt.title('Detecção de Outliers (> 2 desvios da média)')
+# plt.xlabel('Índice')
+# plt.ylabel('Valor')
+# plt.legend()
+# plt.grid(True)
+# plt.tight_layout()
+# plt.show()
+
+#================
+#================
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Gerar 100 números aleatórios com distribuição normal (média=50, desvio padrão=10)
+dados = np.random.normal(loc=50, scale=10, size=100) #loc: é a média da distribuição normal/ scale: é o desvio padrão/ size: é o número de elementos que você quer gerar.
+
+# Plotar o histograma
+plt.figure(figsize=(8, 5), facecolor='lightblue')
+plt.gca().set_facecolor('yellow')
+plt.hist(dados, bins=10, color='purple', edgecolor='blue')
+plt.title('Histograma de Dados com Distribuição Normal')
+plt.xlabel('Valor')
+plt.ylabel('Frequência')
+plt.grid(True, color='green')
+plt.show()
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+
+# # Gerar dados
+# dados = np.random.normal(loc=50, scale=10, size=100)
+
+# # Criar figura e eixos
+# fig, ax = plt.subplots(figsize=(8, 5))
+
+# # Alterar cor de fundo da área do gráfico (atrás dos bins)
+# ax.set_facecolor('pink')  # <- AQUI você muda o fundo atrás dos bins
+
+# # Plotar histograma
+# ax.hist(dados, bins=10, color='skyblue', edgecolor='black')
+
+# # Títulos e rótulos
+# ax.set_title('Histograma com Cor de Fundo Personalizada')
+# ax.set_xlabel('Valor')
+# ax.set_ylabel('Frequência')
+
+# # Grade
+# ax.grid(True)
+
+# # Exibir gráfico
+# plt.show()
+
+
+
+
