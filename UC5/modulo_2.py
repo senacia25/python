@@ -51,7 +51,7 @@ engine = create_engine("mysql+pymysql://root:123456@localhost/sistema_vendas")
 
 
 #pratica
-print("==========")
+# print("==========")
 
 # # Carregando os dados
 # itens_pedido = pd.read_sql("SELECT * FROM itens_pedido", engine)

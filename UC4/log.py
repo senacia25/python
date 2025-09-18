@@ -391,21 +391,21 @@
 #================
 #================
 
-import numpy as np
-import matplotlib.pyplot as plt
+# import numpy as np
+# import matplotlib.pyplot as plt
 
-# Gerar 100 números aleatórios com distribuição normal (média=50, desvio padrão=10)
-dados = np.random.normal(loc=50, scale=10, size=100) #loc: é a média da distribuição normal/ scale: é o desvio padrão/ size: é o número de elementos que você quer gerar.
+# # Gerar 100 números aleatórios com distribuição normal (média=50, desvio padrão=10)
+# dados = np.random.normal(loc=50, scale=10, size=100) #loc: é a média da distribuição normal/ scale: é o desvio padrão/ size: é o número de elementos que você quer gerar.
 
-# Plotar o histograma
-plt.figure(figsize=(8, 5), facecolor='lightblue')
-plt.gca().set_facecolor('yellow')
-plt.hist(dados, bins=10, color='purple', edgecolor='blue')
-plt.title('Histograma de Dados com Distribuição Normal')
-plt.xlabel('Valor')
-plt.ylabel('Frequência')
-plt.grid(True, color='green')
-plt.show()
+# # Plotar o histograma
+# plt.figure(figsize=(8, 5), facecolor='lightblue')
+# plt.gca().set_facecolor('yellow')
+# plt.hist(dados, bins=10, color='purple', edgecolor='blue')
+# plt.title('Histograma de Dados com Distribuição Normal')
+# plt.xlabel('Valor')
+# plt.ylabel('Frequência')
+# plt.grid(True, color='green')
+# plt.show()
 
 # import numpy as np
 # import matplotlib.pyplot as plt
@@ -433,6 +433,65 @@ plt.show()
 # # Exibir gráfico
 # plt.show()
 
+#================
+#================
 
+# import numpy as np
+# import pandas as pd
+# temperaturas = np.random.randint(20, 35, size=20) #(início, fim, size=n) início: valor mínimo (inclusive),fim: valor máximo (exclusivo), size=n: quantidade de números que você quer gerar
+# df_temp = pd.DataFrame(temperaturas, columns=['Temperatura'])
+# df_temp['Media_Movel'] = df_temp['Temperatura'].rolling(window=3).mean()
+# print(df_temp)
 
+#================
+#================
 
+# import pandas as pd
+
+# serie = pd.Series([10,20,5,30])
+# print(serie)
+
+# dados = {
+#     'Nome':['Ana', 'Bruno', 'Carlos'],
+#     'Idade':[25,30,22],
+#     'Cidade':['SP', 'RJ', 'PR']
+# }
+# df = pd.DataFrame(dados)
+# print(df)
+
+#================
+#================
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# import pandas as pd
+# import numpy as np
+
+# dados = np.random.normal(loc=50, scale=10, size=100)
+
+# sns.histplot(dados, kde=True, bins=10, color='skyblue')#,  stat='density') # mudar a cor do kde
+# # sns.kdeplot(dados, color='red', linewidth=2) # mudar a cor do kde
+# plt.title('Histograma com Densidade')
+# plt.show()
+
+#================
+#================
+
+import pandas as pd
+
+dados = {
+    'Nome':['Ana', 'Bruno', 'Carlos', 'Diana', 'Eduardo'],
+    'Idade':[25,30,22,65,45],
+    'Salário':[1252,2569,2548,3694,12578],
+    'Departamento':['TI','RE','TI','FINANCEIRO','ADM']
+}
+df = pd.DataFrame(dados)
+print(df.head())
+print(df.describe())
+print(df[df['Salário'] > 2000])
+print(df.groupby('Departamento') ['Salário'].mean())
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.
