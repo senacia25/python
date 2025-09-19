@@ -477,21 +477,96 @@
 #================
 #================
 
-import pandas as pd
+# import pandas as pd
 
-dados = {
-    'Nome':['Ana', 'Bruno', 'Carlos', 'Diana', 'Eduardo'],
-    'Idade':[25,30,22,65,45],
-    'Salário':[1252,2569,2548,3694,12578],
-    'Departamento':['TI','RE','TI','FINANCEIRO','ADM']
-}
-df = pd.DataFrame(dados)
-print(df.head())
-print(df.describe())
-print(df[df['Salário'] > 2000])
-print(df.groupby('Departamento') ['Salário'].mean())
+# dados = {
+#     'Nome':['Ana', 'Bruno', 'Carlos', 'Diana', 'Eduardo'],
+#     'Idade':[25,30,22,65,45],
+#     'Salário':[1252,2569,2548,3694,12578],
+#     'Departamento':['TI','RE','TI','FINANCEIRO','ADM']
+# }
+# df = pd.DataFrame(dados)
+# print(df.head())
+# print(df.describe())
+# print(df[df['Salário'] > 2000])
+# print(df.groupby('Departamento') ['Salário'].mean())
 
-import seaborn as sns
-import matplotlib.pyplot as plt
+#================
+#================
 
-sns.
+#nao fecha o grafico
+# plt.figure
+# plt.show(block=False)
+#precisa do close se nao, nao permanece aberto
+# input("Pressione Enter para fechar tudo...") 
+# plt.close('all') 
+
+# import matplotlib.pyplot as plt 
+# import numpy as np 
+
+# x = np.linspace(0, 10, 100) 
+
+# # Primeiro gráfico 
+
+# plt.figure() 
+# plt.plot(x, np.sin(x)) 
+# plt.title("Seno") 
+# plt.show(block=False)  # NÃO bloqueia o código, janela fica aberta 
+
+# # Segundo gráfico 
+
+# plt.figure() 
+# plt.plot(x, np.cos(x)) 
+# plt.title("Cosseno") 
+# plt.show(block=False) 
+
+# # Terceiro gráfico 
+
+# plt.figure() 
+# plt.plot(x, np.tan(x)) 
+# plt.ylim(-10, 10) 
+# plt.title("Tangente") 
+# plt.show(block=False) 
+
+# input("Pressione Enter para fechar tudo...") 
+# plt.close('all') 
+
+#================
+#================
+
+# import pandas as pd
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# dados = {
+#     'Nome':['Ana', 'Bruno', 'Carlos', 'Diana', 'Eduardo'],
+#     'Idade':[25,30,22,65,45],
+#     'Salário':[1252,2569,2548,3694,12578],
+#     'Departamento':['TI','RE','TI','FINANCEIRO','ADM']
+# }
+# df = pd.DataFrame(dados)
+
+# plt.figure() 
+# sns.scatterplot(x="Idade", y= "Salário", hue="Departamento", data=df)
+# plt.title("Idade x Salário")
+# plt.show(block=False)
+
+# #Martiz de correlação
+# correlacao = df.corr(numeric_only=True)
+# print("Correlação entre variáveis: ")
+# print(correlacao)
+
+# #heatmap para visualização
+
+# plt.figure() 
+# sns.heatmap(correlacao, annot=True, cmap="coolwarm")
+# plt.title("Mapa de correlação")
+# plt.show(block=False)
+
+# plt.figure(figsize=(8,6))
+# sns.violinplot(x="Departamento", y="Salário", data=df)
+# plt.title("Distribuição de salário por departamento")
+# plt.show(block=False)
+
+# input("Pressione Enter para fechar tudo...") 
+# plt.close('all') 
