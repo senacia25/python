@@ -86,3 +86,13 @@
 
 # print("🔮 Números mais prováveis para o próximo sorteio:")
 # print(mais_sugeridos_sorted)
+
+#=============
+#=============
+#=============
+
+import random
+
+# Gerar 6 números aleatórios para a Mega-Sena (entre 1 e 60)
+numeros_mega_sena = sorted(random.sample(range(1, 61), 6))
+print(numeros_mega_sena)
