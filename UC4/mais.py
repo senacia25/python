@@ -166,40 +166,81 @@
 # plt.grid(True)
 # plt.show()
 
-import pandas as pd
+#=================
+#=================
 
-dados = "UC4/dados.csv"
-df_dados = pd.read_csv(dados, parse_dates=["Data"])
+# import pandas as pd
 
-vendas_por_regiao_produto = df_dados.groupby(["Região", "Produto"])["Vendas"].sum()
+# dados = "UC4/dados.csv"
+# df_dados = pd.read_csv(dados, parse_dates=["Data"])
 
-produto_mais_vendido_por_regiao = vendas_por_regiao_produto.groupby("Região").idxmax()
+# vendas_por_regiao_produto = df_dados.groupby(["Região", "Produto"])["Vendas"].sum()
 
-print(produto_mais_vendido_por_regiao)
+# produto_mais_vendido_por_regiao = vendas_por_regiao_produto.groupby("Região").idxmax()
 
-vendas_por_regiao_produto = df_dados.groupby(["Região", "Produto"])["Vendas"].sum().reset_index()
+# print(produto_mais_vendido_por_regiao,"\n")
 
-print(vendas_por_regiao_produto)
+# # ===prof
+# mais_vendido_por_regiao = df_dados.groupby(["Região", "Produto"])["Vendas"].sum().reset_index()
 
+# mais_vendido = mais_vendido_por_regiao.loc[mais_vendido_por_regiao.groupby("Região")["Vendas"].idxmax()]
 
-
-
-
-
-
-
+# print(mais_vendido,"\n")
 
 
-
-
-
-
-
-
-
-
-# # Exibir o produto mais vendido por região
+# #só pra mais detalhe, Exibir o produto mais vendido por região
 # for regiao, produto in produto_mais_vendido_por_regiao.items():
 #     produto_vendido = vendas_por_regiao_produto[produto]
 #     print(f"Na região {regiao}, o produto mais vendido foi {produto[1]} com {produto_vendido} unidades vendidas.")
 
+#=================
+#=================
+
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+
+# dados = "UC4/dados.csv"
+# df_dados = pd.read_csv(dados, parse_dates=["Data"])
+
+# preco_medio = df_dados.groupby(["Região", "Produto"])["Preço Unitário"].mean().reset_index()
+# print(preco_medio)
+
+# # pivot para facilitar
+# pivot = preco_medio.pivot(index="Produto", columns="Região",values="Preço Unitário")
+# print(pivot)
+
+# # --- Agrupar ---
+# df_grouped = df_dados.groupby(['Produto','Região'])['Preço Unitário'].mean().reset_index()
+# print (df_grouped)
+# # --- Pivot para facilitar ---
+# pivot = df_grouped.pivot(index='Produto', columns='Região', values='Preço Unitário')
+
+# # --- 1. Gráfico de barras agrupadas ---
+# pivot.plot(kind='bar', figsize=(10,6))
+# plt.title('Preço Médio por Produto e Região - Barras Agrupadas')
+# plt.ylabel('Preço Médio (R$)')
+# plt.xlabel('Produto')
+# plt.legend(title='Região')
+# plt.xticks(rotation=45)
+# plt.show()
+
+# # --- 2. Gráfico de linhas ---
+# pivot.plot(kind='line', marker='o', figsize=(10,6))
+# plt.title('Preço Médio por Produto e Região - Linha')
+# plt.ylabel('Preço Médio (R$)')
+# plt.xlabel('Produto')
+# plt.legend(title='Região')
+# plt.grid(True)
+# plt.show()
+
+# # --- 3. Gráfico de barras horizontais ---
+# plt.figure(figsize=(10,6))
+# sns.barplot(data=df_grouped, x='Preço Unitário', y='Produto', hue='Região')
+# plt.title('Preço Médio por Produto e Região - Barras Horizontais')
+# plt.xlabel('Preço Médio (R$)')
+# plt.ylabel('Produto')
+# plt.show()
+
+#=================
+#=================
