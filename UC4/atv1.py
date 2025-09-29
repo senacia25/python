@@ -141,3 +141,40 @@ print(df['Aeroporto Origem'].value_counts().head(5))
 #       GRU (Guarulhos) – 20 voos
 #       BSB (Brasília) – 18 voos
 
+
+# 5
+
+# Criar uma coluna com o mês/ano
+df['Ano-Mês'] = df['Data'].dt.to_period('M')
+
+# Receita média por mês
+receita_media_mes = df.groupby('Ano-Mês')['Receita (R$)'].mean().sort_index()
+
+print("\nReceita média por mês:")
+print(receita_media_mes)
+
+receita_media_mes.index = receita_media_mes.index.astype(str)
+
+
+plt.figure(figsize=(12, 6))
+sns.lineplot(x=receita_media_mes.index, y=receita_media_mes.values, marker='o')
+plt.title('Receita Média por Mês')
+plt.xlabel('Ano-Mês')
+plt.ylabel('Receita Média (R$)')
+plt.tight_layout()
+plt.show()
+
+
+# Ocupação média por companhia
+ocupacao_media = df.groupby('Companhia')['Ocupação (%)'].mean().sort_values(ascending=False)
+
+print("\nOcupação média por companhia:")
+print(ocupacao_media)
+
+plt.figure(figsize=(10, 6))
+sns.barplot(x=ocupacao_media.values, y=ocupacao_media.index, palette='viridis')
+plt.title('Ocupação Média por Companhia')
+plt.xlabel('Ocupação Média (%)')
+plt.ylabel('Companhia')
+plt.tight_layout()
+plt.show()
