@@ -148,7 +148,7 @@ print(df['Aeroporto Origem'].value_counts().head(5))
 df['Ano-Mês'] = df['Data'].dt.to_period('M')
 
 # Receita média por mês
-receita_media_mes = df.groupby('Ano-Mês')['Receita (R$)'].mean().sort_index()
+receita_media_mes = df.groupby('Ano-Mês')['Receita (R$)'].mean().sort_index() #reset_index()
 
 print("\nReceita média por mês:")
 print(receita_media_mes)
@@ -178,3 +178,69 @@ plt.xlabel('Ocupação Média (%)')
 plt.ylabel('Companhia')
 plt.tight_layout()
 plt.show()
+
+
+
+# Criar coluna de rota
+df['Rota'] = df['Aeroporto Origem'] + ' -> ' + df['Aeroporto Destino']
+
+# Agrupar por Companhia + Rota
+agrupado = df.groupby(['Companhia', 'Rota']).agg({
+    'Ocupação (%)': 'mean',
+    'Receita (R$)': 'sum',
+    'Passageiros': 'sum'
+}).reset_index()
+
+# Calcular Receita por Passageiro
+agrupado['Receita por Passageiro'] = agrupado['Receita (R$)'] / agrupado['Passageiros']
+
+# Escolher o critério: Ocupação (%) ou Receita por Passageiro
+# Para exemplo, vamos usar Receita por Passageiro como métrica principal
+top_rotas = agrupado.sort_values(by='Receita por Passageiro', ascending=False)
+
+# Mostrar top 5 rotas mais eficientes por companhia
+print("\nTop 5 rotas mais eficientes por companhia (baseado em Receita por Passageiro):\n")
+
+# Criar lista para armazenar resultados
+top5_por_companhia = []
+
+for companhia in top_rotas['Companhia'].unique():
+    top = top_rotas[top_rotas['Companhia'] == companhia].head(5)
+    top5_por_companhia.append(top)
+
+# Concatenar tudo e mostrar
+resultado_top5 = pd.concat(top5_por_companhia)
+print(resultado_top5[['Companhia', 'Rota', 'Ocupação (%)', 'Receita por Passageiro']])
+
+# Visualização (opcional)
+plt.figure(figsize=(12, 6))
+sns.barplot(data=resultado_top5, x='Receita por Passageiro', y='Rota', hue='Companhia')
+plt.title('Top 5 Rotas Mais Eficientes por Companhia (Receita por Passageiro)')
+plt.xlabel('Receita por Passageiro (R$)')
+plt.ylabel('Rota')
+plt.legend(title='Companhia')
+plt.tight_layout()
+plt.show()
+
+
+
+# Garantir que 'Ano-Mês' está como string para o gráfico
+df['Ano-Mês'] = df['Data'].dt.to_period('M').astype(str)
+
+# Agrupar por Ano-Mês e Companhia, somando os passageiros
+evolucao_passageiros = df.groupby(['Ano-Mês', 'Companhia'])['Passageiros'].sum().reset_index()
+
+# Plotar
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=evolucao_passageiros, x='Ano-Mês', y='Passageiros', hue='Companhia', marker='o')
+plt.title('Evolução Mensal do Total de Passageiros por Companhia')
+plt.xlabel('Ano-Mês')
+plt.ylabel('Total de Passageiros')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+
+
+
+
