@@ -105,14 +105,13 @@ import matplotlib.pyplot as plt
 
 def f(a):
     return 2*x**2 + 2*x - 1
-    # v = np.array([2*x**2 + 2*x - 1])
-    # r = f(x)(v)
-
-# x = np.linspace(-3, 3, 7)     
-# y = f(x)
-# se quiser como array, y chama a função com o parametro variavel x
-x = np.array([-3, -2, -1, 0, 1, 2, 3])
+  
+x = np.linspace(-3, 3, 7)     
 y = f(x)
+
+# se quiser como array, y chama a função com o parametro variavel x
+# x = np.array([-3, -2, -1, 0, 1, 2, 3])
+# y = f(x)
 
 plt.axhline(0, color="black", linewidth=1)
 plt.axvline(0, color="black", linewidth=1)
