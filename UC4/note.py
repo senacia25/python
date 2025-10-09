@@ -5,3 +5,6 @@
 
 # print("ok", "\u2714") #sinal de certo
 
+# import time
+# time.sleep(1)  #pausa por 1 ou mais segundos antes do codigo continuar
+
