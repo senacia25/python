@@ -26,12 +26,12 @@ def quiz(perguntas):
         for op in p["opcoes"]:
             print(op)
         resposta = input("Sua resposta: ").strip().upper()
-        if resposta == p["correta"]:
-            print("Corrreto", "\u2714") # "\u2714" código para certo, ok
+        if resposta == p["correta"]:  # -==- pode usar -is-
+            print("Correto", "\u2714") # "\u2714" código para certo, ok
             score += 1
         elif resposta == "S":
-            print("Encerradando Quiz...")
-            time.sleep(3)
+            print("Encerrando Quiz...")
+            time.sleep(2)
             print("Quiz finalizado!")
             time.sleep(1)
             break

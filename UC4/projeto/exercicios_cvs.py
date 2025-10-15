@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Carregando o CSV
-data = pd.read_csv("UC4/projetoindustria.csv", parse_dates=["Data"])
+data = pd.read_csv("UC4/projeto/industria.csv", parse_dates=["Data"])
 
 # Visualizando os dados
 print(data.head())
