@@ -30,9 +30,9 @@ def quiz(perguntas):
             print("Correto", "\u2714") # "\u2714" código para certo, ok
             score += 1
         elif resposta == "S":
-            print("Encerrando Quiz...")
+            print("\n\tEncerrando Quiz...\n")
             time.sleep(2)
-            print("Quiz finalizado!")
+            print("\tQuiz finalizado!")
             time.sleep(1)
             break
         else:
@@ -157,7 +157,7 @@ while True:
     elif escolha == "4":
         print("\n\tOpção 4: Pesquisa\n")
         try:
-            os.startfile("C:/Users/jorge.6234/Desktop/PYTHON/UC4/projeto/teste3.pdf")  # pode colocar só (teste3.pdf") mas o arquivo tem que está na pasta principal
+            os.startfile("C:/Users/jorge.6234/Desktop/PYTHON/UC4/projeto/pesquisa_ia.pdf")  # pode colocar só (teste3.pdf") mas o arquivo tem que está na pasta principal
         except Exception as e:
             print(e,"\n") 
         input("\nPressione ENTER para voltar ao Menu Principal: ")
