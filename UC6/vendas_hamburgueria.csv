@@ -1,0 +1,2197 @@
+Data,Dia da Semana,Produto,Categoria,Quantidade Vendida
+2024-10-01,Tuesday,Combo Hambúrguer + Batata,combo,53
+2024-10-01,Tuesday,Hambúrguer Simples,burger,24
+2024-10-01,Tuesday,Batata Frita,side,25
+2024-10-01,Tuesday,Refrigerante,drink,24
+2024-10-01,Tuesday,Milkshake,drink,19
+2024-10-01,Tuesday,Sobremesa,dessert,6
+2024-10-02,Wednesday,Combo Hambúrguer + Batata,combo,57
+2024-10-02,Wednesday,Hambúrguer Simples,burger,37
+2024-10-02,Wednesday,Batata Frita,side,27
+2024-10-02,Wednesday,Refrigerante,drink,8
+2024-10-02,Wednesday,Milkshake,drink,12
+2024-10-02,Wednesday,Sobremesa,dessert,3
+2024-10-03,Thursday,Combo Hambúrguer + Batata,combo,56
+2024-10-03,Thursday,Hambúrguer Simples,burger,31
+2024-10-03,Thursday,Batata Frita,side,20
+2024-10-03,Thursday,Refrigerante,drink,22
+2024-10-03,Thursday,Milkshake,drink,13
+2024-10-03,Thursday,Sobremesa,dessert,6
+2024-10-04,Friday,Combo Hambúrguer + Batata,combo,52
+2024-10-04,Friday,Hambúrguer Simples,burger,30
+2024-10-04,Friday,Batata Frita,side,19
+2024-10-04,Friday,Refrigerante,drink,17
+2024-10-04,Friday,Milkshake,drink,14
+2024-10-04,Friday,Sobremesa,dessert,21
+2024-10-05,Saturday,Combo Hambúrguer + Batata,combo,65
+2024-10-05,Saturday,Hambúrguer Simples,burger,53
+2024-10-05,Saturday,Batata Frita,side,36
+2024-10-05,Saturday,Refrigerante,drink,33
+2024-10-05,Saturday,Milkshake,drink,18
+2024-10-05,Saturday,Sobremesa,dessert,16
+2024-10-06,Sunday,Combo Hambúrguer + Batata,combo,68
+2024-10-06,Sunday,Hambúrguer Simples,burger,41
+2024-10-06,Sunday,Batata Frita,side,34
+2024-10-06,Sunday,Refrigerante,drink,25
+2024-10-06,Sunday,Milkshake,drink,23
+2024-10-06,Sunday,Sobremesa,dessert,9
+2024-10-07,Monday,Combo Hambúrguer + Batata,combo,51
+2024-10-07,Monday,Hambúrguer Simples,burger,21
+2024-10-07,Monday,Batata Frita,side,18
+2024-10-07,Monday,Refrigerante,drink,23
+2024-10-07,Monday,Milkshake,drink,12
+2024-10-07,Monday,Sobremesa,dessert,5
+2024-10-08,Tuesday,Combo Hambúrguer + Batata,combo,50
+2024-10-08,Tuesday,Hambúrguer Simples,burger,21
+2024-10-08,Tuesday,Batata Frita,side,30
+2024-10-08,Tuesday,Refrigerante,drink,16
+2024-10-08,Tuesday,Milkshake,drink,13
+2024-10-08,Tuesday,Sobremesa,dessert,1
+2024-10-09,Wednesday,Combo Hambúrguer + Batata,combo,52
+2024-10-09,Wednesday,Hambúrguer Simples,burger,22
+2024-10-09,Wednesday,Batata Frita,side,32
+2024-10-09,Wednesday,Refrigerante,drink,20
+2024-10-09,Wednesday,Milkshake,drink,13
+2024-10-09,Wednesday,Sobremesa,dessert,11
+2024-10-10,Thursday,Combo Hambúrguer + Batata,combo,47
+2024-10-10,Thursday,Hambúrguer Simples,burger,28
+2024-10-10,Thursday,Batata Frita,side,16
+2024-10-10,Thursday,Refrigerante,drink,30
+2024-10-10,Thursday,Milkshake,drink,5
+2024-10-10,Thursday,Sobremesa,dessert,5
+2024-10-11,Friday,Combo Hambúrguer + Batata,combo,58
+2024-10-11,Friday,Hambúrguer Simples,burger,30
+2024-10-11,Friday,Batata Frita,side,28
+2024-10-11,Friday,Refrigerante,drink,12
+2024-10-11,Friday,Milkshake,drink,23
+2024-10-11,Friday,Sobremesa,dessert,13
+2024-10-12,Saturday,Combo Hambúrguer + Batata,combo,103
+2024-10-12,Saturday,Hambúrguer Simples,burger,65
+2024-10-12,Saturday,Batata Frita,side,57
+2024-10-12,Saturday,Refrigerante,drink,38
+2024-10-12,Saturday,Milkshake,drink,35
+2024-10-12,Saturday,Sobremesa,dessert,20
+2024-10-13,Sunday,Combo Hambúrguer + Batata,combo,78
+2024-10-13,Sunday,Hambúrguer Simples,burger,48
+2024-10-13,Sunday,Batata Frita,side,35
+2024-10-13,Sunday,Refrigerante,drink,30
+2024-10-13,Sunday,Milkshake,drink,26
+2024-10-13,Sunday,Sobremesa,dessert,21
+2024-10-14,Monday,Combo Hambúrguer + Batata,combo,51
+2024-10-14,Monday,Hambúrguer Simples,burger,27
+2024-10-14,Monday,Batata Frita,side,25
+2024-10-14,Monday,Refrigerante,drink,20
+2024-10-14,Monday,Milkshake,drink,20
+2024-10-14,Monday,Sobremesa,dessert,13
+2024-10-15,Tuesday,Combo Hambúrguer + Batata,combo,50
+2024-10-15,Tuesday,Hambúrguer Simples,burger,38
+2024-10-15,Tuesday,Batata Frita,side,27
+2024-10-15,Tuesday,Refrigerante,drink,22
+2024-10-15,Tuesday,Milkshake,drink,16
+2024-10-15,Tuesday,Sobremesa,dessert,3
+2024-10-16,Wednesday,Combo Hambúrguer + Batata,combo,53
+2024-10-16,Wednesday,Hambúrguer Simples,burger,29
+2024-10-16,Wednesday,Batata Frita,side,25
+2024-10-16,Wednesday,Refrigerante,drink,23
+2024-10-16,Wednesday,Milkshake,drink,10
+2024-10-16,Wednesday,Sobremesa,dessert,0
+2024-10-17,Thursday,Combo Hambúrguer + Batata,combo,47
+2024-10-17,Thursday,Hambúrguer Simples,burger,27
+2024-10-17,Thursday,Batata Frita,side,33
+2024-10-17,Thursday,Refrigerante,drink,15
+2024-10-17,Thursday,Milkshake,drink,17
+2024-10-17,Thursday,Sobremesa,dessert,15
+2024-10-18,Friday,Combo Hambúrguer + Batata,combo,52
+2024-10-18,Friday,Hambúrguer Simples,burger,33
+2024-10-18,Friday,Batata Frita,side,25
+2024-10-18,Friday,Refrigerante,drink,20
+2024-10-18,Friday,Milkshake,drink,22
+2024-10-18,Friday,Sobremesa,dessert,14
+2024-10-19,Saturday,Combo Hambúrguer + Batata,combo,79
+2024-10-19,Saturday,Hambúrguer Simples,burger,44
+2024-10-19,Saturday,Batata Frita,side,30
+2024-10-19,Saturday,Refrigerante,drink,32
+2024-10-19,Saturday,Milkshake,drink,29
+2024-10-19,Saturday,Sobremesa,dessert,13
+2024-10-20,Sunday,Combo Hambúrguer + Batata,combo,68
+2024-10-20,Sunday,Hambúrguer Simples,burger,44
+2024-10-20,Sunday,Batata Frita,side,40
+2024-10-20,Sunday,Refrigerante,drink,32
+2024-10-20,Sunday,Milkshake,drink,11
+2024-10-20,Sunday,Sobremesa,dessert,18
+2024-10-21,Monday,Combo Hambúrguer + Batata,combo,46
+2024-10-21,Monday,Hambúrguer Simples,burger,29
+2024-10-21,Monday,Batata Frita,side,24
+2024-10-21,Monday,Refrigerante,drink,26
+2024-10-21,Monday,Milkshake,drink,11
+2024-10-21,Monday,Sobremesa,dessert,13
+2024-10-22,Tuesday,Combo Hambúrguer + Batata,combo,55
+2024-10-22,Tuesday,Hambúrguer Simples,burger,30
+2024-10-22,Tuesday,Batata Frita,side,21
+2024-10-22,Tuesday,Refrigerante,drink,15
+2024-10-22,Tuesday,Milkshake,drink,21
+2024-10-22,Tuesday,Sobremesa,dessert,7
+2024-10-23,Wednesday,Combo Hambúrguer + Batata,combo,51
+2024-10-23,Wednesday,Hambúrguer Simples,burger,27
+2024-10-23,Wednesday,Batata Frita,side,32
+2024-10-23,Wednesday,Refrigerante,drink,17
+2024-10-23,Wednesday,Milkshake,drink,12
+2024-10-23,Wednesday,Sobremesa,dessert,7
+2024-10-24,Thursday,Combo Hambúrguer + Batata,combo,51
+2024-10-24,Thursday,Hambúrguer Simples,burger,37
+2024-10-24,Thursday,Batata Frita,side,26
+2024-10-24,Thursday,Refrigerante,drink,15
+2024-10-24,Thursday,Milkshake,drink,9
+2024-10-24,Thursday,Sobremesa,dessert,10
+2024-10-25,Friday,Combo Hambúrguer + Batata,combo,50
+2024-10-25,Friday,Hambúrguer Simples,burger,32
+2024-10-25,Friday,Batata Frita,side,23
+2024-10-25,Friday,Refrigerante,drink,22
+2024-10-25,Friday,Milkshake,drink,9
+2024-10-25,Friday,Sobremesa,dessert,9
+2024-10-26,Saturday,Combo Hambúrguer + Batata,combo,72
+2024-10-26,Saturday,Hambúrguer Simples,burger,48
+2024-10-26,Saturday,Batata Frita,side,34
+2024-10-26,Saturday,Refrigerante,drink,34
+2024-10-26,Saturday,Milkshake,drink,24
+2024-10-26,Saturday,Sobremesa,dessert,8
+2024-10-27,Sunday,Combo Hambúrguer + Batata,combo,73
+2024-10-27,Sunday,Hambúrguer Simples,burger,50
+2024-10-27,Sunday,Batata Frita,side,37
+2024-10-27,Sunday,Refrigerante,drink,27
+2024-10-27,Sunday,Milkshake,drink,23
+2024-10-27,Sunday,Sobremesa,dessert,4
+2024-10-28,Monday,Combo Hambúrguer + Batata,combo,56
+2024-10-28,Monday,Hambúrguer Simples,burger,30
+2024-10-28,Monday,Batata Frita,side,27
+2024-10-28,Monday,Refrigerante,drink,9
+2024-10-28,Monday,Milkshake,drink,17
+2024-10-28,Monday,Sobremesa,dessert,21
+2024-10-29,Tuesday,Combo Hambúrguer + Batata,combo,50
+2024-10-29,Tuesday,Hambúrguer Simples,burger,26
+2024-10-29,Tuesday,Batata Frita,side,35
+2024-10-29,Tuesday,Refrigerante,drink,21
+2024-10-29,Tuesday,Milkshake,drink,22
+2024-10-29,Tuesday,Sobremesa,dessert,10
+2024-10-30,Wednesday,Combo Hambúrguer + Batata,combo,45
+2024-10-30,Wednesday,Hambúrguer Simples,burger,29
+2024-10-30,Wednesday,Batata Frita,side,26
+2024-10-30,Wednesday,Refrigerante,drink,27
+2024-10-30,Wednesday,Milkshake,drink,11
+2024-10-30,Wednesday,Sobremesa,dessert,8
+2024-10-31,Thursday,Combo Hambúrguer + Batata,combo,60
+2024-10-31,Thursday,Hambúrguer Simples,burger,33
+2024-10-31,Thursday,Batata Frita,side,17
+2024-10-31,Thursday,Refrigerante,drink,15
+2024-10-31,Thursday,Milkshake,drink,7
+2024-10-31,Thursday,Sobremesa,dessert,11
+2024-11-01,Friday,Combo Hambúrguer + Batata,combo,41
+2024-11-01,Friday,Hambúrguer Simples,burger,27
+2024-11-01,Friday,Batata Frita,side,27
+2024-11-01,Friday,Refrigerante,drink,21
+2024-11-01,Friday,Milkshake,drink,19
+2024-11-01,Friday,Sobremesa,dessert,3
+2024-11-02,Saturday,Combo Hambúrguer + Batata,combo,116
+2024-11-02,Saturday,Hambúrguer Simples,burger,71
+2024-11-02,Saturday,Batata Frita,side,57
+2024-11-02,Saturday,Refrigerante,drink,52
+2024-11-02,Saturday,Milkshake,drink,41
+2024-11-02,Saturday,Sobremesa,dessert,28
+2024-11-03,Sunday,Combo Hambúrguer + Batata,combo,83
+2024-11-03,Sunday,Hambúrguer Simples,burger,39
+2024-11-03,Sunday,Batata Frita,side,33
+2024-11-03,Sunday,Refrigerante,drink,29
+2024-11-03,Sunday,Milkshake,drink,21
+2024-11-03,Sunday,Sobremesa,dessert,18
+2024-11-04,Monday,Combo Hambúrguer + Batata,combo,63
+2024-11-04,Monday,Hambúrguer Simples,burger,29
+2024-11-04,Monday,Batata Frita,side,15
+2024-11-04,Monday,Refrigerante,drink,32
+2024-11-04,Monday,Milkshake,drink,14
+2024-11-04,Monday,Sobremesa,dessert,2
+2024-11-05,Tuesday,Combo Hambúrguer + Batata,combo,52
+2024-11-05,Tuesday,Hambúrguer Simples,burger,39
+2024-11-05,Tuesday,Batata Frita,side,24
+2024-11-05,Tuesday,Refrigerante,drink,17
+2024-11-05,Tuesday,Milkshake,drink,12
+2024-11-05,Tuesday,Sobremesa,dessert,7
+2024-11-06,Wednesday,Combo Hambúrguer + Batata,combo,51
+2024-11-06,Wednesday,Hambúrguer Simples,burger,38
+2024-11-06,Wednesday,Batata Frita,side,22
+2024-11-06,Wednesday,Refrigerante,drink,14
+2024-11-06,Wednesday,Milkshake,drink,13
+2024-11-06,Wednesday,Sobremesa,dessert,19
+2024-11-07,Thursday,Combo Hambúrguer + Batata,combo,43
+2024-11-07,Thursday,Hambúrguer Simples,burger,32
+2024-11-07,Thursday,Batata Frita,side,19
+2024-11-07,Thursday,Refrigerante,drink,25
+2024-11-07,Thursday,Milkshake,drink,9
+2024-11-07,Thursday,Sobremesa,dessert,8
+2024-11-08,Friday,Combo Hambúrguer + Batata,combo,58
+2024-11-08,Friday,Hambúrguer Simples,burger,31
+2024-11-08,Friday,Batata Frita,side,14
+2024-11-08,Friday,Refrigerante,drink,10
+2024-11-08,Friday,Milkshake,drink,18
+2024-11-08,Friday,Sobremesa,dessert,14
+2024-11-09,Saturday,Combo Hambúrguer + Batata,combo,72
+2024-11-09,Saturday,Hambúrguer Simples,burger,40
+2024-11-09,Saturday,Batata Frita,side,39
+2024-11-09,Saturday,Refrigerante,drink,40
+2024-11-09,Saturday,Milkshake,drink,13
+2024-11-09,Saturday,Sobremesa,dessert,21
+2024-11-10,Sunday,Combo Hambúrguer + Batata,combo,74
+2024-11-10,Sunday,Hambúrguer Simples,burger,37
+2024-11-10,Sunday,Batata Frita,side,40
+2024-11-10,Sunday,Refrigerante,drink,38
+2024-11-10,Sunday,Milkshake,drink,24
+2024-11-10,Sunday,Sobremesa,dessert,14
+2024-11-11,Monday,Combo Hambúrguer + Batata,combo,42
+2024-11-11,Monday,Hambúrguer Simples,burger,22
+2024-11-11,Monday,Batata Frita,side,26
+2024-11-11,Monday,Refrigerante,drink,10
+2024-11-11,Monday,Milkshake,drink,17
+2024-11-11,Monday,Sobremesa,dessert,18
+2024-11-12,Tuesday,Combo Hambúrguer + Batata,combo,55
+2024-11-12,Tuesday,Hambúrguer Simples,burger,36
+2024-11-12,Tuesday,Batata Frita,side,31
+2024-11-12,Tuesday,Refrigerante,drink,12
+2024-11-12,Tuesday,Milkshake,drink,17
+2024-11-12,Tuesday,Sobremesa,dessert,4
+2024-11-13,Wednesday,Combo Hambúrguer + Batata,combo,57
+2024-11-13,Wednesday,Hambúrguer Simples,burger,37
+2024-11-13,Wednesday,Batata Frita,side,23
+2024-11-13,Wednesday,Refrigerante,drink,14
+2024-11-13,Wednesday,Milkshake,drink,12
+2024-11-13,Wednesday,Sobremesa,dessert,19
+2024-11-14,Thursday,Combo Hambúrguer + Batata,combo,51
+2024-11-14,Thursday,Hambúrguer Simples,burger,23
+2024-11-14,Thursday,Batata Frita,side,28
+2024-11-14,Thursday,Refrigerante,drink,24
+2024-11-14,Thursday,Milkshake,drink,25
+2024-11-14,Thursday,Sobremesa,dessert,8
+2024-11-15,Friday,Combo Hambúrguer + Batata,combo,95
+2024-11-15,Friday,Hambúrguer Simples,burger,40
+2024-11-15,Friday,Batata Frita,side,47
+2024-11-15,Friday,Refrigerante,drink,30
+2024-11-15,Friday,Milkshake,drink,29
+2024-11-15,Friday,Sobremesa,dessert,29
+2024-11-16,Saturday,Combo Hambúrguer + Batata,combo,73
+2024-11-16,Saturday,Hambúrguer Simples,burger,40
+2024-11-16,Saturday,Batata Frita,side,26
+2024-11-16,Saturday,Refrigerante,drink,34
+2024-11-16,Saturday,Milkshake,drink,21
+2024-11-16,Saturday,Sobremesa,dessert,12
+2024-11-17,Sunday,Combo Hambúrguer + Batata,combo,76
+2024-11-17,Sunday,Hambúrguer Simples,burger,36
+2024-11-17,Sunday,Batata Frita,side,40
+2024-11-17,Sunday,Refrigerante,drink,28
+2024-11-17,Sunday,Milkshake,drink,20
+2024-11-17,Sunday,Sobremesa,dessert,6
+2024-11-18,Monday,Combo Hambúrguer + Batata,combo,49
+2024-11-18,Monday,Hambúrguer Simples,burger,25
+2024-11-18,Monday,Batata Frita,side,14
+2024-11-18,Monday,Refrigerante,drink,21
+2024-11-18,Monday,Milkshake,drink,7
+2024-11-18,Monday,Sobremesa,dessert,17
+2024-11-19,Tuesday,Combo Hambúrguer + Batata,combo,52
+2024-11-19,Tuesday,Hambúrguer Simples,burger,27
+2024-11-19,Tuesday,Batata Frita,side,15
+2024-11-19,Tuesday,Refrigerante,drink,21
+2024-11-19,Tuesday,Milkshake,drink,15
+2024-11-19,Tuesday,Sobremesa,dessert,8
+2024-11-20,Wednesday,Combo Hambúrguer + Batata,combo,45
+2024-11-20,Wednesday,Hambúrguer Simples,burger,34
+2024-11-20,Wednesday,Batata Frita,side,18
+2024-11-20,Wednesday,Refrigerante,drink,22
+2024-11-20,Wednesday,Milkshake,drink,7
+2024-11-20,Wednesday,Sobremesa,dessert,7
+2024-11-21,Thursday,Combo Hambúrguer + Batata,combo,44
+2024-11-21,Thursday,Hambúrguer Simples,burger,24
+2024-11-21,Thursday,Batata Frita,side,23
+2024-11-21,Thursday,Refrigerante,drink,24
+2024-11-21,Thursday,Milkshake,drink,12
+2024-11-21,Thursday,Sobremesa,dessert,7
+2024-11-22,Friday,Combo Hambúrguer + Batata,combo,47
+2024-11-22,Friday,Hambúrguer Simples,burger,25
+2024-11-22,Friday,Batata Frita,side,21
+2024-11-22,Friday,Refrigerante,drink,19
+2024-11-22,Friday,Milkshake,drink,13
+2024-11-22,Friday,Sobremesa,dessert,10
+2024-11-23,Saturday,Combo Hambúrguer + Batata,combo,69
+2024-11-23,Saturday,Hambúrguer Simples,burger,50
+2024-11-23,Saturday,Batata Frita,side,32
+2024-11-23,Saturday,Refrigerante,drink,35
+2024-11-23,Saturday,Milkshake,drink,30
+2024-11-23,Saturday,Sobremesa,dessert,22
+2024-11-24,Sunday,Combo Hambúrguer + Batata,combo,76
+2024-11-24,Sunday,Hambúrguer Simples,burger,53
+2024-11-24,Sunday,Batata Frita,side,28
+2024-11-24,Sunday,Refrigerante,drink,30
+2024-11-24,Sunday,Milkshake,drink,22
+2024-11-24,Sunday,Sobremesa,dessert,19
+2024-11-25,Monday,Combo Hambúrguer + Batata,combo,52
+2024-11-25,Monday,Hambúrguer Simples,burger,32
+2024-11-25,Monday,Batata Frita,side,22
+2024-11-25,Monday,Refrigerante,drink,23
+2024-11-25,Monday,Milkshake,drink,20
+2024-11-25,Monday,Sobremesa,dessert,11
+2024-11-26,Tuesday,Combo Hambúrguer + Batata,combo,50
+2024-11-26,Tuesday,Hambúrguer Simples,burger,32
+2024-11-26,Tuesday,Batata Frita,side,25
+2024-11-26,Tuesday,Refrigerante,drink,22
+2024-11-26,Tuesday,Milkshake,drink,6
+2024-11-26,Tuesday,Sobremesa,dessert,10
+2024-11-27,Wednesday,Combo Hambúrguer + Batata,combo,52
+2024-11-27,Wednesday,Hambúrguer Simples,burger,26
+2024-11-27,Wednesday,Batata Frita,side,25
+2024-11-27,Wednesday,Refrigerante,drink,24
+2024-11-27,Wednesday,Milkshake,drink,8
+2024-11-27,Wednesday,Sobremesa,dessert,10
+2024-11-28,Thursday,Combo Hambúrguer + Batata,combo,40
+2024-11-28,Thursday,Hambúrguer Simples,burger,29
+2024-11-28,Thursday,Batata Frita,side,22
+2024-11-28,Thursday,Refrigerante,drink,26
+2024-11-28,Thursday,Milkshake,drink,11
+2024-11-28,Thursday,Sobremesa,dessert,17
+2024-11-29,Friday,Combo Hambúrguer + Batata,combo,47
+2024-11-29,Friday,Hambúrguer Simples,burger,35
+2024-11-29,Friday,Batata Frita,side,28
+2024-11-29,Friday,Refrigerante,drink,19
+2024-11-29,Friday,Milkshake,drink,12
+2024-11-29,Friday,Sobremesa,dessert,19
+2024-11-30,Saturday,Combo Hambúrguer + Batata,combo,74
+2024-11-30,Saturday,Hambúrguer Simples,burger,36
+2024-11-30,Saturday,Batata Frita,side,29
+2024-11-30,Saturday,Refrigerante,drink,34
+2024-11-30,Saturday,Milkshake,drink,23
+2024-11-30,Saturday,Sobremesa,dessert,9
+2024-12-01,Sunday,Combo Hambúrguer + Batata,combo,70
+2024-12-01,Sunday,Hambúrguer Simples,burger,42
+2024-12-01,Sunday,Batata Frita,side,41
+2024-12-01,Sunday,Refrigerante,drink,24
+2024-12-01,Sunday,Milkshake,drink,18
+2024-12-01,Sunday,Sobremesa,dessert,14
+2024-12-02,Monday,Combo Hambúrguer + Batata,combo,41
+2024-12-02,Monday,Hambúrguer Simples,burger,33
+2024-12-02,Monday,Batata Frita,side,18
+2024-12-02,Monday,Refrigerante,drink,13
+2024-12-02,Monday,Milkshake,drink,16
+2024-12-02,Monday,Sobremesa,dessert,15
+2024-12-03,Tuesday,Combo Hambúrguer + Batata,combo,54
+2024-12-03,Tuesday,Hambúrguer Simples,burger,40
+2024-12-03,Tuesday,Batata Frita,side,18
+2024-12-03,Tuesday,Refrigerante,drink,15
+2024-12-03,Tuesday,Milkshake,drink,11
+2024-12-03,Tuesday,Sobremesa,dessert,14
+2024-12-04,Wednesday,Combo Hambúrguer + Batata,combo,48
+2024-12-04,Wednesday,Hambúrguer Simples,burger,18
+2024-12-04,Wednesday,Batata Frita,side,34
+2024-12-04,Wednesday,Refrigerante,drink,14
+2024-12-04,Wednesday,Milkshake,drink,12
+2024-12-04,Wednesday,Sobremesa,dessert,9
+2024-12-05,Thursday,Combo Hambúrguer + Batata,combo,51
+2024-12-05,Thursday,Hambúrguer Simples,burger,21
+2024-12-05,Thursday,Batata Frita,side,22
+2024-12-05,Thursday,Refrigerante,drink,23
+2024-12-05,Thursday,Milkshake,drink,18
+2024-12-05,Thursday,Sobremesa,dessert,21
+2024-12-06,Friday,Combo Hambúrguer + Batata,combo,52
+2024-12-06,Friday,Hambúrguer Simples,burger,29
+2024-12-06,Friday,Batata Frita,side,23
+2024-12-06,Friday,Refrigerante,drink,30
+2024-12-06,Friday,Milkshake,drink,26
+2024-12-06,Friday,Sobremesa,dessert,3
+2024-12-07,Saturday,Combo Hambúrguer + Batata,combo,72
+2024-12-07,Saturday,Hambúrguer Simples,burger,45
+2024-12-07,Saturday,Batata Frita,side,41
+2024-12-07,Saturday,Refrigerante,drink,29
+2024-12-07,Saturday,Milkshake,drink,23
+2024-12-07,Saturday,Sobremesa,dessert,13
+2024-12-08,Sunday,Combo Hambúrguer + Batata,combo,81
+2024-12-08,Sunday,Hambúrguer Simples,burger,39
+2024-12-08,Sunday,Batata Frita,side,52
+2024-12-08,Sunday,Refrigerante,drink,29
+2024-12-08,Sunday,Milkshake,drink,30
+2024-12-08,Sunday,Sobremesa,dessert,23
+2024-12-09,Monday,Combo Hambúrguer + Batata,combo,51
+2024-12-09,Monday,Hambúrguer Simples,burger,32
+2024-12-09,Monday,Batata Frita,side,27
+2024-12-09,Monday,Refrigerante,drink,27
+2024-12-09,Monday,Milkshake,drink,8
+2024-12-09,Monday,Sobremesa,dessert,19
+2024-12-10,Tuesday,Combo Hambúrguer + Batata,combo,44
+2024-12-10,Tuesday,Hambúrguer Simples,burger,31
+2024-12-10,Tuesday,Batata Frita,side,13
+2024-12-10,Tuesday,Refrigerante,drink,21
+2024-12-10,Tuesday,Milkshake,drink,17
+2024-12-10,Tuesday,Sobremesa,dessert,11
+2024-12-11,Wednesday,Combo Hambúrguer + Batata,combo,45
+2024-12-11,Wednesday,Hambúrguer Simples,burger,27
+2024-12-11,Wednesday,Batata Frita,side,20
+2024-12-11,Wednesday,Refrigerante,drink,23
+2024-12-11,Wednesday,Milkshake,drink,12
+2024-12-11,Wednesday,Sobremesa,dessert,17
+2024-12-12,Thursday,Combo Hambúrguer + Batata,combo,56
+2024-12-12,Thursday,Hambúrguer Simples,burger,32
+2024-12-12,Thursday,Batata Frita,side,29
+2024-12-12,Thursday,Refrigerante,drink,18
+2024-12-12,Thursday,Milkshake,drink,18
+2024-12-12,Thursday,Sobremesa,dessert,3
+2024-12-13,Friday,Combo Hambúrguer + Batata,combo,56
+2024-12-13,Friday,Hambúrguer Simples,burger,26
+2024-12-13,Friday,Batata Frita,side,29
+2024-12-13,Friday,Refrigerante,drink,24
+2024-12-13,Friday,Milkshake,drink,22
+2024-12-13,Friday,Sobremesa,dessert,12
+2024-12-14,Saturday,Combo Hambúrguer + Batata,combo,74
+2024-12-14,Saturday,Hambúrguer Simples,burger,45
+2024-12-14,Saturday,Batata Frita,side,27
+2024-12-14,Saturday,Refrigerante,drink,29
+2024-12-14,Saturday,Milkshake,drink,20
+2024-12-14,Saturday,Sobremesa,dessert,13
+2024-12-15,Sunday,Combo Hambúrguer + Batata,combo,77
+2024-12-15,Sunday,Hambúrguer Simples,burger,45
+2024-12-15,Sunday,Batata Frita,side,32
+2024-12-15,Sunday,Refrigerante,drink,33
+2024-12-15,Sunday,Milkshake,drink,26
+2024-12-15,Sunday,Sobremesa,dessert,16
+2024-12-16,Monday,Combo Hambúrguer + Batata,combo,49
+2024-12-16,Monday,Hambúrguer Simples,burger,25
+2024-12-16,Monday,Batata Frita,side,27
+2024-12-16,Monday,Refrigerante,drink,14
+2024-12-16,Monday,Milkshake,drink,15
+2024-12-16,Monday,Sobremesa,dessert,5
+2024-12-17,Tuesday,Combo Hambúrguer + Batata,combo,44
+2024-12-17,Tuesday,Hambúrguer Simples,burger,27
+2024-12-17,Tuesday,Batata Frita,side,26
+2024-12-17,Tuesday,Refrigerante,drink,13
+2024-12-17,Tuesday,Milkshake,drink,9
+2024-12-17,Tuesday,Sobremesa,dessert,14
+2024-12-18,Wednesday,Combo Hambúrguer + Batata,combo,50
+2024-12-18,Wednesday,Hambúrguer Simples,burger,34
+2024-12-18,Wednesday,Batata Frita,side,24
+2024-12-18,Wednesday,Refrigerante,drink,21
+2024-12-18,Wednesday,Milkshake,drink,16
+2024-12-18,Wednesday,Sobremesa,dessert,7
+2024-12-19,Thursday,Combo Hambúrguer + Batata,combo,60
+2024-12-19,Thursday,Hambúrguer Simples,burger,30
+2024-12-19,Thursday,Batata Frita,side,23
+2024-12-19,Thursday,Refrigerante,drink,12
+2024-12-19,Thursday,Milkshake,drink,13
+2024-12-19,Thursday,Sobremesa,dessert,8
+2024-12-20,Friday,Combo Hambúrguer + Batata,combo,53
+2024-12-20,Friday,Hambúrguer Simples,burger,27
+2024-12-20,Friday,Batata Frita,side,22
+2024-12-20,Friday,Refrigerante,drink,10
+2024-12-20,Friday,Milkshake,drink,14
+2024-12-20,Friday,Sobremesa,dessert,18
+2024-12-21,Saturday,Combo Hambúrguer + Batata,combo,76
+2024-12-21,Saturday,Hambúrguer Simples,burger,49
+2024-12-21,Saturday,Batata Frita,side,36
+2024-12-21,Saturday,Refrigerante,drink,27
+2024-12-21,Saturday,Milkshake,drink,15
+2024-12-21,Saturday,Sobremesa,dessert,14
+2024-12-22,Sunday,Combo Hambúrguer + Batata,combo,74
+2024-12-22,Sunday,Hambúrguer Simples,burger,48
+2024-12-22,Sunday,Batata Frita,side,36
+2024-12-22,Sunday,Refrigerante,drink,37
+2024-12-22,Sunday,Milkshake,drink,16
+2024-12-22,Sunday,Sobremesa,dessert,6
+2024-12-23,Monday,Combo Hambúrguer + Batata,combo,54
+2024-12-23,Monday,Hambúrguer Simples,burger,27
+2024-12-23,Monday,Batata Frita,side,26
+2024-12-23,Monday,Refrigerante,drink,27
+2024-12-23,Monday,Milkshake,drink,9
+2024-12-23,Monday,Sobremesa,dessert,11
+2024-12-24,Tuesday,Combo Hambúrguer + Batata,combo,47
+2024-12-24,Tuesday,Hambúrguer Simples,burger,28
+2024-12-24,Tuesday,Batata Frita,side,23
+2024-12-24,Tuesday,Refrigerante,drink,17
+2024-12-24,Tuesday,Milkshake,drink,19
+2024-12-24,Tuesday,Sobremesa,dessert,6
+2024-12-25,Wednesday,Combo Hambúrguer + Batata,combo,89
+2024-12-25,Wednesday,Hambúrguer Simples,burger,51
+2024-12-25,Wednesday,Batata Frita,side,48
+2024-12-25,Wednesday,Refrigerante,drink,30
+2024-12-25,Wednesday,Milkshake,drink,34
+2024-12-25,Wednesday,Sobremesa,dessert,17
+2024-12-26,Thursday,Combo Hambúrguer + Batata,combo,50
+2024-12-26,Thursday,Hambúrguer Simples,burger,31
+2024-12-26,Thursday,Batata Frita,side,26
+2024-12-26,Thursday,Refrigerante,drink,28
+2024-12-26,Thursday,Milkshake,drink,16
+2024-12-26,Thursday,Sobremesa,dessert,0
+2024-12-27,Friday,Combo Hambúrguer + Batata,combo,48
+2024-12-27,Friday,Hambúrguer Simples,burger,32
+2024-12-27,Friday,Batata Frita,side,27
+2024-12-27,Friday,Refrigerante,drink,26
+2024-12-27,Friday,Milkshake,drink,21
+2024-12-27,Friday,Sobremesa,dessert,10
+2024-12-28,Saturday,Combo Hambúrguer + Batata,combo,64
+2024-12-28,Saturday,Hambúrguer Simples,burger,52
+2024-12-28,Saturday,Batata Frita,side,39
+2024-12-28,Saturday,Refrigerante,drink,29
+2024-12-28,Saturday,Milkshake,drink,22
+2024-12-28,Saturday,Sobremesa,dessert,17
+2024-12-29,Sunday,Combo Hambúrguer + Batata,combo,74
+2024-12-29,Sunday,Hambúrguer Simples,burger,44
+2024-12-29,Sunday,Batata Frita,side,48
+2024-12-29,Sunday,Refrigerante,drink,34
+2024-12-29,Sunday,Milkshake,drink,31
+2024-12-29,Sunday,Sobremesa,dessert,11
+2024-12-30,Monday,Combo Hambúrguer + Batata,combo,49
+2024-12-30,Monday,Hambúrguer Simples,burger,21
+2024-12-30,Monday,Batata Frita,side,25
+2024-12-30,Monday,Refrigerante,drink,22
+2024-12-30,Monday,Milkshake,drink,13
+2024-12-30,Monday,Sobremesa,dessert,12
+2024-12-31,Tuesday,Combo Hambúrguer + Batata,combo,48
+2024-12-31,Tuesday,Hambúrguer Simples,burger,25
+2024-12-31,Tuesday,Batata Frita,side,31
+2024-12-31,Tuesday,Refrigerante,drink,16
+2024-12-31,Tuesday,Milkshake,drink,14
+2024-12-31,Tuesday,Sobremesa,dessert,11
+2025-01-01,Wednesday,Combo Hambúrguer + Batata,combo,81
+2025-01-01,Wednesday,Hambúrguer Simples,burger,54
+2025-01-01,Wednesday,Batata Frita,side,40
+2025-01-01,Wednesday,Refrigerante,drink,37
+2025-01-01,Wednesday,Milkshake,drink,27
+2025-01-01,Wednesday,Sobremesa,dessert,24
+2025-01-02,Thursday,Combo Hambúrguer + Batata,combo,56
+2025-01-02,Thursday,Hambúrguer Simples,burger,28
+2025-01-02,Thursday,Batata Frita,side,30
+2025-01-02,Thursday,Refrigerante,drink,11
+2025-01-02,Thursday,Milkshake,drink,14
+2025-01-02,Thursday,Sobremesa,dessert,16
+2025-01-03,Friday,Combo Hambúrguer + Batata,combo,41
+2025-01-03,Friday,Hambúrguer Simples,burger,28
+2025-01-03,Friday,Batata Frita,side,32
+2025-01-03,Friday,Refrigerante,drink,23
+2025-01-03,Friday,Milkshake,drink,13
+2025-01-03,Friday,Sobremesa,dessert,1
+2025-01-04,Saturday,Combo Hambúrguer + Batata,combo,77
+2025-01-04,Saturday,Hambúrguer Simples,burger,54
+2025-01-04,Saturday,Batata Frita,side,38
+2025-01-04,Saturday,Refrigerante,drink,21
+2025-01-04,Saturday,Milkshake,drink,15
+2025-01-04,Saturday,Sobremesa,dessert,8
+2025-01-05,Sunday,Combo Hambúrguer + Batata,combo,81
+2025-01-05,Sunday,Hambúrguer Simples,burger,49
+2025-01-05,Sunday,Batata Frita,side,34
+2025-01-05,Sunday,Refrigerante,drink,27
+2025-01-05,Sunday,Milkshake,drink,22
+2025-01-05,Sunday,Sobremesa,dessert,12
+2025-01-06,Monday,Combo Hambúrguer + Batata,combo,54
+2025-01-06,Monday,Hambúrguer Simples,burger,30
+2025-01-06,Monday,Batata Frita,side,19
+2025-01-06,Monday,Refrigerante,drink,22
+2025-01-06,Monday,Milkshake,drink,7
+2025-01-06,Monday,Sobremesa,dessert,0
+2025-01-07,Tuesday,Combo Hambúrguer + Batata,combo,49
+2025-01-07,Tuesday,Hambúrguer Simples,burger,34
+2025-01-07,Tuesday,Batata Frita,side,27
+2025-01-07,Tuesday,Refrigerante,drink,17
+2025-01-07,Tuesday,Milkshake,drink,10
+2025-01-07,Tuesday,Sobremesa,dessert,8
+2025-01-08,Wednesday,Combo Hambúrguer + Batata,combo,45
+2025-01-08,Wednesday,Hambúrguer Simples,burger,26
+2025-01-08,Wednesday,Batata Frita,side,16
+2025-01-08,Wednesday,Refrigerante,drink,22
+2025-01-08,Wednesday,Milkshake,drink,11
+2025-01-08,Wednesday,Sobremesa,dessert,9
+2025-01-09,Thursday,Combo Hambúrguer + Batata,combo,50
+2025-01-09,Thursday,Hambúrguer Simples,burger,30
+2025-01-09,Thursday,Batata Frita,side,22
+2025-01-09,Thursday,Refrigerante,drink,19
+2025-01-09,Thursday,Milkshake,drink,16
+2025-01-09,Thursday,Sobremesa,dessert,9
+2025-01-10,Friday,Combo Hambúrguer + Batata,combo,50
+2025-01-10,Friday,Hambúrguer Simples,burger,32
+2025-01-10,Friday,Batata Frita,side,20
+2025-01-10,Friday,Refrigerante,drink,21
+2025-01-10,Friday,Milkshake,drink,9
+2025-01-10,Friday,Sobremesa,dessert,8
+2025-01-11,Saturday,Combo Hambúrguer + Batata,combo,78
+2025-01-11,Saturday,Hambúrguer Simples,burger,49
+2025-01-11,Saturday,Batata Frita,side,34
+2025-01-11,Saturday,Refrigerante,drink,31
+2025-01-11,Saturday,Milkshake,drink,24
+2025-01-11,Saturday,Sobremesa,dessert,4
+2025-01-12,Sunday,Combo Hambúrguer + Batata,combo,69
+2025-01-12,Sunday,Hambúrguer Simples,burger,47
+2025-01-12,Sunday,Batata Frita,side,37
+2025-01-12,Sunday,Refrigerante,drink,38
+2025-01-12,Sunday,Milkshake,drink,19
+2025-01-12,Sunday,Sobremesa,dessert,24
+2025-01-13,Monday,Combo Hambúrguer + Batata,combo,42
+2025-01-13,Monday,Hambúrguer Simples,burger,24
+2025-01-13,Monday,Batata Frita,side,23
+2025-01-13,Monday,Refrigerante,drink,16
+2025-01-13,Monday,Milkshake,drink,15
+2025-01-13,Monday,Sobremesa,dessert,8
+2025-01-14,Tuesday,Combo Hambúrguer + Batata,combo,46
+2025-01-14,Tuesday,Hambúrguer Simples,burger,33
+2025-01-14,Tuesday,Batata Frita,side,21
+2025-01-14,Tuesday,Refrigerante,drink,24
+2025-01-14,Tuesday,Milkshake,drink,22
+2025-01-14,Tuesday,Sobremesa,dessert,1
+2025-01-15,Wednesday,Combo Hambúrguer + Batata,combo,57
+2025-01-15,Wednesday,Hambúrguer Simples,burger,29
+2025-01-15,Wednesday,Batata Frita,side,20
+2025-01-15,Wednesday,Refrigerante,drink,14
+2025-01-15,Wednesday,Milkshake,drink,13
+2025-01-15,Wednesday,Sobremesa,dessert,18
+2025-01-16,Thursday,Combo Hambúrguer + Batata,combo,53
+2025-01-16,Thursday,Hambúrguer Simples,burger,28
+2025-01-16,Thursday,Batata Frita,side,27
+2025-01-16,Thursday,Refrigerante,drink,21
+2025-01-16,Thursday,Milkshake,drink,16
+2025-01-16,Thursday,Sobremesa,dessert,3
+2025-01-17,Friday,Combo Hambúrguer + Batata,combo,52
+2025-01-17,Friday,Hambúrguer Simples,burger,30
+2025-01-17,Friday,Batata Frita,side,27
+2025-01-17,Friday,Refrigerante,drink,17
+2025-01-17,Friday,Milkshake,drink,15
+2025-01-17,Friday,Sobremesa,dessert,0
+2025-01-18,Saturday,Combo Hambúrguer + Batata,combo,75
+2025-01-18,Saturday,Hambúrguer Simples,burger,50
+2025-01-18,Saturday,Batata Frita,side,33
+2025-01-18,Saturday,Refrigerante,drink,26
+2025-01-18,Saturday,Milkshake,drink,24
+2025-01-18,Saturday,Sobremesa,dessert,14
+2025-01-19,Sunday,Combo Hambúrguer + Batata,combo,69
+2025-01-19,Sunday,Hambúrguer Simples,burger,43
+2025-01-19,Sunday,Batata Frita,side,37
+2025-01-19,Sunday,Refrigerante,drink,31
+2025-01-19,Sunday,Milkshake,drink,24
+2025-01-19,Sunday,Sobremesa,dessert,19
+2025-01-20,Monday,Combo Hambúrguer + Batata,combo,54
+2025-01-20,Monday,Hambúrguer Simples,burger,28
+2025-01-20,Monday,Batata Frita,side,23
+2025-01-20,Monday,Refrigerante,drink,16
+2025-01-20,Monday,Milkshake,drink,16
+2025-01-20,Monday,Sobremesa,dessert,8
+2025-01-21,Tuesday,Combo Hambúrguer + Batata,combo,48
+2025-01-21,Tuesday,Hambúrguer Simples,burger,25
+2025-01-21,Tuesday,Batata Frita,side,23
+2025-01-21,Tuesday,Refrigerante,drink,15
+2025-01-21,Tuesday,Milkshake,drink,13
+2025-01-21,Tuesday,Sobremesa,dessert,2
+2025-01-22,Wednesday,Combo Hambúrguer + Batata,combo,43
+2025-01-22,Wednesday,Hambúrguer Simples,burger,21
+2025-01-22,Wednesday,Batata Frita,side,22
+2025-01-22,Wednesday,Refrigerante,drink,19
+2025-01-22,Wednesday,Milkshake,drink,22
+2025-01-22,Wednesday,Sobremesa,dessert,10
+2025-01-23,Thursday,Combo Hambúrguer + Batata,combo,53
+2025-01-23,Thursday,Hambúrguer Simples,burger,33
+2025-01-23,Thursday,Batata Frita,side,28
+2025-01-23,Thursday,Refrigerante,drink,21
+2025-01-23,Thursday,Milkshake,drink,18
+2025-01-23,Thursday,Sobremesa,dessert,13
+2025-01-24,Friday,Combo Hambúrguer + Batata,combo,57
+2025-01-24,Friday,Hambúrguer Simples,burger,34
+2025-01-24,Friday,Batata Frita,side,17
+2025-01-24,Friday,Refrigerante,drink,24
+2025-01-24,Friday,Milkshake,drink,22
+2025-01-24,Friday,Sobremesa,dessert,7
+2025-01-25,Saturday,Combo Hambúrguer + Batata,combo,70
+2025-01-25,Saturday,Hambúrguer Simples,burger,47
+2025-01-25,Saturday,Batata Frita,side,37
+2025-01-25,Saturday,Refrigerante,drink,33
+2025-01-25,Saturday,Milkshake,drink,17
+2025-01-25,Saturday,Sobremesa,dessert,11
+2025-01-26,Sunday,Combo Hambúrguer + Batata,combo,79
+2025-01-26,Sunday,Hambúrguer Simples,burger,34
+2025-01-26,Sunday,Batata Frita,side,28
+2025-01-26,Sunday,Refrigerante,drink,40
+2025-01-26,Sunday,Milkshake,drink,17
+2025-01-26,Sunday,Sobremesa,dessert,13
+2025-01-27,Monday,Combo Hambúrguer + Batata,combo,40
+2025-01-27,Monday,Hambúrguer Simples,burger,42
+2025-01-27,Monday,Batata Frita,side,25
+2025-01-27,Monday,Refrigerante,drink,25
+2025-01-27,Monday,Milkshake,drink,18
+2025-01-27,Monday,Sobremesa,dessert,0
+2025-01-28,Tuesday,Combo Hambúrguer + Batata,combo,37
+2025-01-28,Tuesday,Hambúrguer Simples,burger,24
+2025-01-28,Tuesday,Batata Frita,side,34
+2025-01-28,Tuesday,Refrigerante,drink,21
+2025-01-28,Tuesday,Milkshake,drink,17
+2025-01-28,Tuesday,Sobremesa,dessert,0
+2025-01-29,Wednesday,Combo Hambúrguer + Batata,combo,55
+2025-01-29,Wednesday,Hambúrguer Simples,burger,36
+2025-01-29,Wednesday,Batata Frita,side,26
+2025-01-29,Wednesday,Refrigerante,drink,21
+2025-01-29,Wednesday,Milkshake,drink,17
+2025-01-29,Wednesday,Sobremesa,dessert,16
+2025-01-30,Thursday,Combo Hambúrguer + Batata,combo,49
+2025-01-30,Thursday,Hambúrguer Simples,burger,34
+2025-01-30,Thursday,Batata Frita,side,32
+2025-01-30,Thursday,Refrigerante,drink,30
+2025-01-30,Thursday,Milkshake,drink,22
+2025-01-30,Thursday,Sobremesa,dessert,16
+2025-01-31,Friday,Combo Hambúrguer + Batata,combo,56
+2025-01-31,Friday,Hambúrguer Simples,burger,44
+2025-01-31,Friday,Batata Frita,side,20
+2025-01-31,Friday,Refrigerante,drink,27
+2025-01-31,Friday,Milkshake,drink,15
+2025-01-31,Friday,Sobremesa,dessert,11
+2025-02-01,Saturday,Combo Hambúrguer + Batata,combo,71
+2025-02-01,Saturday,Hambúrguer Simples,burger,53
+2025-02-01,Saturday,Batata Frita,side,37
+2025-02-01,Saturday,Refrigerante,drink,33
+2025-02-01,Saturday,Milkshake,drink,28
+2025-02-01,Saturday,Sobremesa,dessert,18
+2025-02-02,Sunday,Combo Hambúrguer + Batata,combo,85
+2025-02-02,Sunday,Hambúrguer Simples,burger,45
+2025-02-02,Sunday,Batata Frita,side,33
+2025-02-02,Sunday,Refrigerante,drink,20
+2025-02-02,Sunday,Milkshake,drink,26
+2025-02-02,Sunday,Sobremesa,dessert,18
+2025-02-03,Monday,Combo Hambúrguer + Batata,combo,47
+2025-02-03,Monday,Hambúrguer Simples,burger,32
+2025-02-03,Monday,Batata Frita,side,23
+2025-02-03,Monday,Refrigerante,drink,21
+2025-02-03,Monday,Milkshake,drink,8
+2025-02-03,Monday,Sobremesa,dessert,18
+2025-02-04,Tuesday,Combo Hambúrguer + Batata,combo,48
+2025-02-04,Tuesday,Hambúrguer Simples,burger,25
+2025-02-04,Tuesday,Batata Frita,side,22
+2025-02-04,Tuesday,Refrigerante,drink,19
+2025-02-04,Tuesday,Milkshake,drink,12
+2025-02-04,Tuesday,Sobremesa,dessert,12
+2025-02-05,Wednesday,Combo Hambúrguer + Batata,combo,54
+2025-02-05,Wednesday,Hambúrguer Simples,burger,28
+2025-02-05,Wednesday,Batata Frita,side,16
+2025-02-05,Wednesday,Refrigerante,drink,21
+2025-02-05,Wednesday,Milkshake,drink,18
+2025-02-05,Wednesday,Sobremesa,dessert,6
+2025-02-06,Thursday,Combo Hambúrguer + Batata,combo,49
+2025-02-06,Thursday,Hambúrguer Simples,burger,23
+2025-02-06,Thursday,Batata Frita,side,27
+2025-02-06,Thursday,Refrigerante,drink,20
+2025-02-06,Thursday,Milkshake,drink,15
+2025-02-06,Thursday,Sobremesa,dessert,17
+2025-02-07,Friday,Combo Hambúrguer + Batata,combo,48
+2025-02-07,Friday,Hambúrguer Simples,burger,28
+2025-02-07,Friday,Batata Frita,side,27
+2025-02-07,Friday,Refrigerante,drink,22
+2025-02-07,Friday,Milkshake,drink,10
+2025-02-07,Friday,Sobremesa,dessert,20
+2025-02-08,Saturday,Combo Hambúrguer + Batata,combo,70
+2025-02-08,Saturday,Hambúrguer Simples,burger,44
+2025-02-08,Saturday,Batata Frita,side,40
+2025-02-08,Saturday,Refrigerante,drink,27
+2025-02-08,Saturday,Milkshake,drink,22
+2025-02-08,Saturday,Sobremesa,dessert,9
+2025-02-09,Sunday,Combo Hambúrguer + Batata,combo,66
+2025-02-09,Sunday,Hambúrguer Simples,burger,45
+2025-02-09,Sunday,Batata Frita,side,42
+2025-02-09,Sunday,Refrigerante,drink,24
+2025-02-09,Sunday,Milkshake,drink,22
+2025-02-09,Sunday,Sobremesa,dessert,17
+2025-02-10,Monday,Combo Hambúrguer + Batata,combo,47
+2025-02-10,Monday,Hambúrguer Simples,burger,33
+2025-02-10,Monday,Batata Frita,side,27
+2025-02-10,Monday,Refrigerante,drink,15
+2025-02-10,Monday,Milkshake,drink,17
+2025-02-10,Monday,Sobremesa,dessert,16
+2025-02-11,Tuesday,Combo Hambúrguer + Batata,combo,45
+2025-02-11,Tuesday,Hambúrguer Simples,burger,25
+2025-02-11,Tuesday,Batata Frita,side,26
+2025-02-11,Tuesday,Refrigerante,drink,13
+2025-02-11,Tuesday,Milkshake,drink,25
+2025-02-11,Tuesday,Sobremesa,dessert,9
+2025-02-12,Wednesday,Combo Hambúrguer + Batata,combo,65
+2025-02-12,Wednesday,Hambúrguer Simples,burger,33
+2025-02-12,Wednesday,Batata Frita,side,24
+2025-02-12,Wednesday,Refrigerante,drink,28
+2025-02-12,Wednesday,Milkshake,drink,12
+2025-02-12,Wednesday,Sobremesa,dessert,7
+2025-02-13,Thursday,Combo Hambúrguer + Batata,combo,51
+2025-02-13,Thursday,Hambúrguer Simples,burger,34
+2025-02-13,Thursday,Batata Frita,side,26
+2025-02-13,Thursday,Refrigerante,drink,27
+2025-02-13,Thursday,Milkshake,drink,20
+2025-02-13,Thursday,Sobremesa,dessert,9
+2025-02-14,Friday,Combo Hambúrguer + Batata,combo,54
+2025-02-14,Friday,Hambúrguer Simples,burger,26
+2025-02-14,Friday,Batata Frita,side,24
+2025-02-14,Friday,Refrigerante,drink,25
+2025-02-14,Friday,Milkshake,drink,23
+2025-02-14,Friday,Sobremesa,dessert,18
+2025-02-15,Saturday,Combo Hambúrguer + Batata,combo,70
+2025-02-15,Saturday,Hambúrguer Simples,burger,41
+2025-02-15,Saturday,Batata Frita,side,40
+2025-02-15,Saturday,Refrigerante,drink,35
+2025-02-15,Saturday,Milkshake,drink,14
+2025-02-15,Saturday,Sobremesa,dessert,10
+2025-02-16,Sunday,Combo Hambúrguer + Batata,combo,69
+2025-02-16,Sunday,Hambúrguer Simples,burger,45
+2025-02-16,Sunday,Batata Frita,side,31
+2025-02-16,Sunday,Refrigerante,drink,37
+2025-02-16,Sunday,Milkshake,drink,16
+2025-02-16,Sunday,Sobremesa,dessert,26
+2025-02-17,Monday,Combo Hambúrguer + Batata,combo,54
+2025-02-17,Monday,Hambúrguer Simples,burger,34
+2025-02-17,Monday,Batata Frita,side,27
+2025-02-17,Monday,Refrigerante,drink,21
+2025-02-17,Monday,Milkshake,drink,14
+2025-02-17,Monday,Sobremesa,dessert,6
+2025-02-18,Tuesday,Combo Hambúrguer + Batata,combo,57
+2025-02-18,Tuesday,Hambúrguer Simples,burger,33
+2025-02-18,Tuesday,Batata Frita,side,24
+2025-02-18,Tuesday,Refrigerante,drink,23
+2025-02-18,Tuesday,Milkshake,drink,19
+2025-02-18,Tuesday,Sobremesa,dessert,5
+2025-02-19,Wednesday,Combo Hambúrguer + Batata,combo,49
+2025-02-19,Wednesday,Hambúrguer Simples,burger,33
+2025-02-19,Wednesday,Batata Frita,side,26
+2025-02-19,Wednesday,Refrigerante,drink,13
+2025-02-19,Wednesday,Milkshake,drink,13
+2025-02-19,Wednesday,Sobremesa,dessert,17
+2025-02-20,Thursday,Combo Hambúrguer + Batata,combo,47
+2025-02-20,Thursday,Hambúrguer Simples,burger,23
+2025-02-20,Thursday,Batata Frita,side,23
+2025-02-20,Thursday,Refrigerante,drink,26
+2025-02-20,Thursday,Milkshake,drink,13
+2025-02-20,Thursday,Sobremesa,dessert,13
+2025-02-21,Friday,Combo Hambúrguer + Batata,combo,53
+2025-02-21,Friday,Hambúrguer Simples,burger,29
+2025-02-21,Friday,Batata Frita,side,17
+2025-02-21,Friday,Refrigerante,drink,19
+2025-02-21,Friday,Milkshake,drink,8
+2025-02-21,Friday,Sobremesa,dessert,7
+2025-02-22,Saturday,Combo Hambúrguer + Batata,combo,72
+2025-02-22,Saturday,Hambúrguer Simples,burger,40
+2025-02-22,Saturday,Batata Frita,side,35
+2025-02-22,Saturday,Refrigerante,drink,27
+2025-02-22,Saturday,Milkshake,drink,17
+2025-02-22,Saturday,Sobremesa,dessert,15
+2025-02-23,Sunday,Combo Hambúrguer + Batata,combo,65
+2025-02-23,Sunday,Hambúrguer Simples,burger,47
+2025-02-23,Sunday,Batata Frita,side,39
+2025-02-23,Sunday,Refrigerante,drink,27
+2025-02-23,Sunday,Milkshake,drink,24
+2025-02-23,Sunday,Sobremesa,dessert,11
+2025-02-24,Monday,Combo Hambúrguer + Batata,combo,52
+2025-02-24,Monday,Hambúrguer Simples,burger,29
+2025-02-24,Monday,Batata Frita,side,22
+2025-02-24,Monday,Refrigerante,drink,26
+2025-02-24,Monday,Milkshake,drink,13
+2025-02-24,Monday,Sobremesa,dessert,9
+2025-02-25,Tuesday,Combo Hambúrguer + Batata,combo,88
+2025-02-25,Tuesday,Hambúrguer Simples,burger,44
+2025-02-25,Tuesday,Batata Frita,side,41
+2025-02-25,Tuesday,Refrigerante,drink,41
+2025-02-25,Tuesday,Milkshake,drink,24
+2025-02-25,Tuesday,Sobremesa,dessert,14
+2025-02-26,Wednesday,Combo Hambúrguer + Batata,combo,43
+2025-02-26,Wednesday,Hambúrguer Simples,burger,22
+2025-02-26,Wednesday,Batata Frita,side,18
+2025-02-26,Wednesday,Refrigerante,drink,21
+2025-02-26,Wednesday,Milkshake,drink,8
+2025-02-26,Wednesday,Sobremesa,dessert,7
+2025-02-27,Thursday,Combo Hambúrguer + Batata,combo,58
+2025-02-27,Thursday,Hambúrguer Simples,burger,36
+2025-02-27,Thursday,Batata Frita,side,31
+2025-02-27,Thursday,Refrigerante,drink,26
+2025-02-27,Thursday,Milkshake,drink,15
+2025-02-27,Thursday,Sobremesa,dessert,16
+2025-02-28,Friday,Combo Hambúrguer + Batata,combo,44
+2025-02-28,Friday,Hambúrguer Simples,burger,25
+2025-02-28,Friday,Batata Frita,side,28
+2025-02-28,Friday,Refrigerante,drink,19
+2025-02-28,Friday,Milkshake,drink,4
+2025-02-28,Friday,Sobremesa,dessert,7
+2025-03-01,Saturday,Combo Hambúrguer + Batata,combo,75
+2025-03-01,Saturday,Hambúrguer Simples,burger,47
+2025-03-01,Saturday,Batata Frita,side,39
+2025-03-01,Saturday,Refrigerante,drink,28
+2025-03-01,Saturday,Milkshake,drink,20
+2025-03-01,Saturday,Sobremesa,dessert,19
+2025-03-02,Sunday,Combo Hambúrguer + Batata,combo,80
+2025-03-02,Sunday,Hambúrguer Simples,burger,49
+2025-03-02,Sunday,Batata Frita,side,31
+2025-03-02,Sunday,Refrigerante,drink,35
+2025-03-02,Sunday,Milkshake,drink,28
+2025-03-02,Sunday,Sobremesa,dessert,13
+2025-03-03,Monday,Combo Hambúrguer + Batata,combo,47
+2025-03-03,Monday,Hambúrguer Simples,burger,22
+2025-03-03,Monday,Batata Frita,side,19
+2025-03-03,Monday,Refrigerante,drink,10
+2025-03-03,Monday,Milkshake,drink,18
+2025-03-03,Monday,Sobremesa,dessert,12
+2025-03-04,Tuesday,Combo Hambúrguer + Batata,combo,44
+2025-03-04,Tuesday,Hambúrguer Simples,burger,23
+2025-03-04,Tuesday,Batata Frita,side,30
+2025-03-04,Tuesday,Refrigerante,drink,15
+2025-03-04,Tuesday,Milkshake,drink,16
+2025-03-04,Tuesday,Sobremesa,dessert,16
+2025-03-05,Wednesday,Combo Hambúrguer + Batata,combo,55
+2025-03-05,Wednesday,Hambúrguer Simples,burger,34
+2025-03-05,Wednesday,Batata Frita,side,23
+2025-03-05,Wednesday,Refrigerante,drink,18
+2025-03-05,Wednesday,Milkshake,drink,16
+2025-03-05,Wednesday,Sobremesa,dessert,9
+2025-03-06,Thursday,Combo Hambúrguer + Batata,combo,46
+2025-03-06,Thursday,Hambúrguer Simples,burger,22
+2025-03-06,Thursday,Batata Frita,side,16
+2025-03-06,Thursday,Refrigerante,drink,32
+2025-03-06,Thursday,Milkshake,drink,19
+2025-03-06,Thursday,Sobremesa,dessert,9
+2025-03-07,Friday,Combo Hambúrguer + Batata,combo,49
+2025-03-07,Friday,Hambúrguer Simples,burger,24
+2025-03-07,Friday,Batata Frita,side,20
+2025-03-07,Friday,Refrigerante,drink,14
+2025-03-07,Friday,Milkshake,drink,18
+2025-03-07,Friday,Sobremesa,dessert,11
+2025-03-08,Saturday,Combo Hambúrguer + Batata,combo,74
+2025-03-08,Saturday,Hambúrguer Simples,burger,38
+2025-03-08,Saturday,Batata Frita,side,38
+2025-03-08,Saturday,Refrigerante,drink,20
+2025-03-08,Saturday,Milkshake,drink,23
+2025-03-08,Saturday,Sobremesa,dessert,13
+2025-03-09,Sunday,Combo Hambúrguer + Batata,combo,74
+2025-03-09,Sunday,Hambúrguer Simples,burger,50
+2025-03-09,Sunday,Batata Frita,side,33
+2025-03-09,Sunday,Refrigerante,drink,23
+2025-03-09,Sunday,Milkshake,drink,20
+2025-03-09,Sunday,Sobremesa,dessert,14
+2025-03-10,Monday,Combo Hambúrguer + Batata,combo,42
+2025-03-10,Monday,Hambúrguer Simples,burger,26
+2025-03-10,Monday,Batata Frita,side,23
+2025-03-10,Monday,Refrigerante,drink,13
+2025-03-10,Monday,Milkshake,drink,11
+2025-03-10,Monday,Sobremesa,dessert,4
+2025-03-11,Tuesday,Combo Hambúrguer + Batata,combo,49
+2025-03-11,Tuesday,Hambúrguer Simples,burger,23
+2025-03-11,Tuesday,Batata Frita,side,19
+2025-03-11,Tuesday,Refrigerante,drink,25
+2025-03-11,Tuesday,Milkshake,drink,17
+2025-03-11,Tuesday,Sobremesa,dessert,8
+2025-03-12,Wednesday,Combo Hambúrguer + Batata,combo,53
+2025-03-12,Wednesday,Hambúrguer Simples,burger,23
+2025-03-12,Wednesday,Batata Frita,side,26
+2025-03-12,Wednesday,Refrigerante,drink,18
+2025-03-12,Wednesday,Milkshake,drink,13
+2025-03-12,Wednesday,Sobremesa,dessert,13
+2025-03-13,Thursday,Combo Hambúrguer + Batata,combo,47
+2025-03-13,Thursday,Hambúrguer Simples,burger,35
+2025-03-13,Thursday,Batata Frita,side,23
+2025-03-13,Thursday,Refrigerante,drink,25
+2025-03-13,Thursday,Milkshake,drink,9
+2025-03-13,Thursday,Sobremesa,dessert,6
+2025-03-14,Friday,Combo Hambúrguer + Batata,combo,47
+2025-03-14,Friday,Hambúrguer Simples,burger,26
+2025-03-14,Friday,Batata Frita,side,22
+2025-03-14,Friday,Refrigerante,drink,21
+2025-03-14,Friday,Milkshake,drink,9
+2025-03-14,Friday,Sobremesa,dessert,20
+2025-03-15,Saturday,Combo Hambúrguer + Batata,combo,80
+2025-03-15,Saturday,Hambúrguer Simples,burger,53
+2025-03-15,Saturday,Batata Frita,side,38
+2025-03-15,Saturday,Refrigerante,drink,34
+2025-03-15,Saturday,Milkshake,drink,18
+2025-03-15,Saturday,Sobremesa,dessert,18
+2025-03-16,Sunday,Combo Hambúrguer + Batata,combo,76
+2025-03-16,Sunday,Hambúrguer Simples,burger,43
+2025-03-16,Sunday,Batata Frita,side,31
+2025-03-16,Sunday,Refrigerante,drink,35
+2025-03-16,Sunday,Milkshake,drink,17
+2025-03-16,Sunday,Sobremesa,dessert,18
+2025-03-17,Monday,Combo Hambúrguer + Batata,combo,45
+2025-03-17,Monday,Hambúrguer Simples,burger,27
+2025-03-17,Monday,Batata Frita,side,31
+2025-03-17,Monday,Refrigerante,drink,20
+2025-03-17,Monday,Milkshake,drink,14
+2025-03-17,Monday,Sobremesa,dessert,16
+2025-03-18,Tuesday,Combo Hambúrguer + Batata,combo,51
+2025-03-18,Tuesday,Hambúrguer Simples,burger,32
+2025-03-18,Tuesday,Batata Frita,side,34
+2025-03-18,Tuesday,Refrigerante,drink,25
+2025-03-18,Tuesday,Milkshake,drink,11
+2025-03-18,Tuesday,Sobremesa,dessert,3
+2025-03-19,Wednesday,Combo Hambúrguer + Batata,combo,54
+2025-03-19,Wednesday,Hambúrguer Simples,burger,37
+2025-03-19,Wednesday,Batata Frita,side,21
+2025-03-19,Wednesday,Refrigerante,drink,28
+2025-03-19,Wednesday,Milkshake,drink,16
+2025-03-19,Wednesday,Sobremesa,dessert,0
+2025-03-20,Thursday,Combo Hambúrguer + Batata,combo,58
+2025-03-20,Thursday,Hambúrguer Simples,burger,36
+2025-03-20,Thursday,Batata Frita,side,34
+2025-03-20,Thursday,Refrigerante,drink,21
+2025-03-20,Thursday,Milkshake,drink,12
+2025-03-20,Thursday,Sobremesa,dessert,2
+2025-03-21,Friday,Combo Hambúrguer + Batata,combo,53
+2025-03-21,Friday,Hambúrguer Simples,burger,24
+2025-03-21,Friday,Batata Frita,side,20
+2025-03-21,Friday,Refrigerante,drink,14
+2025-03-21,Friday,Milkshake,drink,8
+2025-03-21,Friday,Sobremesa,dessert,6
+2025-03-22,Saturday,Combo Hambúrguer + Batata,combo,76
+2025-03-22,Saturday,Hambúrguer Simples,burger,39
+2025-03-22,Saturday,Batata Frita,side,35
+2025-03-22,Saturday,Refrigerante,drink,32
+2025-03-22,Saturday,Milkshake,drink,20
+2025-03-22,Saturday,Sobremesa,dessert,12
+2025-03-23,Sunday,Combo Hambúrguer + Batata,combo,74
+2025-03-23,Sunday,Hambúrguer Simples,burger,47
+2025-03-23,Sunday,Batata Frita,side,35
+2025-03-23,Sunday,Refrigerante,drink,33
+2025-03-23,Sunday,Milkshake,drink,25
+2025-03-23,Sunday,Sobremesa,dessert,8
+2025-03-24,Monday,Combo Hambúrguer + Batata,combo,46
+2025-03-24,Monday,Hambúrguer Simples,burger,22
+2025-03-24,Monday,Batata Frita,side,19
+2025-03-24,Monday,Refrigerante,drink,23
+2025-03-24,Monday,Milkshake,drink,20
+2025-03-24,Monday,Sobremesa,dessert,13
+2025-03-25,Tuesday,Combo Hambúrguer + Batata,combo,50
+2025-03-25,Tuesday,Hambúrguer Simples,burger,27
+2025-03-25,Tuesday,Batata Frita,side,20
+2025-03-25,Tuesday,Refrigerante,drink,17
+2025-03-25,Tuesday,Milkshake,drink,14
+2025-03-25,Tuesday,Sobremesa,dessert,11
+2025-03-26,Wednesday,Combo Hambúrguer + Batata,combo,48
+2025-03-26,Wednesday,Hambúrguer Simples,burger,36
+2025-03-26,Wednesday,Batata Frita,side,20
+2025-03-26,Wednesday,Refrigerante,drink,18
+2025-03-26,Wednesday,Milkshake,drink,12
+2025-03-26,Wednesday,Sobremesa,dessert,16
+2025-03-27,Thursday,Combo Hambúrguer + Batata,combo,41
+2025-03-27,Thursday,Hambúrguer Simples,burger,32
+2025-03-27,Thursday,Batata Frita,side,25
+2025-03-27,Thursday,Refrigerante,drink,17
+2025-03-27,Thursday,Milkshake,drink,15
+2025-03-27,Thursday,Sobremesa,dessert,9
+2025-03-28,Friday,Combo Hambúrguer + Batata,combo,45
+2025-03-28,Friday,Hambúrguer Simples,burger,31
+2025-03-28,Friday,Batata Frita,side,26
+2025-03-28,Friday,Refrigerante,drink,19
+2025-03-28,Friday,Milkshake,drink,10
+2025-03-28,Friday,Sobremesa,dessert,13
+2025-03-29,Saturday,Combo Hambúrguer + Batata,combo,71
+2025-03-29,Saturday,Hambúrguer Simples,burger,43
+2025-03-29,Saturday,Batata Frita,side,32
+2025-03-29,Saturday,Refrigerante,drink,30
+2025-03-29,Saturday,Milkshake,drink,20
+2025-03-29,Saturday,Sobremesa,dessert,15
+2025-03-30,Sunday,Combo Hambúrguer + Batata,combo,72
+2025-03-30,Sunday,Hambúrguer Simples,burger,46
+2025-03-30,Sunday,Batata Frita,side,39
+2025-03-30,Sunday,Refrigerante,drink,25
+2025-03-30,Sunday,Milkshake,drink,24
+2025-03-30,Sunday,Sobremesa,dessert,18
+2025-03-31,Monday,Combo Hambúrguer + Batata,combo,50
+2025-03-31,Monday,Hambúrguer Simples,burger,28
+2025-03-31,Monday,Batata Frita,side,17
+2025-03-31,Monday,Refrigerante,drink,17
+2025-03-31,Monday,Milkshake,drink,10
+2025-03-31,Monday,Sobremesa,dessert,23
+2025-04-01,Tuesday,Combo Hambúrguer + Batata,combo,45
+2025-04-01,Tuesday,Hambúrguer Simples,burger,27
+2025-04-01,Tuesday,Batata Frita,side,25
+2025-04-01,Tuesday,Refrigerante,drink,16
+2025-04-01,Tuesday,Milkshake,drink,22
+2025-04-01,Tuesday,Sobremesa,dessert,11
+2025-04-02,Wednesday,Combo Hambúrguer + Batata,combo,48
+2025-04-02,Wednesday,Hambúrguer Simples,burger,28
+2025-04-02,Wednesday,Batata Frita,side,22
+2025-04-02,Wednesday,Refrigerante,drink,17
+2025-04-02,Wednesday,Milkshake,drink,10
+2025-04-02,Wednesday,Sobremesa,dessert,17
+2025-04-03,Thursday,Combo Hambúrguer + Batata,combo,43
+2025-04-03,Thursday,Hambúrguer Simples,burger,39
+2025-04-03,Thursday,Batata Frita,side,16
+2025-04-03,Thursday,Refrigerante,drink,18
+2025-04-03,Thursday,Milkshake,drink,19
+2025-04-03,Thursday,Sobremesa,dessert,15
+2025-04-04,Friday,Combo Hambúrguer + Batata,combo,49
+2025-04-04,Friday,Hambúrguer Simples,burger,28
+2025-04-04,Friday,Batata Frita,side,17
+2025-04-04,Friday,Refrigerante,drink,23
+2025-04-04,Friday,Milkshake,drink,14
+2025-04-04,Friday,Sobremesa,dessert,7
+2025-04-05,Saturday,Combo Hambúrguer + Batata,combo,79
+2025-04-05,Saturday,Hambúrguer Simples,burger,48
+2025-04-05,Saturday,Batata Frita,side,36
+2025-04-05,Saturday,Refrigerante,drink,33
+2025-04-05,Saturday,Milkshake,drink,24
+2025-04-05,Saturday,Sobremesa,dessert,15
+2025-04-06,Sunday,Combo Hambúrguer + Batata,combo,80
+2025-04-06,Sunday,Hambúrguer Simples,burger,42
+2025-04-06,Sunday,Batata Frita,side,41
+2025-04-06,Sunday,Refrigerante,drink,24
+2025-04-06,Sunday,Milkshake,drink,18
+2025-04-06,Sunday,Sobremesa,dessert,14
+2025-04-07,Monday,Combo Hambúrguer + Batata,combo,50
+2025-04-07,Monday,Hambúrguer Simples,burger,35
+2025-04-07,Monday,Batata Frita,side,28
+2025-04-07,Monday,Refrigerante,drink,22
+2025-04-07,Monday,Milkshake,drink,2
+2025-04-07,Monday,Sobremesa,dessert,7
+2025-04-08,Tuesday,Combo Hambúrguer + Batata,combo,43
+2025-04-08,Tuesday,Hambúrguer Simples,burger,36
+2025-04-08,Tuesday,Batata Frita,side,31
+2025-04-08,Tuesday,Refrigerante,drink,22
+2025-04-08,Tuesday,Milkshake,drink,13
+2025-04-08,Tuesday,Sobremesa,dessert,8
+2025-04-09,Wednesday,Combo Hambúrguer + Batata,combo,47
+2025-04-09,Wednesday,Hambúrguer Simples,burger,29
+2025-04-09,Wednesday,Batata Frita,side,21
+2025-04-09,Wednesday,Refrigerante,drink,23
+2025-04-09,Wednesday,Milkshake,drink,11
+2025-04-09,Wednesday,Sobremesa,dessert,3
+2025-04-10,Thursday,Combo Hambúrguer + Batata,combo,47
+2025-04-10,Thursday,Hambúrguer Simples,burger,20
+2025-04-10,Thursday,Batata Frita,side,24
+2025-04-10,Thursday,Refrigerante,drink,21
+2025-04-10,Thursday,Milkshake,drink,10
+2025-04-10,Thursday,Sobremesa,dessert,4
+2025-04-11,Friday,Combo Hambúrguer + Batata,combo,49
+2025-04-11,Friday,Hambúrguer Simples,burger,32
+2025-04-11,Friday,Batata Frita,side,25
+2025-04-11,Friday,Refrigerante,drink,16
+2025-04-11,Friday,Milkshake,drink,18
+2025-04-11,Friday,Sobremesa,dessert,12
+2025-04-12,Saturday,Combo Hambúrguer + Batata,combo,77
+2025-04-12,Saturday,Hambúrguer Simples,burger,45
+2025-04-12,Saturday,Batata Frita,side,31
+2025-04-12,Saturday,Refrigerante,drink,26
+2025-04-12,Saturday,Milkshake,drink,32
+2025-04-12,Saturday,Sobremesa,dessert,9
+2025-04-13,Sunday,Combo Hambúrguer + Batata,combo,74
+2025-04-13,Sunday,Hambúrguer Simples,burger,47
+2025-04-13,Sunday,Batata Frita,side,27
+2025-04-13,Sunday,Refrigerante,drink,31
+2025-04-13,Sunday,Milkshake,drink,19
+2025-04-13,Sunday,Sobremesa,dessert,15
+2025-04-14,Monday,Combo Hambúrguer + Batata,combo,44
+2025-04-14,Monday,Hambúrguer Simples,burger,32
+2025-04-14,Monday,Batata Frita,side,28
+2025-04-14,Monday,Refrigerante,drink,22
+2025-04-14,Monday,Milkshake,drink,19
+2025-04-14,Monday,Sobremesa,dessert,17
+2025-04-15,Tuesday,Combo Hambúrguer + Batata,combo,54
+2025-04-15,Tuesday,Hambúrguer Simples,burger,24
+2025-04-15,Tuesday,Batata Frita,side,31
+2025-04-15,Tuesday,Refrigerante,drink,23
+2025-04-15,Tuesday,Milkshake,drink,17
+2025-04-15,Tuesday,Sobremesa,dessert,19
+2025-04-16,Wednesday,Combo Hambúrguer + Batata,combo,55
+2025-04-16,Wednesday,Hambúrguer Simples,burger,30
+2025-04-16,Wednesday,Batata Frita,side,36
+2025-04-16,Wednesday,Refrigerante,drink,15
+2025-04-16,Wednesday,Milkshake,drink,7
+2025-04-16,Wednesday,Sobremesa,dessert,13
+2025-04-17,Thursday,Combo Hambúrguer + Batata,combo,47
+2025-04-17,Thursday,Hambúrguer Simples,burger,34
+2025-04-17,Thursday,Batata Frita,side,30
+2025-04-17,Thursday,Refrigerante,drink,22
+2025-04-17,Thursday,Milkshake,drink,19
+2025-04-17,Thursday,Sobremesa,dessert,2
+2025-04-18,Friday,Combo Hambúrguer + Batata,combo,89
+2025-04-18,Friday,Hambúrguer Simples,burger,54
+2025-04-18,Friday,Batata Frita,side,50
+2025-04-18,Friday,Refrigerante,drink,35
+2025-04-18,Friday,Milkshake,drink,27
+2025-04-18,Friday,Sobremesa,dessert,19
+2025-04-19,Saturday,Combo Hambúrguer + Batata,combo,78
+2025-04-19,Saturday,Hambúrguer Simples,burger,44
+2025-04-19,Saturday,Batata Frita,side,34
+2025-04-19,Saturday,Refrigerante,drink,37
+2025-04-19,Saturday,Milkshake,drink,22
+2025-04-19,Saturday,Sobremesa,dessert,23
+2025-04-20,Sunday,Combo Hambúrguer + Batata,combo,81
+2025-04-20,Sunday,Hambúrguer Simples,burger,43
+2025-04-20,Sunday,Batata Frita,side,26
+2025-04-20,Sunday,Refrigerante,drink,18
+2025-04-20,Sunday,Milkshake,drink,14
+2025-04-20,Sunday,Sobremesa,dessert,13
+2025-04-21,Monday,Combo Hambúrguer + Batata,combo,51
+2025-04-21,Monday,Hambúrguer Simples,burger,37
+2025-04-21,Monday,Batata Frita,side,29
+2025-04-21,Monday,Refrigerante,drink,17
+2025-04-21,Monday,Milkshake,drink,13
+2025-04-21,Monday,Sobremesa,dessert,5
+2025-04-22,Tuesday,Combo Hambúrguer + Batata,combo,47
+2025-04-22,Tuesday,Hambúrguer Simples,burger,23
+2025-04-22,Tuesday,Batata Frita,side,20
+2025-04-22,Tuesday,Refrigerante,drink,13
+2025-04-22,Tuesday,Milkshake,drink,8
+2025-04-22,Tuesday,Sobremesa,dessert,10
+2025-04-23,Wednesday,Combo Hambúrguer + Batata,combo,38
+2025-04-23,Wednesday,Hambúrguer Simples,burger,32
+2025-04-23,Wednesday,Batata Frita,side,21
+2025-04-23,Wednesday,Refrigerante,drink,23
+2025-04-23,Wednesday,Milkshake,drink,8
+2025-04-23,Wednesday,Sobremesa,dessert,8
+2025-04-24,Thursday,Combo Hambúrguer + Batata,combo,49
+2025-04-24,Thursday,Hambúrguer Simples,burger,31
+2025-04-24,Thursday,Batata Frita,side,15
+2025-04-24,Thursday,Refrigerante,drink,19
+2025-04-24,Thursday,Milkshake,drink,11
+2025-04-24,Thursday,Sobremesa,dessert,18
+2025-04-25,Friday,Combo Hambúrguer + Batata,combo,58
+2025-04-25,Friday,Hambúrguer Simples,burger,29
+2025-04-25,Friday,Batata Frita,side,21
+2025-04-25,Friday,Refrigerante,drink,20
+2025-04-25,Friday,Milkshake,drink,23
+2025-04-25,Friday,Sobremesa,dessert,6
+2025-04-26,Saturday,Combo Hambúrguer + Batata,combo,76
+2025-04-26,Saturday,Hambúrguer Simples,burger,39
+2025-04-26,Saturday,Batata Frita,side,38
+2025-04-26,Saturday,Refrigerante,drink,29
+2025-04-26,Saturday,Milkshake,drink,11
+2025-04-26,Saturday,Sobremesa,dessert,12
+2025-04-27,Sunday,Combo Hambúrguer + Batata,combo,68
+2025-04-27,Sunday,Hambúrguer Simples,burger,39
+2025-04-27,Sunday,Batata Frita,side,38
+2025-04-27,Sunday,Refrigerante,drink,34
+2025-04-27,Sunday,Milkshake,drink,24
+2025-04-27,Sunday,Sobremesa,dessert,18
+2025-04-28,Monday,Combo Hambúrguer + Batata,combo,49
+2025-04-28,Monday,Hambúrguer Simples,burger,24
+2025-04-28,Monday,Batata Frita,side,29
+2025-04-28,Monday,Refrigerante,drink,24
+2025-04-28,Monday,Milkshake,drink,10
+2025-04-28,Monday,Sobremesa,dessert,3
+2025-04-29,Tuesday,Combo Hambúrguer + Batata,combo,49
+2025-04-29,Tuesday,Hambúrguer Simples,burger,34
+2025-04-29,Tuesday,Batata Frita,side,38
+2025-04-29,Tuesday,Refrigerante,drink,29
+2025-04-29,Tuesday,Milkshake,drink,13
+2025-04-29,Tuesday,Sobremesa,dessert,14
+2025-04-30,Wednesday,Combo Hambúrguer + Batata,combo,44
+2025-04-30,Wednesday,Hambúrguer Simples,burger,21
+2025-04-30,Wednesday,Batata Frita,side,18
+2025-04-30,Wednesday,Refrigerante,drink,21
+2025-04-30,Wednesday,Milkshake,drink,8
+2025-04-30,Wednesday,Sobremesa,dessert,10
+2025-05-01,Thursday,Combo Hambúrguer + Batata,combo,88
+2025-05-01,Thursday,Hambúrguer Simples,burger,56
+2025-05-01,Thursday,Batata Frita,side,38
+2025-05-01,Thursday,Refrigerante,drink,42
+2025-05-01,Thursday,Milkshake,drink,24
+2025-05-01,Thursday,Sobremesa,dessert,6
+2025-05-02,Friday,Combo Hambúrguer + Batata,combo,51
+2025-05-02,Friday,Hambúrguer Simples,burger,28
+2025-05-02,Friday,Batata Frita,side,28
+2025-05-02,Friday,Refrigerante,drink,18
+2025-05-02,Friday,Milkshake,drink,18
+2025-05-02,Friday,Sobremesa,dessert,20
+2025-05-03,Saturday,Combo Hambúrguer + Batata,combo,70
+2025-05-03,Saturday,Hambúrguer Simples,burger,48
+2025-05-03,Saturday,Batata Frita,side,38
+2025-05-03,Saturday,Refrigerante,drink,26
+2025-05-03,Saturday,Milkshake,drink,26
+2025-05-03,Saturday,Sobremesa,dessert,22
+2025-05-04,Sunday,Combo Hambúrguer + Batata,combo,68
+2025-05-04,Sunday,Hambúrguer Simples,burger,44
+2025-05-04,Sunday,Batata Frita,side,29
+2025-05-04,Sunday,Refrigerante,drink,38
+2025-05-04,Sunday,Milkshake,drink,22
+2025-05-04,Sunday,Sobremesa,dessert,19
+2025-05-05,Monday,Combo Hambúrguer + Batata,combo,49
+2025-05-05,Monday,Hambúrguer Simples,burger,35
+2025-05-05,Monday,Batata Frita,side,22
+2025-05-05,Monday,Refrigerante,drink,18
+2025-05-05,Monday,Milkshake,drink,12
+2025-05-05,Monday,Sobremesa,dessert,9
+2025-05-06,Tuesday,Combo Hambúrguer + Batata,combo,49
+2025-05-06,Tuesday,Hambúrguer Simples,burger,32
+2025-05-06,Tuesday,Batata Frita,side,19
+2025-05-06,Tuesday,Refrigerante,drink,25
+2025-05-06,Tuesday,Milkshake,drink,10
+2025-05-06,Tuesday,Sobremesa,dessert,5
+2025-05-07,Wednesday,Combo Hambúrguer + Batata,combo,49
+2025-05-07,Wednesday,Hambúrguer Simples,burger,29
+2025-05-07,Wednesday,Batata Frita,side,25
+2025-05-07,Wednesday,Refrigerante,drink,23
+2025-05-07,Wednesday,Milkshake,drink,13
+2025-05-07,Wednesday,Sobremesa,dessert,7
+2025-05-08,Thursday,Combo Hambúrguer + Batata,combo,54
+2025-05-08,Thursday,Hambúrguer Simples,burger,28
+2025-05-08,Thursday,Batata Frita,side,24
+2025-05-08,Thursday,Refrigerante,drink,26
+2025-05-08,Thursday,Milkshake,drink,11
+2025-05-08,Thursday,Sobremesa,dessert,10
+2025-05-09,Friday,Combo Hambúrguer + Batata,combo,56
+2025-05-09,Friday,Hambúrguer Simples,burger,26
+2025-05-09,Friday,Batata Frita,side,20
+2025-05-09,Friday,Refrigerante,drink,18
+2025-05-09,Friday,Milkshake,drink,14
+2025-05-09,Friday,Sobremesa,dessert,7
+2025-05-10,Saturday,Combo Hambúrguer + Batata,combo,82
+2025-05-10,Saturday,Hambúrguer Simples,burger,45
+2025-05-10,Saturday,Batata Frita,side,32
+2025-05-10,Saturday,Refrigerante,drink,32
+2025-05-10,Saturday,Milkshake,drink,21
+2025-05-10,Saturday,Sobremesa,dessert,13
+2025-05-11,Sunday,Combo Hambúrguer + Batata,combo,73
+2025-05-11,Sunday,Hambúrguer Simples,burger,44
+2025-05-11,Sunday,Batata Frita,side,39
+2025-05-11,Sunday,Refrigerante,drink,24
+2025-05-11,Sunday,Milkshake,drink,20
+2025-05-11,Sunday,Sobremesa,dessert,14
+2025-05-12,Monday,Combo Hambúrguer + Batata,combo,51
+2025-05-12,Monday,Hambúrguer Simples,burger,31
+2025-05-12,Monday,Batata Frita,side,24
+2025-05-12,Monday,Refrigerante,drink,19
+2025-05-12,Monday,Milkshake,drink,13
+2025-05-12,Monday,Sobremesa,dessert,16
+2025-05-13,Tuesday,Combo Hambúrguer + Batata,combo,53
+2025-05-13,Tuesday,Hambúrguer Simples,burger,23
+2025-05-13,Tuesday,Batata Frita,side,24
+2025-05-13,Tuesday,Refrigerante,drink,27
+2025-05-13,Tuesday,Milkshake,drink,19
+2025-05-13,Tuesday,Sobremesa,dessert,3
+2025-05-14,Wednesday,Combo Hambúrguer + Batata,combo,48
+2025-05-14,Wednesday,Hambúrguer Simples,burger,27
+2025-05-14,Wednesday,Batata Frita,side,20
+2025-05-14,Wednesday,Refrigerante,drink,21
+2025-05-14,Wednesday,Milkshake,drink,19
+2025-05-14,Wednesday,Sobremesa,dessert,12
+2025-05-15,Thursday,Combo Hambúrguer + Batata,combo,55
+2025-05-15,Thursday,Hambúrguer Simples,burger,30
+2025-05-15,Thursday,Batata Frita,side,19
+2025-05-15,Thursday,Refrigerante,drink,21
+2025-05-15,Thursday,Milkshake,drink,12
+2025-05-15,Thursday,Sobremesa,dessert,8
+2025-05-16,Friday,Combo Hambúrguer + Batata,combo,43
+2025-05-16,Friday,Hambúrguer Simples,burger,30
+2025-05-16,Friday,Batata Frita,side,27
+2025-05-16,Friday,Refrigerante,drink,28
+2025-05-16,Friday,Milkshake,drink,15
+2025-05-16,Friday,Sobremesa,dessert,15
+2025-05-17,Saturday,Combo Hambúrguer + Batata,combo,77
+2025-05-17,Saturday,Hambúrguer Simples,burger,49
+2025-05-17,Saturday,Batata Frita,side,37
+2025-05-17,Saturday,Refrigerante,drink,25
+2025-05-17,Saturday,Milkshake,drink,20
+2025-05-17,Saturday,Sobremesa,dessert,12
+2025-05-18,Sunday,Combo Hambúrguer + Batata,combo,65
+2025-05-18,Sunday,Hambúrguer Simples,burger,44
+2025-05-18,Sunday,Batata Frita,side,34
+2025-05-18,Sunday,Refrigerante,drink,25
+2025-05-18,Sunday,Milkshake,drink,22
+2025-05-18,Sunday,Sobremesa,dessert,10
+2025-05-19,Monday,Combo Hambúrguer + Batata,combo,49
+2025-05-19,Monday,Hambúrguer Simples,burger,32
+2025-05-19,Monday,Batata Frita,side,28
+2025-05-19,Monday,Refrigerante,drink,27
+2025-05-19,Monday,Milkshake,drink,15
+2025-05-19,Monday,Sobremesa,dessert,12
+2025-05-20,Tuesday,Combo Hambúrguer + Batata,combo,50
+2025-05-20,Tuesday,Hambúrguer Simples,burger,35
+2025-05-20,Tuesday,Batata Frita,side,20
+2025-05-20,Tuesday,Refrigerante,drink,14
+2025-05-20,Tuesday,Milkshake,drink,21
+2025-05-20,Tuesday,Sobremesa,dessert,2
+2025-05-21,Wednesday,Combo Hambúrguer + Batata,combo,58
+2025-05-21,Wednesday,Hambúrguer Simples,burger,19
+2025-05-21,Wednesday,Batata Frita,side,28
+2025-05-21,Wednesday,Refrigerante,drink,18
+2025-05-21,Wednesday,Milkshake,drink,12
+2025-05-21,Wednesday,Sobremesa,dessert,10
+2025-05-22,Thursday,Combo Hambúrguer + Batata,combo,56
+2025-05-22,Thursday,Hambúrguer Simples,burger,26
+2025-05-22,Thursday,Batata Frita,side,27
+2025-05-22,Thursday,Refrigerante,drink,15
+2025-05-22,Thursday,Milkshake,drink,14
+2025-05-22,Thursday,Sobremesa,dessert,13
+2025-05-23,Friday,Combo Hambúrguer + Batata,combo,51
+2025-05-23,Friday,Hambúrguer Simples,burger,30
+2025-05-23,Friday,Batata Frita,side,23
+2025-05-23,Friday,Refrigerante,drink,20
+2025-05-23,Friday,Milkshake,drink,27
+2025-05-23,Friday,Sobremesa,dessert,13
+2025-05-24,Saturday,Combo Hambúrguer + Batata,combo,81
+2025-05-24,Saturday,Hambúrguer Simples,burger,45
+2025-05-24,Saturday,Batata Frita,side,37
+2025-05-24,Saturday,Refrigerante,drink,24
+2025-05-24,Saturday,Milkshake,drink,23
+2025-05-24,Saturday,Sobremesa,dessert,27
+2025-05-25,Sunday,Combo Hambúrguer + Batata,combo,74
+2025-05-25,Sunday,Hambúrguer Simples,burger,45
+2025-05-25,Sunday,Batata Frita,side,37
+2025-05-25,Sunday,Refrigerante,drink,29
+2025-05-25,Sunday,Milkshake,drink,22
+2025-05-25,Sunday,Sobremesa,dessert,23
+2025-05-26,Monday,Combo Hambúrguer + Batata,combo,45
+2025-05-26,Monday,Hambúrguer Simples,burger,30
+2025-05-26,Monday,Batata Frita,side,20
+2025-05-26,Monday,Refrigerante,drink,9
+2025-05-26,Monday,Milkshake,drink,10
+2025-05-26,Monday,Sobremesa,dessert,9
+2025-05-27,Tuesday,Combo Hambúrguer + Batata,combo,47
+2025-05-27,Tuesday,Hambúrguer Simples,burger,21
+2025-05-27,Tuesday,Batata Frita,side,9
+2025-05-27,Tuesday,Refrigerante,drink,11
+2025-05-27,Tuesday,Milkshake,drink,20
+2025-05-27,Tuesday,Sobremesa,dessert,14
+2025-05-28,Wednesday,Combo Hambúrguer + Batata,combo,49
+2025-05-28,Wednesday,Hambúrguer Simples,burger,29
+2025-05-28,Wednesday,Batata Frita,side,22
+2025-05-28,Wednesday,Refrigerante,drink,7
+2025-05-28,Wednesday,Milkshake,drink,4
+2025-05-28,Wednesday,Sobremesa,dessert,20
+2025-05-29,Thursday,Combo Hambúrguer + Batata,combo,47
+2025-05-29,Thursday,Hambúrguer Simples,burger,27
+2025-05-29,Thursday,Batata Frita,side,27
+2025-05-29,Thursday,Refrigerante,drink,25
+2025-05-29,Thursday,Milkshake,drink,10
+2025-05-29,Thursday,Sobremesa,dessert,5
+2025-05-30,Friday,Combo Hambúrguer + Batata,combo,52
+2025-05-30,Friday,Hambúrguer Simples,burger,23
+2025-05-30,Friday,Batata Frita,side,25
+2025-05-30,Friday,Refrigerante,drink,23
+2025-05-30,Friday,Milkshake,drink,18
+2025-05-30,Friday,Sobremesa,dessert,8
+2025-05-31,Saturday,Combo Hambúrguer + Batata,combo,80
+2025-05-31,Saturday,Hambúrguer Simples,burger,47
+2025-05-31,Saturday,Batata Frita,side,44
+2025-05-31,Saturday,Refrigerante,drink,32
+2025-05-31,Saturday,Milkshake,drink,31
+2025-05-31,Saturday,Sobremesa,dessert,18
+2025-06-01,Sunday,Combo Hambúrguer + Batata,combo,84
+2025-06-01,Sunday,Hambúrguer Simples,burger,45
+2025-06-01,Sunday,Batata Frita,side,45
+2025-06-01,Sunday,Refrigerante,drink,30
+2025-06-01,Sunday,Milkshake,drink,26
+2025-06-01,Sunday,Sobremesa,dessert,16
+2025-06-02,Monday,Combo Hambúrguer + Batata,combo,49
+2025-06-02,Monday,Hambúrguer Simples,burger,33
+2025-06-02,Monday,Batata Frita,side,21
+2025-06-02,Monday,Refrigerante,drink,17
+2025-06-02,Monday,Milkshake,drink,12
+2025-06-02,Monday,Sobremesa,dessert,6
+2025-06-03,Tuesday,Combo Hambúrguer + Batata,combo,54
+2025-06-03,Tuesday,Hambúrguer Simples,burger,24
+2025-06-03,Tuesday,Batata Frita,side,22
+2025-06-03,Tuesday,Refrigerante,drink,15
+2025-06-03,Tuesday,Milkshake,drink,18
+2025-06-03,Tuesday,Sobremesa,dessert,1
+2025-06-04,Wednesday,Combo Hambúrguer + Batata,combo,51
+2025-06-04,Wednesday,Hambúrguer Simples,burger,27
+2025-06-04,Wednesday,Batata Frita,side,25
+2025-06-04,Wednesday,Refrigerante,drink,21
+2025-06-04,Wednesday,Milkshake,drink,31
+2025-06-04,Wednesday,Sobremesa,dessert,18
+2025-06-05,Thursday,Combo Hambúrguer + Batata,combo,53
+2025-06-05,Thursday,Hambúrguer Simples,burger,37
+2025-06-05,Thursday,Batata Frita,side,20
+2025-06-05,Thursday,Refrigerante,drink,16
+2025-06-05,Thursday,Milkshake,drink,19
+2025-06-05,Thursday,Sobremesa,dessert,5
+2025-06-06,Friday,Combo Hambúrguer + Batata,combo,45
+2025-06-06,Friday,Hambúrguer Simples,burger,27
+2025-06-06,Friday,Batata Frita,side,33
+2025-06-06,Friday,Refrigerante,drink,25
+2025-06-06,Friday,Milkshake,drink,7
+2025-06-06,Friday,Sobremesa,dessert,4
+2025-06-07,Saturday,Combo Hambúrguer + Batata,combo,77
+2025-06-07,Saturday,Hambúrguer Simples,burger,43
+2025-06-07,Saturday,Batata Frita,side,43
+2025-06-07,Saturday,Refrigerante,drink,23
+2025-06-07,Saturday,Milkshake,drink,21
+2025-06-07,Saturday,Sobremesa,dessert,10
+2025-06-08,Sunday,Combo Hambúrguer + Batata,combo,75
+2025-06-08,Sunday,Hambúrguer Simples,burger,47
+2025-06-08,Sunday,Batata Frita,side,28
+2025-06-08,Sunday,Refrigerante,drink,29
+2025-06-08,Sunday,Milkshake,drink,25
+2025-06-08,Sunday,Sobremesa,dessert,25
+2025-06-09,Monday,Combo Hambúrguer + Batata,combo,51
+2025-06-09,Monday,Hambúrguer Simples,burger,23
+2025-06-09,Monday,Batata Frita,side,24
+2025-06-09,Monday,Refrigerante,drink,23
+2025-06-09,Monday,Milkshake,drink,20
+2025-06-09,Monday,Sobremesa,dessert,11
+2025-06-10,Tuesday,Combo Hambúrguer + Batata,combo,56
+2025-06-10,Tuesday,Hambúrguer Simples,burger,29
+2025-06-10,Tuesday,Batata Frita,side,33
+2025-06-10,Tuesday,Refrigerante,drink,23
+2025-06-10,Tuesday,Milkshake,drink,13
+2025-06-10,Tuesday,Sobremesa,dessert,9
+2025-06-11,Wednesday,Combo Hambúrguer + Batata,combo,46
+2025-06-11,Wednesday,Hambúrguer Simples,burger,27
+2025-06-11,Wednesday,Batata Frita,side,31
+2025-06-11,Wednesday,Refrigerante,drink,2
+2025-06-11,Wednesday,Milkshake,drink,18
+2025-06-11,Wednesday,Sobremesa,dessert,13
+2025-06-12,Thursday,Combo Hambúrguer + Batata,combo,48
+2025-06-12,Thursday,Hambúrguer Simples,burger,32
+2025-06-12,Thursday,Batata Frita,side,18
+2025-06-12,Thursday,Refrigerante,drink,18
+2025-06-12,Thursday,Milkshake,drink,18
+2025-06-12,Thursday,Sobremesa,dessert,10
+2025-06-13,Friday,Combo Hambúrguer + Batata,combo,55
+2025-06-13,Friday,Hambúrguer Simples,burger,30
+2025-06-13,Friday,Batata Frita,side,27
+2025-06-13,Friday,Refrigerante,drink,13
+2025-06-13,Friday,Milkshake,drink,17
+2025-06-13,Friday,Sobremesa,dessert,16
+2025-06-14,Saturday,Combo Hambúrguer + Batata,combo,77
+2025-06-14,Saturday,Hambúrguer Simples,burger,32
+2025-06-14,Saturday,Batata Frita,side,47
+2025-06-14,Saturday,Refrigerante,drink,34
+2025-06-14,Saturday,Milkshake,drink,23
+2025-06-14,Saturday,Sobremesa,dessert,13
+2025-06-15,Sunday,Combo Hambúrguer + Batata,combo,66
+2025-06-15,Sunday,Hambúrguer Simples,burger,47
+2025-06-15,Sunday,Batata Frita,side,46
+2025-06-15,Sunday,Refrigerante,drink,26
+2025-06-15,Sunday,Milkshake,drink,20
+2025-06-15,Sunday,Sobremesa,dessert,6
+2025-06-16,Monday,Combo Hambúrguer + Batata,combo,49
+2025-06-16,Monday,Hambúrguer Simples,burger,20
+2025-06-16,Monday,Batata Frita,side,20
+2025-06-16,Monday,Refrigerante,drink,17
+2025-06-16,Monday,Milkshake,drink,18
+2025-06-16,Monday,Sobremesa,dessert,10
+2025-06-17,Tuesday,Combo Hambúrguer + Batata,combo,54
+2025-06-17,Tuesday,Hambúrguer Simples,burger,28
+2025-06-17,Tuesday,Batata Frita,side,29
+2025-06-17,Tuesday,Refrigerante,drink,11
+2025-06-17,Tuesday,Milkshake,drink,18
+2025-06-17,Tuesday,Sobremesa,dessert,13
+2025-06-18,Wednesday,Combo Hambúrguer + Batata,combo,42
+2025-06-18,Wednesday,Hambúrguer Simples,burger,24
+2025-06-18,Wednesday,Batata Frita,side,22
+2025-06-18,Wednesday,Refrigerante,drink,24
+2025-06-18,Wednesday,Milkshake,drink,9
+2025-06-18,Wednesday,Sobremesa,dessert,19
+2025-06-19,Thursday,Combo Hambúrguer + Batata,combo,41
+2025-06-19,Thursday,Hambúrguer Simples,burger,24
+2025-06-19,Thursday,Batata Frita,side,26
+2025-06-19,Thursday,Refrigerante,drink,12
+2025-06-19,Thursday,Milkshake,drink,10
+2025-06-19,Thursday,Sobremesa,dessert,10
+2025-06-20,Friday,Combo Hambúrguer + Batata,combo,51
+2025-06-20,Friday,Hambúrguer Simples,burger,32
+2025-06-20,Friday,Batata Frita,side,17
+2025-06-20,Friday,Refrigerante,drink,17
+2025-06-20,Friday,Milkshake,drink,15
+2025-06-20,Friday,Sobremesa,dessert,10
+2025-06-21,Saturday,Combo Hambúrguer + Batata,combo,73
+2025-06-21,Saturday,Hambúrguer Simples,burger,45
+2025-06-21,Saturday,Batata Frita,side,37
+2025-06-21,Saturday,Refrigerante,drink,25
+2025-06-21,Saturday,Milkshake,drink,16
+2025-06-21,Saturday,Sobremesa,dessert,14
+2025-06-22,Sunday,Combo Hambúrguer + Batata,combo,73
+2025-06-22,Sunday,Hambúrguer Simples,burger,42
+2025-06-22,Sunday,Batata Frita,side,36
+2025-06-22,Sunday,Refrigerante,drink,34
+2025-06-22,Sunday,Milkshake,drink,22
+2025-06-22,Sunday,Sobremesa,dessert,21
+2025-06-23,Monday,Combo Hambúrguer + Batata,combo,48
+2025-06-23,Monday,Hambúrguer Simples,burger,26
+2025-06-23,Monday,Batata Frita,side,21
+2025-06-23,Monday,Refrigerante,drink,19
+2025-06-23,Monday,Milkshake,drink,14
+2025-06-23,Monday,Sobremesa,dessert,11
+2025-06-24,Tuesday,Combo Hambúrguer + Batata,combo,57
+2025-06-24,Tuesday,Hambúrguer Simples,burger,24
+2025-06-24,Tuesday,Batata Frita,side,29
+2025-06-24,Tuesday,Refrigerante,drink,12
+2025-06-24,Tuesday,Milkshake,drink,11
+2025-06-24,Tuesday,Sobremesa,dessert,7
+2025-06-25,Wednesday,Combo Hambúrguer + Batata,combo,49
+2025-06-25,Wednesday,Hambúrguer Simples,burger,25
+2025-06-25,Wednesday,Batata Frita,side,28
+2025-06-25,Wednesday,Refrigerante,drink,24
+2025-06-25,Wednesday,Milkshake,drink,23
+2025-06-25,Wednesday,Sobremesa,dessert,9
+2025-06-26,Thursday,Combo Hambúrguer + Batata,combo,49
+2025-06-26,Thursday,Hambúrguer Simples,burger,27
+2025-06-26,Thursday,Batata Frita,side,27
+2025-06-26,Thursday,Refrigerante,drink,28
+2025-06-26,Thursday,Milkshake,drink,13
+2025-06-26,Thursday,Sobremesa,dessert,2
+2025-06-27,Friday,Combo Hambúrguer + Batata,combo,48
+2025-06-27,Friday,Hambúrguer Simples,burger,32
+2025-06-27,Friday,Batata Frita,side,34
+2025-06-27,Friday,Refrigerante,drink,11
+2025-06-27,Friday,Milkshake,drink,13
+2025-06-27,Friday,Sobremesa,dessert,6
+2025-06-28,Saturday,Combo Hambúrguer + Batata,combo,79
+2025-06-28,Saturday,Hambúrguer Simples,burger,39
+2025-06-28,Saturday,Batata Frita,side,40
+2025-06-28,Saturday,Refrigerante,drink,28
+2025-06-28,Saturday,Milkshake,drink,29
+2025-06-28,Saturday,Sobremesa,dessert,11
+2025-06-29,Sunday,Combo Hambúrguer + Batata,combo,79
+2025-06-29,Sunday,Hambúrguer Simples,burger,41
+2025-06-29,Sunday,Batata Frita,side,36
+2025-06-29,Sunday,Refrigerante,drink,30
+2025-06-29,Sunday,Milkshake,drink,23
+2025-06-29,Sunday,Sobremesa,dessert,12
+2025-06-30,Monday,Combo Hambúrguer + Batata,combo,58
+2025-06-30,Monday,Hambúrguer Simples,burger,26
+2025-06-30,Monday,Batata Frita,side,24
+2025-06-30,Monday,Refrigerante,drink,8
+2025-06-30,Monday,Milkshake,drink,9
+2025-06-30,Monday,Sobremesa,dessert,16
+2025-07-01,Tuesday,Combo Hambúrguer + Batata,combo,43
+2025-07-01,Tuesday,Hambúrguer Simples,burger,30
+2025-07-01,Tuesday,Batata Frita,side,28
+2025-07-01,Tuesday,Refrigerante,drink,26
+2025-07-01,Tuesday,Milkshake,drink,18
+2025-07-01,Tuesday,Sobremesa,dessert,6
+2025-07-02,Wednesday,Combo Hambúrguer + Batata,combo,39
+2025-07-02,Wednesday,Hambúrguer Simples,burger,24
+2025-07-02,Wednesday,Batata Frita,side,25
+2025-07-02,Wednesday,Refrigerante,drink,26
+2025-07-02,Wednesday,Milkshake,drink,13
+2025-07-02,Wednesday,Sobremesa,dessert,9
+2025-07-03,Thursday,Combo Hambúrguer + Batata,combo,42
+2025-07-03,Thursday,Hambúrguer Simples,burger,30
+2025-07-03,Thursday,Batata Frita,side,30
+2025-07-03,Thursday,Refrigerante,drink,15
+2025-07-03,Thursday,Milkshake,drink,16
+2025-07-03,Thursday,Sobremesa,dessert,6
+2025-07-04,Friday,Combo Hambúrguer + Batata,combo,49
+2025-07-04,Friday,Hambúrguer Simples,burger,35
+2025-07-04,Friday,Batata Frita,side,26
+2025-07-04,Friday,Refrigerante,drink,18
+2025-07-04,Friday,Milkshake,drink,18
+2025-07-04,Friday,Sobremesa,dessert,14
+2025-07-05,Saturday,Combo Hambúrguer + Batata,combo,72
+2025-07-05,Saturday,Hambúrguer Simples,burger,41
+2025-07-05,Saturday,Batata Frita,side,31
+2025-07-05,Saturday,Refrigerante,drink,30
+2025-07-05,Saturday,Milkshake,drink,17
+2025-07-05,Saturday,Sobremesa,dessert,12
+2025-07-06,Sunday,Combo Hambúrguer + Batata,combo,75
+2025-07-06,Sunday,Hambúrguer Simples,burger,45
+2025-07-06,Sunday,Batata Frita,side,38
+2025-07-06,Sunday,Refrigerante,drink,35
+2025-07-06,Sunday,Milkshake,drink,24
+2025-07-06,Sunday,Sobremesa,dessert,18
+2025-07-07,Monday,Combo Hambúrguer + Batata,combo,57
+2025-07-07,Monday,Hambúrguer Simples,burger,37
+2025-07-07,Monday,Batata Frita,side,27
+2025-07-07,Monday,Refrigerante,drink,20
+2025-07-07,Monday,Milkshake,drink,11
+2025-07-07,Monday,Sobremesa,dessert,14
+2025-07-08,Tuesday,Combo Hambúrguer + Batata,combo,53
+2025-07-08,Tuesday,Hambúrguer Simples,burger,29
+2025-07-08,Tuesday,Batata Frita,side,22
+2025-07-08,Tuesday,Refrigerante,drink,15
+2025-07-08,Tuesday,Milkshake,drink,19
+2025-07-08,Tuesday,Sobremesa,dessert,9
+2025-07-09,Wednesday,Combo Hambúrguer + Batata,combo,45
+2025-07-09,Wednesday,Hambúrguer Simples,burger,28
+2025-07-09,Wednesday,Batata Frita,side,32
+2025-07-09,Wednesday,Refrigerante,drink,15
+2025-07-09,Wednesday,Milkshake,drink,16
+2025-07-09,Wednesday,Sobremesa,dessert,12
+2025-07-10,Thursday,Combo Hambúrguer + Batata,combo,53
+2025-07-10,Thursday,Hambúrguer Simples,burger,39
+2025-07-10,Thursday,Batata Frita,side,24
+2025-07-10,Thursday,Refrigerante,drink,18
+2025-07-10,Thursday,Milkshake,drink,16
+2025-07-10,Thursday,Sobremesa,dessert,8
+2025-07-11,Friday,Combo Hambúrguer + Batata,combo,52
+2025-07-11,Friday,Hambúrguer Simples,burger,29
+2025-07-11,Friday,Batata Frita,side,34
+2025-07-11,Friday,Refrigerante,drink,19
+2025-07-11,Friday,Milkshake,drink,12
+2025-07-11,Friday,Sobremesa,dessert,10
+2025-07-12,Saturday,Combo Hambúrguer + Batata,combo,76
+2025-07-12,Saturday,Hambúrguer Simples,burger,47
+2025-07-12,Saturday,Batata Frita,side,43
+2025-07-12,Saturday,Refrigerante,drink,31
+2025-07-12,Saturday,Milkshake,drink,26
+2025-07-12,Saturday,Sobremesa,dessert,12
+2025-07-13,Sunday,Combo Hambúrguer + Batata,combo,76
+2025-07-13,Sunday,Hambúrguer Simples,burger,43
+2025-07-13,Sunday,Batata Frita,side,35
+2025-07-13,Sunday,Refrigerante,drink,26
+2025-07-13,Sunday,Milkshake,drink,25
+2025-07-13,Sunday,Sobremesa,dessert,13
+2025-07-14,Monday,Combo Hambúrguer + Batata,combo,57
+2025-07-14,Monday,Hambúrguer Simples,burger,33
+2025-07-14,Monday,Batata Frita,side,17
+2025-07-14,Monday,Refrigerante,drink,22
+2025-07-14,Monday,Milkshake,drink,9
+2025-07-14,Monday,Sobremesa,dessert,7
+2025-07-15,Tuesday,Combo Hambúrguer + Batata,combo,55
+2025-07-15,Tuesday,Hambúrguer Simples,burger,29
+2025-07-15,Tuesday,Batata Frita,side,23
+2025-07-15,Tuesday,Refrigerante,drink,24
+2025-07-15,Tuesday,Milkshake,drink,17
+2025-07-15,Tuesday,Sobremesa,dessert,2
+2025-07-16,Wednesday,Combo Hambúrguer + Batata,combo,54
+2025-07-16,Wednesday,Hambúrguer Simples,burger,36
+2025-07-16,Wednesday,Batata Frita,side,26
+2025-07-16,Wednesday,Refrigerante,drink,17
+2025-07-16,Wednesday,Milkshake,drink,17
+2025-07-16,Wednesday,Sobremesa,dessert,9
+2025-07-17,Thursday,Combo Hambúrguer + Batata,combo,34
+2025-07-17,Thursday,Hambúrguer Simples,burger,25
+2025-07-17,Thursday,Batata Frita,side,24
+2025-07-17,Thursday,Refrigerante,drink,27
+2025-07-17,Thursday,Milkshake,drink,14
+2025-07-17,Thursday,Sobremesa,dessert,8
+2025-07-18,Friday,Combo Hambúrguer + Batata,combo,41
+2025-07-18,Friday,Hambúrguer Simples,burger,17
+2025-07-18,Friday,Batata Frita,side,21
+2025-07-18,Friday,Refrigerante,drink,23
+2025-07-18,Friday,Milkshake,drink,17
+2025-07-18,Friday,Sobremesa,dessert,6
+2025-07-19,Saturday,Combo Hambúrguer + Batata,combo,72
+2025-07-19,Saturday,Hambúrguer Simples,burger,39
+2025-07-19,Saturday,Batata Frita,side,33
+2025-07-19,Saturday,Refrigerante,drink,39
+2025-07-19,Saturday,Milkshake,drink,21
+2025-07-19,Saturday,Sobremesa,dessert,8
+2025-07-20,Sunday,Combo Hambúrguer + Batata,combo,74
+2025-07-20,Sunday,Hambúrguer Simples,burger,48
+2025-07-20,Sunday,Batata Frita,side,33
+2025-07-20,Sunday,Refrigerante,drink,34
+2025-07-20,Sunday,Milkshake,drink,35
+2025-07-20,Sunday,Sobremesa,dessert,14
+2025-07-21,Monday,Combo Hambúrguer + Batata,combo,51
+2025-07-21,Monday,Hambúrguer Simples,burger,28
+2025-07-21,Monday,Batata Frita,side,23
+2025-07-21,Monday,Refrigerante,drink,17
+2025-07-21,Monday,Milkshake,drink,10
+2025-07-21,Monday,Sobremesa,dessert,10
+2025-07-22,Tuesday,Combo Hambúrguer + Batata,combo,50
+2025-07-22,Tuesday,Hambúrguer Simples,burger,39
+2025-07-22,Tuesday,Batata Frita,side,27
+2025-07-22,Tuesday,Refrigerante,drink,23
+2025-07-22,Tuesday,Milkshake,drink,15
+2025-07-22,Tuesday,Sobremesa,dessert,9
+2025-07-23,Wednesday,Combo Hambúrguer + Batata,combo,53
+2025-07-23,Wednesday,Hambúrguer Simples,burger,27
+2025-07-23,Wednesday,Batata Frita,side,19
+2025-07-23,Wednesday,Refrigerante,drink,32
+2025-07-23,Wednesday,Milkshake,drink,20
+2025-07-23,Wednesday,Sobremesa,dessert,14
+2025-07-24,Thursday,Combo Hambúrguer + Batata,combo,47
+2025-07-24,Thursday,Hambúrguer Simples,burger,21
+2025-07-24,Thursday,Batata Frita,side,22
+2025-07-24,Thursday,Refrigerante,drink,8
+2025-07-24,Thursday,Milkshake,drink,13
+2025-07-24,Thursday,Sobremesa,dessert,6
+2025-07-25,Friday,Combo Hambúrguer + Batata,combo,43
+2025-07-25,Friday,Hambúrguer Simples,burger,28
+2025-07-25,Friday,Batata Frita,side,25
+2025-07-25,Friday,Refrigerante,drink,22
+2025-07-25,Friday,Milkshake,drink,24
+2025-07-25,Friday,Sobremesa,dessert,2
+2025-07-26,Saturday,Combo Hambúrguer + Batata,combo,76
+2025-07-26,Saturday,Hambúrguer Simples,burger,46
+2025-07-26,Saturday,Batata Frita,side,36
+2025-07-26,Saturday,Refrigerante,drink,29
+2025-07-26,Saturday,Milkshake,drink,20
+2025-07-26,Saturday,Sobremesa,dessert,14
+2025-07-27,Sunday,Combo Hambúrguer + Batata,combo,76
+2025-07-27,Sunday,Hambúrguer Simples,burger,44
+2025-07-27,Sunday,Batata Frita,side,45
+2025-07-27,Sunday,Refrigerante,drink,29
+2025-07-27,Sunday,Milkshake,drink,12
+2025-07-27,Sunday,Sobremesa,dessert,7
+2025-07-28,Monday,Combo Hambúrguer + Batata,combo,47
+2025-07-28,Monday,Hambúrguer Simples,burger,33
+2025-07-28,Monday,Batata Frita,side,31
+2025-07-28,Monday,Refrigerante,drink,25
+2025-07-28,Monday,Milkshake,drink,11
+2025-07-28,Monday,Sobremesa,dessert,0
+2025-07-29,Tuesday,Combo Hambúrguer + Batata,combo,47
+2025-07-29,Tuesday,Hambúrguer Simples,burger,34
+2025-07-29,Tuesday,Batata Frita,side,23
+2025-07-29,Tuesday,Refrigerante,drink,25
+2025-07-29,Tuesday,Milkshake,drink,16
+2025-07-29,Tuesday,Sobremesa,dessert,16
+2025-07-30,Wednesday,Combo Hambúrguer + Batata,combo,49
+2025-07-30,Wednesday,Hambúrguer Simples,burger,33
+2025-07-30,Wednesday,Batata Frita,side,25
+2025-07-30,Wednesday,Refrigerante,drink,23
+2025-07-30,Wednesday,Milkshake,drink,15
+2025-07-30,Wednesday,Sobremesa,dessert,5
+2025-07-31,Thursday,Combo Hambúrguer + Batata,combo,52
+2025-07-31,Thursday,Hambúrguer Simples,burger,36
+2025-07-31,Thursday,Batata Frita,side,10
+2025-07-31,Thursday,Refrigerante,drink,21
+2025-07-31,Thursday,Milkshake,drink,13
+2025-07-31,Thursday,Sobremesa,dessert,8
+2025-08-01,Friday,Combo Hambúrguer + Batata,combo,49
+2025-08-01,Friday,Hambúrguer Simples,burger,24
+2025-08-01,Friday,Batata Frita,side,26
+2025-08-01,Friday,Refrigerante,drink,9
+2025-08-01,Friday,Milkshake,drink,20
+2025-08-01,Friday,Sobremesa,dessert,4
+2025-08-02,Saturday,Combo Hambúrguer + Batata,combo,78
+2025-08-02,Saturday,Hambúrguer Simples,burger,46
+2025-08-02,Saturday,Batata Frita,side,36
+2025-08-02,Saturday,Refrigerante,drink,24
+2025-08-02,Saturday,Milkshake,drink,20
+2025-08-02,Saturday,Sobremesa,dessert,18
+2025-08-03,Sunday,Combo Hambúrguer + Batata,combo,77
+2025-08-03,Sunday,Hambúrguer Simples,burger,45
+2025-08-03,Sunday,Batata Frita,side,37
+2025-08-03,Sunday,Refrigerante,drink,34
+2025-08-03,Sunday,Milkshake,drink,18
+2025-08-03,Sunday,Sobremesa,dessert,12
+2025-08-04,Monday,Combo Hambúrguer + Batata,combo,45
+2025-08-04,Monday,Hambúrguer Simples,burger,28
+2025-08-04,Monday,Batata Frita,side,29
+2025-08-04,Monday,Refrigerante,drink,19
+2025-08-04,Monday,Milkshake,drink,14
+2025-08-04,Monday,Sobremesa,dessert,4
+2025-08-05,Tuesday,Combo Hambúrguer + Batata,combo,49
+2025-08-05,Tuesday,Hambúrguer Simples,burger,24
+2025-08-05,Tuesday,Batata Frita,side,30
+2025-08-05,Tuesday,Refrigerante,drink,16
+2025-08-05,Tuesday,Milkshake,drink,22
+2025-08-05,Tuesday,Sobremesa,dessert,9
+2025-08-06,Wednesday,Combo Hambúrguer + Batata,combo,38
+2025-08-06,Wednesday,Hambúrguer Simples,burger,29
+2025-08-06,Wednesday,Batata Frita,side,27
+2025-08-06,Wednesday,Refrigerante,drink,22
+2025-08-06,Wednesday,Milkshake,drink,4
+2025-08-06,Wednesday,Sobremesa,dessert,0
+2025-08-07,Thursday,Combo Hambúrguer + Batata,combo,45
+2025-08-07,Thursday,Hambúrguer Simples,burger,35
+2025-08-07,Thursday,Batata Frita,side,17
+2025-08-07,Thursday,Refrigerante,drink,19
+2025-08-07,Thursday,Milkshake,drink,20
+2025-08-07,Thursday,Sobremesa,dessert,7
+2025-08-08,Friday,Combo Hambúrguer + Batata,combo,51
+2025-08-08,Friday,Hambúrguer Simples,burger,31
+2025-08-08,Friday,Batata Frita,side,32
+2025-08-08,Friday,Refrigerante,drink,21
+2025-08-08,Friday,Milkshake,drink,11
+2025-08-08,Friday,Sobremesa,dessert,10
+2025-08-09,Saturday,Combo Hambúrguer + Batata,combo,72
+2025-08-09,Saturday,Hambúrguer Simples,burger,39
+2025-08-09,Saturday,Batata Frita,side,30
+2025-08-09,Saturday,Refrigerante,drink,32
+2025-08-09,Saturday,Milkshake,drink,16
+2025-08-09,Saturday,Sobremesa,dessert,14
+2025-08-10,Sunday,Combo Hambúrguer + Batata,combo,74
+2025-08-10,Sunday,Hambúrguer Simples,burger,43
+2025-08-10,Sunday,Batata Frita,side,37
+2025-08-10,Sunday,Refrigerante,drink,35
+2025-08-10,Sunday,Milkshake,drink,20
+2025-08-10,Sunday,Sobremesa,dessert,11
+2025-08-11,Monday,Combo Hambúrguer + Batata,combo,59
+2025-08-11,Monday,Hambúrguer Simples,burger,27
+2025-08-11,Monday,Batata Frita,side,34
+2025-08-11,Monday,Refrigerante,drink,18
+2025-08-11,Monday,Milkshake,drink,17
+2025-08-11,Monday,Sobremesa,dessert,9
+2025-08-12,Tuesday,Combo Hambúrguer + Batata,combo,51
+2025-08-12,Tuesday,Hambúrguer Simples,burger,30
+2025-08-12,Tuesday,Batata Frita,side,18
+2025-08-12,Tuesday,Refrigerante,drink,18
+2025-08-12,Tuesday,Milkshake,drink,15
+2025-08-12,Tuesday,Sobremesa,dessert,2
+2025-08-13,Wednesday,Combo Hambúrguer + Batata,combo,52
+2025-08-13,Wednesday,Hambúrguer Simples,burger,27
+2025-08-13,Wednesday,Batata Frita,side,22
+2025-08-13,Wednesday,Refrigerante,drink,22
+2025-08-13,Wednesday,Milkshake,drink,15
+2025-08-13,Wednesday,Sobremesa,dessert,10
+2025-08-14,Thursday,Combo Hambúrguer + Batata,combo,51
+2025-08-14,Thursday,Hambúrguer Simples,burger,30
+2025-08-14,Thursday,Batata Frita,side,24
+2025-08-14,Thursday,Refrigerante,drink,24
+2025-08-14,Thursday,Milkshake,drink,18
+2025-08-14,Thursday,Sobremesa,dessert,13
+2025-08-15,Friday,Combo Hambúrguer + Batata,combo,47
+2025-08-15,Friday,Hambúrguer Simples,burger,22
+2025-08-15,Friday,Batata Frita,side,29
+2025-08-15,Friday,Refrigerante,drink,21
+2025-08-15,Friday,Milkshake,drink,23
+2025-08-15,Friday,Sobremesa,dessert,12
+2025-08-16,Saturday,Combo Hambúrguer + Batata,combo,69
+2025-08-16,Saturday,Hambúrguer Simples,burger,47
+2025-08-16,Saturday,Batata Frita,side,37
+2025-08-16,Saturday,Refrigerante,drink,31
+2025-08-16,Saturday,Milkshake,drink,23
+2025-08-16,Saturday,Sobremesa,dessert,15
+2025-08-17,Sunday,Combo Hambúrguer + Batata,combo,78
+2025-08-17,Sunday,Hambúrguer Simples,burger,41
+2025-08-17,Sunday,Batata Frita,side,34
+2025-08-17,Sunday,Refrigerante,drink,34
+2025-08-17,Sunday,Milkshake,drink,20
+2025-08-17,Sunday,Sobremesa,dessert,18
+2025-08-18,Monday,Combo Hambúrguer + Batata,combo,48
+2025-08-18,Monday,Hambúrguer Simples,burger,29
+2025-08-18,Monday,Batata Frita,side,35
+2025-08-18,Monday,Refrigerante,drink,24
+2025-08-18,Monday,Milkshake,drink,13
+2025-08-18,Monday,Sobremesa,dessert,11
+2025-08-19,Tuesday,Combo Hambúrguer + Batata,combo,51
+2025-08-19,Tuesday,Hambúrguer Simples,burger,23
+2025-08-19,Tuesday,Batata Frita,side,24
+2025-08-19,Tuesday,Refrigerante,drink,20
+2025-08-19,Tuesday,Milkshake,drink,19
+2025-08-19,Tuesday,Sobremesa,dessert,6
+2025-08-20,Wednesday,Combo Hambúrguer + Batata,combo,45
+2025-08-20,Wednesday,Hambúrguer Simples,burger,20
+2025-08-20,Wednesday,Batata Frita,side,23
+2025-08-20,Wednesday,Refrigerante,drink,26
+2025-08-20,Wednesday,Milkshake,drink,14
+2025-08-20,Wednesday,Sobremesa,dessert,14
+2025-08-21,Thursday,Combo Hambúrguer + Batata,combo,49
+2025-08-21,Thursday,Hambúrguer Simples,burger,17
+2025-08-21,Thursday,Batata Frita,side,20
+2025-08-21,Thursday,Refrigerante,drink,20
+2025-08-21,Thursday,Milkshake,drink,11
+2025-08-21,Thursday,Sobremesa,dessert,3
+2025-08-22,Friday,Combo Hambúrguer + Batata,combo,47
+2025-08-22,Friday,Hambúrguer Simples,burger,29
+2025-08-22,Friday,Batata Frita,side,30
+2025-08-22,Friday,Refrigerante,drink,24
+2025-08-22,Friday,Milkshake,drink,17
+2025-08-22,Friday,Sobremesa,dessert,1
+2025-08-23,Saturday,Combo Hambúrguer + Batata,combo,67
+2025-08-23,Saturday,Hambúrguer Simples,burger,41
+2025-08-23,Saturday,Batata Frita,side,36
+2025-08-23,Saturday,Refrigerante,drink,26
+2025-08-23,Saturday,Milkshake,drink,20
+2025-08-23,Saturday,Sobremesa,dessert,19
+2025-08-24,Sunday,Combo Hambúrguer + Batata,combo,74
+2025-08-24,Sunday,Hambúrguer Simples,burger,51
+2025-08-24,Sunday,Batata Frita,side,37
+2025-08-24,Sunday,Refrigerante,drink,29
+2025-08-24,Sunday,Milkshake,drink,29
+2025-08-24,Sunday,Sobremesa,dessert,17
+2025-08-25,Monday,Combo Hambúrguer + Batata,combo,54
+2025-08-25,Monday,Hambúrguer Simples,burger,32
+2025-08-25,Monday,Batata Frita,side,26
+2025-08-25,Monday,Refrigerante,drink,27
+2025-08-25,Monday,Milkshake,drink,26
+2025-08-25,Monday,Sobremesa,dessert,11
+2025-08-26,Tuesday,Combo Hambúrguer + Batata,combo,42
+2025-08-26,Tuesday,Hambúrguer Simples,burger,26
+2025-08-26,Tuesday,Batata Frita,side,14
+2025-08-26,Tuesday,Refrigerante,drink,18
+2025-08-26,Tuesday,Milkshake,drink,17
+2025-08-26,Tuesday,Sobremesa,dessert,0
+2025-08-27,Wednesday,Combo Hambúrguer + Batata,combo,45
+2025-08-27,Wednesday,Hambúrguer Simples,burger,36
+2025-08-27,Wednesday,Batata Frita,side,13
+2025-08-27,Wednesday,Refrigerante,drink,19
+2025-08-27,Wednesday,Milkshake,drink,14
+2025-08-27,Wednesday,Sobremesa,dessert,2
+2025-08-28,Thursday,Combo Hambúrguer + Batata,combo,54
+2025-08-28,Thursday,Hambúrguer Simples,burger,32
+2025-08-28,Thursday,Batata Frita,side,24
+2025-08-28,Thursday,Refrigerante,drink,29
+2025-08-28,Thursday,Milkshake,drink,9
+2025-08-28,Thursday,Sobremesa,dessert,0
+2025-08-29,Friday,Combo Hambúrguer + Batata,combo,44
+2025-08-29,Friday,Hambúrguer Simples,burger,35
+2025-08-29,Friday,Batata Frita,side,23
+2025-08-29,Friday,Refrigerante,drink,15
+2025-08-29,Friday,Milkshake,drink,10
+2025-08-29,Friday,Sobremesa,dessert,11
+2025-08-30,Saturday,Combo Hambúrguer + Batata,combo,72
+2025-08-30,Saturday,Hambúrguer Simples,burger,44
+2025-08-30,Saturday,Batata Frita,side,37
+2025-08-30,Saturday,Refrigerante,drink,29
+2025-08-30,Saturday,Milkshake,drink,26
+2025-08-30,Saturday,Sobremesa,dessert,13
+2025-08-31,Sunday,Combo Hambúrguer + Batata,combo,77
+2025-08-31,Sunday,Hambúrguer Simples,burger,41
+2025-08-31,Sunday,Batata Frita,side,31
+2025-08-31,Sunday,Refrigerante,drink,18
+2025-08-31,Sunday,Milkshake,drink,18
+2025-08-31,Sunday,Sobremesa,dessert,24
+2025-09-01,Monday,Combo Hambúrguer + Batata,combo,44
+2025-09-01,Monday,Hambúrguer Simples,burger,26
+2025-09-01,Monday,Batata Frita,side,30
+2025-09-01,Monday,Refrigerante,drink,19
+2025-09-01,Monday,Milkshake,drink,19
+2025-09-01,Monday,Sobremesa,dessert,12
+2025-09-02,Tuesday,Combo Hambúrguer + Batata,combo,50
+2025-09-02,Tuesday,Hambúrguer Simples,burger,27
+2025-09-02,Tuesday,Batata Frita,side,24
+2025-09-02,Tuesday,Refrigerante,drink,24
+2025-09-02,Tuesday,Milkshake,drink,19
+2025-09-02,Tuesday,Sobremesa,dessert,5
+2025-09-03,Wednesday,Combo Hambúrguer + Batata,combo,49
+2025-09-03,Wednesday,Hambúrguer Simples,burger,22
+2025-09-03,Wednesday,Batata Frita,side,25
+2025-09-03,Wednesday,Refrigerante,drink,17
+2025-09-03,Wednesday,Milkshake,drink,18
+2025-09-03,Wednesday,Sobremesa,dessert,10
+2025-09-04,Thursday,Combo Hambúrguer + Batata,combo,51
+2025-09-04,Thursday,Hambúrguer Simples,burger,31
+2025-09-04,Thursday,Batata Frita,side,26
+2025-09-04,Thursday,Refrigerante,drink,22
+2025-09-04,Thursday,Milkshake,drink,4
+2025-09-04,Thursday,Sobremesa,dessert,8
+2025-09-05,Friday,Combo Hambúrguer + Batata,combo,42
+2025-09-05,Friday,Hambúrguer Simples,burger,30
+2025-09-05,Friday,Batata Frita,side,14
+2025-09-05,Friday,Refrigerante,drink,14
+2025-09-05,Friday,Milkshake,drink,11
+2025-09-05,Friday,Sobremesa,dessert,9
+2025-09-06,Saturday,Combo Hambúrguer + Batata,combo,74
+2025-09-06,Saturday,Hambúrguer Simples,burger,44
+2025-09-06,Saturday,Batata Frita,side,43
+2025-09-06,Saturday,Refrigerante,drink,32
+2025-09-06,Saturday,Milkshake,drink,21
+2025-09-06,Saturday,Sobremesa,dessert,10
+2025-09-07,Sunday,Combo Hambúrguer + Batata,combo,110
+2025-09-07,Sunday,Hambúrguer Simples,burger,64
+2025-09-07,Sunday,Batata Frita,side,54
+2025-09-07,Sunday,Refrigerante,drink,47
+2025-09-07,Sunday,Milkshake,drink,46
+2025-09-07,Sunday,Sobremesa,dessert,14
+2025-09-08,Monday,Combo Hambúrguer + Batata,combo,55
+2025-09-08,Monday,Hambúrguer Simples,burger,25
+2025-09-08,Monday,Batata Frita,side,27
+2025-09-08,Monday,Refrigerante,drink,16
+2025-09-08,Monday,Milkshake,drink,13
+2025-09-08,Monday,Sobremesa,dessert,4
+2025-09-09,Tuesday,Combo Hambúrguer + Batata,combo,42
+2025-09-09,Tuesday,Hambúrguer Simples,burger,34
+2025-09-09,Tuesday,Batata Frita,side,21
+2025-09-09,Tuesday,Refrigerante,drink,21
+2025-09-09,Tuesday,Milkshake,drink,11
+2025-09-09,Tuesday,Sobremesa,dessert,16
+2025-09-10,Wednesday,Combo Hambúrguer + Batata,combo,46
+2025-09-10,Wednesday,Hambúrguer Simples,burger,39
+2025-09-10,Wednesday,Batata Frita,side,27
+2025-09-10,Wednesday,Refrigerante,drink,23
+2025-09-10,Wednesday,Milkshake,drink,2
+2025-09-10,Wednesday,Sobremesa,dessert,10
+2025-09-11,Thursday,Combo Hambúrguer + Batata,combo,45
+2025-09-11,Thursday,Hambúrguer Simples,burger,29
+2025-09-11,Thursday,Batata Frita,side,28
+2025-09-11,Thursday,Refrigerante,drink,14
+2025-09-11,Thursday,Milkshake,drink,11
+2025-09-11,Thursday,Sobremesa,dessert,8
+2025-09-12,Friday,Combo Hambúrguer + Batata,combo,43
+2025-09-12,Friday,Hambúrguer Simples,burger,26
+2025-09-12,Friday,Batata Frita,side,30
+2025-09-12,Friday,Refrigerante,drink,23
+2025-09-12,Friday,Milkshake,drink,22
+2025-09-12,Friday,Sobremesa,dessert,8
+2025-09-13,Saturday,Combo Hambúrguer + Batata,combo,73
+2025-09-13,Saturday,Hambúrguer Simples,burger,42
+2025-09-13,Saturday,Batata Frita,side,33
+2025-09-13,Saturday,Refrigerante,drink,26
+2025-09-13,Saturday,Milkshake,drink,23
+2025-09-13,Saturday,Sobremesa,dessert,8
+2025-09-14,Sunday,Combo Hambúrguer + Batata,combo,69
+2025-09-14,Sunday,Hambúrguer Simples,burger,45
+2025-09-14,Sunday,Batata Frita,side,38
+2025-09-14,Sunday,Refrigerante,drink,24
+2025-09-14,Sunday,Milkshake,drink,29
+2025-09-14,Sunday,Sobremesa,dessert,10
+2025-09-15,Monday,Combo Hambúrguer + Batata,combo,45
+2025-09-15,Monday,Hambúrguer Simples,burger,34
+2025-09-15,Monday,Batata Frita,side,32
+2025-09-15,Monday,Refrigerante,drink,21
+2025-09-15,Monday,Milkshake,drink,20
+2025-09-15,Monday,Sobremesa,dessert,12
+2025-09-16,Tuesday,Combo Hambúrguer + Batata,combo,57
+2025-09-16,Tuesday,Hambúrguer Simples,burger,26
+2025-09-16,Tuesday,Batata Frita,side,16
+2025-09-16,Tuesday,Refrigerante,drink,24
+2025-09-16,Tuesday,Milkshake,drink,8
+2025-09-16,Tuesday,Sobremesa,dessert,19
+2025-09-17,Wednesday,Combo Hambúrguer + Batata,combo,63
+2025-09-17,Wednesday,Hambúrguer Simples,burger,27
+2025-09-17,Wednesday,Batata Frita,side,26
+2025-09-17,Wednesday,Refrigerante,drink,15
+2025-09-17,Wednesday,Milkshake,drink,14
+2025-09-17,Wednesday,Sobremesa,dessert,13
+2025-09-18,Thursday,Combo Hambúrguer + Batata,combo,59
+2025-09-18,Thursday,Hambúrguer Simples,burger,25
+2025-09-18,Thursday,Batata Frita,side,22
+2025-09-18,Thursday,Refrigerante,drink,15
+2025-09-18,Thursday,Milkshake,drink,17
+2025-09-18,Thursday,Sobremesa,dessert,7
+2025-09-19,Friday,Combo Hambúrguer + Batata,combo,43
+2025-09-19,Friday,Hambúrguer Simples,burger,34
+2025-09-19,Friday,Batata Frita,side,17
+2025-09-19,Friday,Refrigerante,drink,23
+2025-09-19,Friday,Milkshake,drink,23
+2025-09-19,Friday,Sobremesa,dessert,12
+2025-09-20,Saturday,Combo Hambúrguer + Batata,combo,72
+2025-09-20,Saturday,Hambúrguer Simples,burger,38
+2025-09-20,Saturday,Batata Frita,side,37
+2025-09-20,Saturday,Refrigerante,drink,28
+2025-09-20,Saturday,Milkshake,drink,24
+2025-09-20,Saturday,Sobremesa,dessert,12
+2025-09-21,Sunday,Combo Hambúrguer + Batata,combo,68
+2025-09-21,Sunday,Hambúrguer Simples,burger,45
+2025-09-21,Sunday,Batata Frita,side,39
+2025-09-21,Sunday,Refrigerante,drink,33
+2025-09-21,Sunday,Milkshake,drink,31
+2025-09-21,Sunday,Sobremesa,dessert,14
+2025-09-22,Monday,Combo Hambúrguer + Batata,combo,35
+2025-09-22,Monday,Hambúrguer Simples,burger,27
+2025-09-22,Monday,Batata Frita,side,18
+2025-09-22,Monday,Refrigerante,drink,22
+2025-09-22,Monday,Milkshake,drink,18
+2025-09-22,Monday,Sobremesa,dessert,5
+2025-09-23,Tuesday,Combo Hambúrguer + Batata,combo,44
+2025-09-23,Tuesday,Hambúrguer Simples,burger,23
+2025-09-23,Tuesday,Batata Frita,side,29
+2025-09-23,Tuesday,Refrigerante,drink,22
+2025-09-23,Tuesday,Milkshake,drink,18
+2025-09-23,Tuesday,Sobremesa,dessert,0
+2025-09-24,Wednesday,Combo Hambúrguer + Batata,combo,44
+2025-09-24,Wednesday,Hambúrguer Simples,burger,35
+2025-09-24,Wednesday,Batata Frita,side,21
+2025-09-24,Wednesday,Refrigerante,drink,17
+2025-09-24,Wednesday,Milkshake,drink,11
+2025-09-24,Wednesday,Sobremesa,dessert,7
+2025-09-25,Thursday,Combo Hambúrguer + Batata,combo,53
+2025-09-25,Thursday,Hambúrguer Simples,burger,25
+2025-09-25,Thursday,Batata Frita,side,18
+2025-09-25,Thursday,Refrigerante,drink,21
+2025-09-25,Thursday,Milkshake,drink,14
+2025-09-25,Thursday,Sobremesa,dessert,11
+2025-09-26,Friday,Combo Hambúrguer + Batata,combo,43
+2025-09-26,Friday,Hambúrguer Simples,burger,19
+2025-09-26,Friday,Batata Frita,side,32
+2025-09-26,Friday,Refrigerante,drink,22
+2025-09-26,Friday,Milkshake,drink,18
+2025-09-26,Friday,Sobremesa,dessert,19
+2025-09-27,Saturday,Combo Hambúrguer + Batata,combo,81
+2025-09-27,Saturday,Hambúrguer Simples,burger,40
+2025-09-27,Saturday,Batata Frita,side,45
+2025-09-27,Saturday,Refrigerante,drink,37
+2025-09-27,Saturday,Milkshake,drink,20
+2025-09-27,Saturday,Sobremesa,dessert,19
+2025-09-28,Sunday,Combo Hambúrguer + Batata,combo,85
+2025-09-28,Sunday,Hambúrguer Simples,burger,34
+2025-09-28,Sunday,Batata Frita,side,37
+2025-09-28,Sunday,Refrigerante,drink,24
+2025-09-28,Sunday,Milkshake,drink,22
+2025-09-28,Sunday,Sobremesa,dessert,16
+2025-09-29,Monday,Combo Hambúrguer + Batata,combo,43
+2025-09-29,Monday,Hambúrguer Simples,burger,23
+2025-09-29,Monday,Batata Frita,side,26
+2025-09-29,Monday,Refrigerante,drink,10
+2025-09-29,Monday,Milkshake,drink,11
+2025-09-29,Monday,Sobremesa,dessert,8
+2025-09-30,Tuesday,Combo Hambúrguer + Batata,combo,46
+2025-09-30,Tuesday,Hambúrguer Simples,burger,33
+2025-09-30,Tuesday,Batata Frita,side,34
+2025-09-30,Tuesday,Refrigerante,drink,28
+2025-09-30,Tuesday,Milkshake,drink,12
+2025-09-30,Tuesday,Sobremesa,dessert,7
+2025-10-01,Wednesday,Combo Hambúrguer + Batata,combo,59
+2025-10-01,Wednesday,Hambúrguer Simples,burger,28
+2025-10-01,Wednesday,Batata Frita,side,11
+2025-10-01,Wednesday,Refrigerante,drink,20
+2025-10-01,Wednesday,Milkshake,drink,21
+2025-10-01,Wednesday,Sobremesa,dessert,8

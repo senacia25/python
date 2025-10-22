@@ -1,0 +1,1105 @@
+id_venda,Data,Produto,Quantidade,Valor_Total
+1,2025-05-01,Hambúrguer Clássico,29,348.0
+2,2025-05-01,Cheeseburguer,23,322.0
+3,2025-05-01,Batata Frita,31,248.0
+4,2025-05-01,Refrigerante,40,200.0
+5,2025-05-01,Milkshake,22,220.0
+6,2025-05-01,Sobremesa Especial,22,330.0
+7,2025-05-02,Hambúrguer Clássico,55,660.0
+8,2025-05-02,Cheeseburguer,47,658.0
+9,2025-05-02,Batata Frita,35,280.0
+10,2025-05-02,Refrigerante,45,225.0
+11,2025-05-02,Milkshake,35,350.0
+12,2025-05-02,Sobremesa Especial,35,525.0
+13,2025-05-03,Hambúrguer Clássico,42,504.0
+14,2025-05-03,Cheeseburguer,20,280.0
+15,2025-05-03,Batata Frita,22,176.0
+16,2025-05-03,Refrigerante,34,170.0
+17,2025-05-03,Milkshake,29,290.0
+18,2025-05-03,Sobremesa Especial,43,645.0
+19,2025-05-04,Hambúrguer Clássico,30,360.0
+20,2025-05-04,Cheeseburguer,25,350.0
+21,2025-05-04,Batata Frita,54,432.0
+22,2025-05-04,Refrigerante,37,185.0
+23,2025-05-04,Milkshake,40,400.0
+24,2025-05-04,Sobremesa Especial,25,375.0
+25,2025-05-05,Hambúrguer Clássico,9,108.0
+26,2025-05-05,Cheeseburguer,16,224.0
+27,2025-05-05,Batata Frita,3,24.0
+28,2025-05-05,Refrigerante,18,90.0
+29,2025-05-05,Milkshake,8,80.0
+30,2025-05-05,Sobremesa Especial,12,180.0
+31,2025-05-06,Hambúrguer Clássico,8,96.0
+32,2025-05-06,Cheeseburguer,33,462.0
+33,2025-05-06,Batata Frita,14,112.0
+34,2025-05-06,Refrigerante,4,20.0
+35,2025-05-06,Milkshake,23,230.0
+36,2025-05-06,Sobremesa Especial,2,30.0
+37,2025-05-07,Hambúrguer Clássico,27,324.0
+38,2025-05-07,Cheeseburguer,5,70.0
+39,2025-05-07,Batata Frita,11,88.0
+40,2025-05-07,Refrigerante,26,130.0
+41,2025-05-07,Milkshake,32,320.0
+42,2025-05-07,Sobremesa Especial,26,390.0
+43,2025-05-08,Hambúrguer Clássico,23,276.0
+44,2025-05-08,Cheeseburguer,21,294.0
+45,2025-05-08,Batata Frita,10,80.0
+46,2025-05-08,Refrigerante,17,85.0
+47,2025-05-08,Milkshake,20,200.0
+48,2025-05-08,Sobremesa Especial,35,525.0
+49,2025-05-09,Hambúrguer Clássico,43,516.0
+50,2025-05-09,Cheeseburguer,22,308.0
+51,2025-05-09,Batata Frita,43,344.0
+52,2025-05-09,Refrigerante,36,180.0
+53,2025-05-09,Milkshake,33,330.0
+54,2025-05-09,Sobremesa Especial,46,690.0
+55,2025-05-10,Hambúrguer Clássico,50,600.0
+56,2025-05-10,Cheeseburguer,49,686.0
+57,2025-05-10,Batata Frita,31,248.0
+58,2025-05-10,Refrigerante,36,180.0
+59,2025-05-10,Milkshake,43,430.0
+60,2025-05-10,Sobremesa Especial,49,735.0
+61,2025-05-11,Hambúrguer Clássico,35,420.0
+62,2025-05-11,Cheeseburguer,38,532.0
+63,2025-05-11,Batata Frita,28,224.0
+64,2025-05-11,Refrigerante,28,140.0
+65,2025-05-11,Milkshake,48,480.0
+66,2025-05-11,Sobremesa Especial,53,795.0
+67,2025-05-12,Hambúrguer Clássico,14,168.0
+68,2025-05-12,Cheeseburguer,25,350.0
+69,2025-05-12,Batata Frita,18,144.0
+70,2025-05-12,Refrigerante,8,40.0
+71,2025-05-12,Milkshake,18,180.0
+72,2025-05-12,Sobremesa Especial,30,450.0
+73,2025-05-13,Hambúrguer Clássico,14,168.0
+74,2025-05-13,Cheeseburguer,30,420.0
+75,2025-05-13,Batata Frita,0,0.0
+76,2025-05-13,Refrigerante,23,115.0
+77,2025-05-13,Milkshake,15,150.0
+78,2025-05-13,Sobremesa Especial,12,180.0
+79,2025-05-14,Hambúrguer Clássico,25,300.0
+80,2025-05-14,Cheeseburguer,5,70.0
+81,2025-05-14,Batata Frita,22,176.0
+82,2025-05-14,Refrigerante,28,140.0
+83,2025-05-14,Milkshake,39,390.0
+84,2025-05-14,Sobremesa Especial,19,285.0
+85,2025-05-15,Hambúrguer Clássico,16,192.0
+86,2025-05-15,Cheeseburguer,19,266.0
+87,2025-05-15,Batata Frita,34,272.0
+88,2025-05-15,Refrigerante,28,140.0
+89,2025-05-15,Milkshake,19,190.0
+90,2025-05-15,Sobremesa Especial,30,450.0
+91,2025-05-16,Hambúrguer Clássico,40,480.0
+92,2025-05-16,Cheeseburguer,49,686.0
+93,2025-05-16,Batata Frita,32,256.0
+94,2025-05-16,Refrigerante,36,180.0
+95,2025-05-16,Milkshake,36,360.0
+96,2025-05-16,Sobremesa Especial,25,375.0
+97,2025-05-17,Hambúrguer Clássico,42,504.0
+98,2025-05-17,Cheeseburguer,42,588.0
+99,2025-05-17,Batata Frita,40,320.0
+100,2025-05-17,Refrigerante,37,185.0
+101,2025-05-17,Milkshake,25,250.0
+102,2025-05-17,Sobremesa Especial,35,525.0
+103,2025-05-18,Hambúrguer Clássico,36,432.0
+104,2025-05-18,Cheeseburguer,31,434.0
+105,2025-05-18,Batata Frita,38,304.0
+106,2025-05-18,Refrigerante,44,220.0
+107,2025-05-18,Milkshake,58,580.0
+108,2025-05-18,Sobremesa Especial,41,615.0
+109,2025-05-19,Hambúrguer Clássico,17,204.0
+110,2025-05-19,Cheeseburguer,14,196.0
+111,2025-05-19,Batata Frita,0,0.0
+112,2025-05-19,Refrigerante,14,70.0
+113,2025-05-19,Milkshake,15,150.0
+114,2025-05-19,Sobremesa Especial,39,585.0
+115,2025-05-20,Hambúrguer Clássico,13,156.0
+116,2025-05-20,Cheeseburguer,18,252.0
+117,2025-05-20,Batata Frita,14,112.0
+118,2025-05-20,Refrigerante,3,15.0
+119,2025-05-20,Milkshake,26,260.0
+120,2025-05-20,Sobremesa Especial,22,330.0
+121,2025-05-21,Hambúrguer Clássico,32,384.0
+122,2025-05-21,Cheeseburguer,15,210.0
+123,2025-05-21,Batata Frita,39,312.0
+124,2025-05-21,Refrigerante,10,50.0
+125,2025-05-21,Milkshake,30,300.0
+126,2025-05-21,Sobremesa Especial,46,690.0
+127,2025-05-22,Hambúrguer Clássico,15,180.0
+128,2025-05-22,Cheeseburguer,19,266.0
+129,2025-05-22,Batata Frita,25,200.0
+130,2025-05-22,Refrigerante,19,95.0
+131,2025-05-22,Milkshake,9,90.0
+132,2025-05-22,Sobremesa Especial,25,375.0
+133,2025-05-23,Hambúrguer Clássico,29,348.0
+134,2025-05-23,Cheeseburguer,44,616.0
+135,2025-05-23,Batata Frita,30,240.0
+136,2025-05-23,Refrigerante,55,275.0
+137,2025-05-23,Milkshake,32,320.0
+138,2025-05-23,Sobremesa Especial,36,540.0
+139,2025-05-24,Hambúrguer Clássico,48,576.0
+140,2025-05-24,Cheeseburguer,27,378.0
+141,2025-05-24,Batata Frita,42,336.0
+142,2025-05-24,Refrigerante,53,265.0
+143,2025-05-24,Milkshake,23,230.0
+144,2025-05-24,Sobremesa Especial,41,615.0
+145,2025-05-25,Hambúrguer Clássico,42,504.0
+146,2025-05-25,Cheeseburguer,47,658.0
+147,2025-05-25,Batata Frita,27,216.0
+148,2025-05-25,Refrigerante,26,130.0
+149,2025-05-25,Milkshake,45,450.0
+150,2025-05-25,Sobremesa Especial,42,630.0
+151,2025-05-26,Hambúrguer Clássico,17,204.0
+152,2025-05-26,Cheeseburguer,18,252.0
+153,2025-05-26,Batata Frita,8,64.0
+154,2025-05-26,Refrigerante,17,85.0
+155,2025-05-26,Milkshake,17,170.0
+156,2025-05-26,Sobremesa Especial,7,105.0
+157,2025-05-27,Hambúrguer Clássico,33,396.0
+158,2025-05-27,Cheeseburguer,19,266.0
+159,2025-05-27,Batata Frita,3,24.0
+160,2025-05-27,Refrigerante,21,105.0
+161,2025-05-27,Milkshake,5,50.0
+162,2025-05-27,Sobremesa Especial,22,330.0
+163,2025-05-28,Hambúrguer Clássico,36,432.0
+164,2025-05-28,Cheeseburguer,16,224.0
+165,2025-05-28,Batata Frita,34,272.0
+166,2025-05-28,Refrigerante,29,145.0
+167,2025-05-28,Milkshake,33,330.0
+168,2025-05-28,Sobremesa Especial,43,645.0
+169,2025-05-29,Hambúrguer Clássico,22,264.0
+170,2025-05-29,Cheeseburguer,17,238.0
+171,2025-05-29,Batata Frita,16,128.0
+172,2025-05-29,Refrigerante,16,80.0
+173,2025-05-29,Milkshake,24,240.0
+174,2025-05-29,Sobremesa Especial,28,420.0
+175,2025-05-30,Hambúrguer Clássico,42,504.0
+176,2025-05-30,Cheeseburguer,48,672.0
+177,2025-05-30,Batata Frita,40,320.0
+178,2025-05-30,Refrigerante,54,270.0
+179,2025-05-30,Milkshake,37,370.0
+180,2025-05-30,Sobremesa Especial,67,1005.0
+181,2025-05-31,Hambúrguer Clássico,46,552.0
+182,2025-05-31,Cheeseburguer,31,434.0
+183,2025-05-31,Batata Frita,29,232.0
+184,2025-05-31,Refrigerante,44,220.0
+185,2025-05-31,Milkshake,37,370.0
+186,2025-05-31,Sobremesa Especial,47,705.0
+187,2025-06-01,Hambúrguer Clássico,44,528.0
+188,2025-06-01,Cheeseburguer,39,546.0
+189,2025-06-01,Batata Frita,31,248.0
+190,2025-06-01,Refrigerante,24,120.0
+191,2025-06-01,Milkshake,35,350.0
+192,2025-06-01,Sobremesa Especial,48,720.0
+193,2025-06-02,Hambúrguer Clássico,17,204.0
+194,2025-06-02,Cheeseburguer,2,28.0
+195,2025-06-02,Batata Frita,16,128.0
+196,2025-06-02,Refrigerante,18,90.0
+197,2025-06-02,Milkshake,6,60.0
+198,2025-06-02,Sobremesa Especial,16,240.0
+199,2025-06-03,Hambúrguer Clássico,15,180.0
+200,2025-06-03,Cheeseburguer,3,42.0
+201,2025-06-03,Batata Frita,18,144.0
+202,2025-06-03,Refrigerante,20,100.0
+203,2025-06-03,Milkshake,25,250.0
+204,2025-06-03,Sobremesa Especial,25,375.0
+205,2025-06-04,Hambúrguer Clássico,11,132.0
+206,2025-06-04,Cheeseburguer,15,210.0
+207,2025-06-04,Batata Frita,30,240.0
+208,2025-06-04,Refrigerante,30,150.0
+209,2025-06-04,Milkshake,30,300.0
+210,2025-06-04,Sobremesa Especial,63,945.0
+211,2025-06-05,Hambúrguer Clássico,30,360.0
+212,2025-06-05,Cheeseburguer,36,504.0
+213,2025-06-05,Batata Frita,34,272.0
+214,2025-06-05,Refrigerante,31,155.0
+215,2025-06-05,Milkshake,21,210.0
+216,2025-06-05,Sobremesa Especial,32,480.0
+217,2025-06-06,Hambúrguer Clássico,32,384.0
+218,2025-06-06,Cheeseburguer,37,518.0
+219,2025-06-06,Batata Frita,35,280.0
+220,2025-06-06,Refrigerante,40,200.0
+221,2025-06-06,Milkshake,63,630.0
+222,2025-06-06,Sobremesa Especial,21,315.0
+223,2025-06-07,Hambúrguer Clássico,46,552.0
+224,2025-06-07,Cheeseburguer,23,322.0
+225,2025-06-07,Batata Frita,35,280.0
+226,2025-06-07,Refrigerante,50,250.0
+227,2025-06-07,Milkshake,40,400.0
+228,2025-06-07,Sobremesa Especial,29,435.0
+229,2025-06-08,Hambúrguer Clássico,32,384.0
+230,2025-06-08,Cheeseburguer,46,644.0
+231,2025-06-08,Batata Frita,32,256.0
+232,2025-06-08,Refrigerante,42,210.0
+233,2025-06-08,Milkshake,40,400.0
+234,2025-06-08,Sobremesa Especial,33,495.0
+235,2025-06-09,Hambúrguer Clássico,36,432.0
+236,2025-06-09,Cheeseburguer,21,294.0
+237,2025-06-09,Batata Frita,0,0.0
+238,2025-06-09,Refrigerante,16,80.0
+239,2025-06-09,Milkshake,8,80.0
+240,2025-06-09,Sobremesa Especial,23,345.0
+241,2025-06-10,Hambúrguer Clássico,7,84.0
+242,2025-06-10,Cheeseburguer,13,182.0
+243,2025-06-10,Batata Frita,20,160.0
+244,2025-06-10,Refrigerante,23,115.0
+245,2025-06-10,Milkshake,2,20.0
+246,2025-06-10,Sobremesa Especial,11,165.0
+247,2025-06-11,Hambúrguer Clássico,20,240.0
+248,2025-06-11,Cheeseburguer,18,252.0
+249,2025-06-11,Batata Frita,42,336.0
+250,2025-06-11,Refrigerante,29,145.0
+251,2025-06-11,Milkshake,12,120.0
+252,2025-06-11,Sobremesa Especial,34,510.0
+253,2025-06-12,Hambúrguer Clássico,46,552.0
+254,2025-06-12,Cheeseburguer,35,490.0
+255,2025-06-12,Batata Frita,9,72.0
+256,2025-06-12,Refrigerante,20,100.0
+257,2025-06-12,Milkshake,37,370.0
+258,2025-06-12,Sobremesa Especial,17,255.0
+259,2025-06-13,Hambúrguer Clássico,44,528.0
+260,2025-06-13,Cheeseburguer,47,658.0
+261,2025-06-13,Batata Frita,30,240.0
+262,2025-06-13,Refrigerante,39,195.0
+263,2025-06-13,Milkshake,7,70.0
+264,2025-06-13,Sobremesa Especial,29,435.0
+265,2025-06-14,Hambúrguer Clássico,37,444.0
+266,2025-06-14,Cheeseburguer,27,378.0
+267,2025-06-14,Batata Frita,56,448.0
+268,2025-06-14,Refrigerante,25,125.0
+269,2025-06-14,Milkshake,35,350.0
+270,2025-06-14,Sobremesa Especial,41,615.0
+271,2025-06-15,Hambúrguer Clássico,54,648.0
+272,2025-06-15,Cheeseburguer,25,350.0
+273,2025-06-15,Batata Frita,51,408.0
+274,2025-06-15,Refrigerante,40,200.0
+275,2025-06-15,Milkshake,30,300.0
+276,2025-06-15,Sobremesa Especial,44,660.0
+277,2025-06-16,Hambúrguer Clássico,16,192.0
+278,2025-06-16,Cheeseburguer,8,112.0
+279,2025-06-16,Batata Frita,15,120.0
+280,2025-06-16,Refrigerante,11,55.0
+281,2025-06-16,Milkshake,16,160.0
+282,2025-06-16,Sobremesa Especial,21,315.0
+283,2025-06-17,Hambúrguer Clássico,30,360.0
+284,2025-06-17,Cheeseburguer,2,28.0
+285,2025-06-17,Batata Frita,36,288.0
+286,2025-06-17,Refrigerante,0,0.0
+287,2025-06-17,Milkshake,13,130.0
+288,2025-06-17,Sobremesa Especial,20,300.0
+289,2025-06-18,Hambúrguer Clássico,27,324.0
+290,2025-06-18,Cheeseburguer,18,252.0
+291,2025-06-18,Batata Frita,22,176.0
+292,2025-06-18,Refrigerante,20,100.0
+293,2025-06-18,Milkshake,19,190.0
+294,2025-06-18,Sobremesa Especial,33,495.0
+295,2025-06-19,Hambúrguer Clássico,28,336.0
+296,2025-06-19,Cheeseburguer,18,252.0
+297,2025-06-19,Batata Frita,33,264.0
+298,2025-06-19,Refrigerante,28,140.0
+299,2025-06-19,Milkshake,33,330.0
+300,2025-06-19,Sobremesa Especial,31,465.0
+301,2025-06-20,Hambúrguer Clássico,31,372.0
+302,2025-06-20,Cheeseburguer,34,476.0
+303,2025-06-20,Batata Frita,47,376.0
+304,2025-06-20,Refrigerante,46,230.0
+305,2025-06-20,Milkshake,39,390.0
+306,2025-06-20,Sobremesa Especial,41,615.0
+307,2025-06-21,Hambúrguer Clássico,52,624.0
+308,2025-06-21,Cheeseburguer,34,476.0
+309,2025-06-21,Batata Frita,45,360.0
+310,2025-06-21,Refrigerante,37,185.0
+311,2025-06-21,Milkshake,37,370.0
+312,2025-06-21,Sobremesa Especial,50,750.0
+313,2025-06-22,Hambúrguer Clássico,48,576.0
+314,2025-06-22,Cheeseburguer,48,672.0
+315,2025-06-22,Batata Frita,53,424.0
+316,2025-06-22,Refrigerante,40,200.0
+317,2025-06-22,Milkshake,46,460.0
+318,2025-06-22,Sobremesa Especial,36,540.0
+319,2025-06-23,Hambúrguer Clássico,18,216.0
+320,2025-06-23,Cheeseburguer,13,182.0
+321,2025-06-23,Batata Frita,15,120.0
+322,2025-06-23,Refrigerante,20,100.0
+323,2025-06-23,Milkshake,6,60.0
+324,2025-06-23,Sobremesa Especial,35,525.0
+325,2025-06-24,Hambúrguer Clássico,4,48.0
+326,2025-06-24,Cheeseburguer,2,28.0
+327,2025-06-24,Batata Frita,26,208.0
+328,2025-06-24,Refrigerante,22,110.0
+329,2025-06-24,Milkshake,21,210.0
+330,2025-06-24,Sobremesa Especial,21,315.0
+331,2025-06-25,Hambúrguer Clássico,24,288.0
+332,2025-06-25,Cheeseburguer,16,224.0
+333,2025-06-25,Batata Frita,25,200.0
+334,2025-06-25,Refrigerante,18,90.0
+335,2025-06-25,Milkshake,34,340.0
+336,2025-06-25,Sobremesa Especial,23,345.0
+337,2025-06-26,Hambúrguer Clássico,16,192.0
+338,2025-06-26,Cheeseburguer,21,294.0
+339,2025-06-26,Batata Frita,29,232.0
+340,2025-06-26,Refrigerante,19,95.0
+341,2025-06-26,Milkshake,16,160.0
+342,2025-06-26,Sobremesa Especial,27,405.0
+343,2025-06-27,Hambúrguer Clássico,42,504.0
+344,2025-06-27,Cheeseburguer,34,476.0
+345,2025-06-27,Batata Frita,35,280.0
+346,2025-06-27,Refrigerante,42,210.0
+347,2025-06-27,Milkshake,25,250.0
+348,2025-06-27,Sobremesa Especial,25,375.0
+349,2025-06-28,Hambúrguer Clássico,32,384.0
+350,2025-06-28,Cheeseburguer,37,518.0
+351,2025-06-28,Batata Frita,43,344.0
+352,2025-06-28,Refrigerante,54,270.0
+353,2025-06-28,Milkshake,48,480.0
+354,2025-06-28,Sobremesa Especial,38,570.0
+355,2025-06-29,Hambúrguer Clássico,39,468.0
+356,2025-06-29,Cheeseburguer,29,406.0
+357,2025-06-29,Batata Frita,39,312.0
+358,2025-06-29,Refrigerante,37,185.0
+359,2025-06-29,Milkshake,43,430.0
+360,2025-06-29,Sobremesa Especial,31,465.0
+361,2025-06-30,Hambúrguer Clássico,20,240.0
+362,2025-06-30,Cheeseburguer,30,420.0
+363,2025-06-30,Batata Frita,13,104.0
+364,2025-06-30,Refrigerante,19,95.0
+365,2025-06-30,Milkshake,21,210.0
+366,2025-06-30,Sobremesa Especial,10,150.0
+367,2025-07-01,Hambúrguer Clássico,17,204.0
+368,2025-07-01,Cheeseburguer,15,210.0
+369,2025-07-01,Batata Frita,15,120.0
+370,2025-07-01,Refrigerante,7,35.0
+371,2025-07-01,Milkshake,15,150.0
+372,2025-07-01,Sobremesa Especial,19,285.0
+373,2025-07-02,Hambúrguer Clássico,39,468.0
+374,2025-07-02,Cheeseburguer,34,476.0
+375,2025-07-02,Batata Frita,46,368.0
+376,2025-07-02,Refrigerante,17,85.0
+377,2025-07-02,Milkshake,33,330.0
+378,2025-07-02,Sobremesa Especial,26,390.0
+379,2025-07-03,Hambúrguer Clássico,46,552.0
+380,2025-07-03,Cheeseburguer,16,224.0
+381,2025-07-03,Batata Frita,16,128.0
+382,2025-07-03,Refrigerante,19,95.0
+383,2025-07-03,Milkshake,3,30.0
+384,2025-07-03,Sobremesa Especial,19,285.0
+385,2025-07-04,Hambúrguer Clássico,32,384.0
+386,2025-07-04,Cheeseburguer,41,574.0
+387,2025-07-04,Batata Frita,43,344.0
+388,2025-07-04,Refrigerante,58,290.0
+389,2025-07-04,Milkshake,49,490.0
+390,2025-07-04,Sobremesa Especial,34,510.0
+391,2025-07-05,Hambúrguer Clássico,31,372.0
+392,2025-07-05,Cheeseburguer,44,616.0
+393,2025-07-05,Batata Frita,26,208.0
+394,2025-07-05,Refrigerante,58,290.0
+395,2025-07-05,Milkshake,51,510.0
+396,2025-07-05,Sobremesa Especial,35,525.0
+397,2025-07-06,Hambúrguer Clássico,22,264.0
+398,2025-07-06,Cheeseburguer,53,742.0
+399,2025-07-06,Batata Frita,38,304.0
+400,2025-07-06,Refrigerante,52,260.0
+401,2025-07-06,Milkshake,24,240.0
+402,2025-07-06,Sobremesa Especial,34,510.0
+403,2025-07-07,Hambúrguer Clássico,15,180.0
+404,2025-07-07,Cheeseburguer,15,210.0
+405,2025-07-07,Batata Frita,10,80.0
+406,2025-07-07,Refrigerante,21,105.0
+407,2025-07-07,Milkshake,4,40.0
+408,2025-07-07,Sobremesa Especial,13,195.0
+409,2025-07-08,Hambúrguer Clássico,16,192.0
+410,2025-07-08,Cheeseburguer,20,280.0
+411,2025-07-08,Batata Frita,22,176.0
+412,2025-07-08,Refrigerante,3,15.0
+413,2025-07-08,Milkshake,0,0.0
+414,2025-07-08,Sobremesa Especial,27,405.0
+415,2025-07-09,Hambúrguer Clássico,28,336.0
+416,2025-07-09,Cheeseburguer,17,238.0
+417,2025-07-09,Batata Frita,40,320.0
+418,2025-07-09,Refrigerante,26,130.0
+419,2025-07-09,Milkshake,36,360.0
+420,2025-07-09,Sobremesa Especial,25,375.0
+421,2025-07-10,Hambúrguer Clássico,45,540.0
+422,2025-07-10,Cheeseburguer,42,588.0
+423,2025-07-10,Batata Frita,22,176.0
+424,2025-07-10,Refrigerante,34,170.0
+425,2025-07-10,Milkshake,31,310.0
+426,2025-07-10,Sobremesa Especial,38,570.0
+427,2025-07-11,Hambúrguer Clássico,30,360.0
+428,2025-07-11,Cheeseburguer,46,644.0
+429,2025-07-11,Batata Frita,50,400.0
+430,2025-07-11,Refrigerante,22,110.0
+431,2025-07-11,Milkshake,28,280.0
+432,2025-07-11,Sobremesa Especial,19,285.0
+433,2025-07-12,Hambúrguer Clássico,37,444.0
+434,2025-07-12,Cheeseburguer,47,658.0
+435,2025-07-12,Batata Frita,55,440.0
+436,2025-07-12,Refrigerante,40,200.0
+437,2025-07-12,Milkshake,56,560.0
+438,2025-07-12,Sobremesa Especial,26,390.0
+439,2025-07-13,Hambúrguer Clássico,22,264.0
+440,2025-07-13,Cheeseburguer,39,546.0
+441,2025-07-13,Batata Frita,43,344.0
+442,2025-07-13,Refrigerante,39,195.0
+443,2025-07-13,Milkshake,19,190.0
+444,2025-07-13,Sobremesa Especial,39,585.0
+445,2025-07-14,Hambúrguer Clássico,1,12.0
+446,2025-07-14,Cheeseburguer,21,294.0
+447,2025-07-14,Batata Frita,18,144.0
+448,2025-07-14,Refrigerante,5,25.0
+449,2025-07-14,Milkshake,9,90.0
+450,2025-07-14,Sobremesa Especial,4,60.0
+451,2025-07-15,Hambúrguer Clássico,14,168.0
+452,2025-07-15,Cheeseburguer,24,336.0
+453,2025-07-15,Batata Frita,5,40.0
+454,2025-07-15,Refrigerante,20,100.0
+455,2025-07-15,Milkshake,9,90.0
+456,2025-07-15,Sobremesa Especial,7,105.0
+457,2025-07-16,Hambúrguer Clássico,23,276.0
+458,2025-07-16,Cheeseburguer,14,196.0
+459,2025-07-16,Batata Frita,19,152.0
+460,2025-07-16,Refrigerante,13,65.0
+461,2025-07-16,Milkshake,44,440.0
+462,2025-07-16,Sobremesa Especial,25,375.0
+463,2025-07-17,Hambúrguer Clássico,18,216.0
+464,2025-07-17,Cheeseburguer,27,378.0
+465,2025-07-17,Batata Frita,23,184.0
+466,2025-07-17,Refrigerante,22,110.0
+467,2025-07-17,Milkshake,31,310.0
+468,2025-07-17,Sobremesa Especial,32,480.0
+469,2025-07-18,Hambúrguer Clássico,34,408.0
+470,2025-07-18,Cheeseburguer,34,476.0
+471,2025-07-18,Batata Frita,37,296.0
+472,2025-07-18,Refrigerante,16,80.0
+473,2025-07-18,Milkshake,24,240.0
+474,2025-07-18,Sobremesa Especial,53,795.0
+475,2025-07-19,Hambúrguer Clássico,56,672.0
+476,2025-07-19,Cheeseburguer,37,518.0
+477,2025-07-19,Batata Frita,45,360.0
+478,2025-07-19,Refrigerante,43,215.0
+479,2025-07-19,Milkshake,70,700.0
+480,2025-07-19,Sobremesa Especial,51,765.0
+481,2025-07-20,Hambúrguer Clássico,38,456.0
+482,2025-07-20,Cheeseburguer,30,420.0
+483,2025-07-20,Batata Frita,23,184.0
+484,2025-07-20,Refrigerante,42,210.0
+485,2025-07-20,Milkshake,32,320.0
+486,2025-07-20,Sobremesa Especial,25,375.0
+487,2025-07-21,Hambúrguer Clássico,8,96.0
+488,2025-07-21,Cheeseburguer,4,56.0
+489,2025-07-21,Batata Frita,31,248.0
+490,2025-07-21,Refrigerante,23,115.0
+491,2025-07-21,Milkshake,14,140.0
+492,2025-07-21,Sobremesa Especial,29,435.0
+493,2025-07-22,Hambúrguer Clássico,15,180.0
+494,2025-07-22,Cheeseburguer,6,84.0
+495,2025-07-22,Batata Frita,30,240.0
+496,2025-07-22,Refrigerante,20,100.0
+497,2025-07-22,Milkshake,4,40.0
+498,2025-07-22,Sobremesa Especial,13,195.0
+499,2025-07-23,Hambúrguer Clássico,16,192.0
+500,2025-07-23,Cheeseburguer,11,154.0
+501,2025-07-23,Batata Frita,34,272.0
+502,2025-07-23,Refrigerante,44,220.0
+503,2025-07-23,Milkshake,11,110.0
+504,2025-07-23,Sobremesa Especial,30,450.0
+505,2025-07-24,Hambúrguer Clássico,18,216.0
+506,2025-07-24,Cheeseburguer,20,280.0
+507,2025-07-24,Batata Frita,19,152.0
+508,2025-07-24,Refrigerante,16,80.0
+509,2025-07-24,Milkshake,25,250.0
+510,2025-07-24,Sobremesa Especial,16,240.0
+511,2025-07-25,Hambúrguer Clássico,42,504.0
+512,2025-07-25,Cheeseburguer,39,546.0
+513,2025-07-25,Batata Frita,37,296.0
+514,2025-07-25,Refrigerante,30,150.0
+515,2025-07-25,Milkshake,34,340.0
+516,2025-07-25,Sobremesa Especial,47,705.0
+517,2025-07-26,Hambúrguer Clássico,45,540.0
+518,2025-07-26,Cheeseburguer,30,420.0
+519,2025-07-26,Batata Frita,40,320.0
+520,2025-07-26,Refrigerante,47,235.0
+521,2025-07-26,Milkshake,23,230.0
+522,2025-07-26,Sobremesa Especial,45,675.0
+523,2025-07-27,Hambúrguer Clássico,33,396.0
+524,2025-07-27,Cheeseburguer,45,630.0
+525,2025-07-27,Batata Frita,32,256.0
+526,2025-07-27,Refrigerante,21,105.0
+527,2025-07-27,Milkshake,23,230.0
+528,2025-07-27,Sobremesa Especial,40,600.0
+529,2025-07-28,Hambúrguer Clássico,17,204.0
+530,2025-07-28,Cheeseburguer,5,70.0
+531,2025-07-28,Batata Frita,21,168.0
+532,2025-07-28,Refrigerante,0,0.0
+533,2025-07-28,Milkshake,14,140.0
+534,2025-07-28,Sobremesa Especial,2,30.0
+535,2025-07-29,Hambúrguer Clássico,8,96.0
+536,2025-07-29,Cheeseburguer,15,210.0
+537,2025-07-29,Batata Frita,6,48.0
+538,2025-07-29,Refrigerante,11,55.0
+539,2025-07-29,Milkshake,25,250.0
+540,2025-07-29,Sobremesa Especial,9,135.0
+541,2025-07-30,Hambúrguer Clássico,33,396.0
+542,2025-07-30,Cheeseburguer,13,182.0
+543,2025-07-30,Batata Frita,30,240.0
+544,2025-07-30,Refrigerante,39,195.0
+545,2025-07-30,Milkshake,0,0.0
+546,2025-07-30,Sobremesa Especial,17,255.0
+547,2025-07-31,Hambúrguer Clássico,30,360.0
+548,2025-07-31,Cheeseburguer,22,308.0
+549,2025-07-31,Batata Frita,28,224.0
+550,2025-07-31,Refrigerante,18,90.0
+551,2025-07-31,Milkshake,25,250.0
+552,2025-07-31,Sobremesa Especial,23,345.0
+553,2025-08-01,Hambúrguer Clássico,51,612.0
+554,2025-08-01,Cheeseburguer,42,588.0
+555,2025-08-01,Batata Frita,43,344.0
+556,2025-08-01,Refrigerante,35,175.0
+557,2025-08-01,Milkshake,35,350.0
+558,2025-08-01,Sobremesa Especial,35,525.0
+559,2025-08-02,Hambúrguer Clássico,43,516.0
+560,2025-08-02,Cheeseburguer,35,490.0
+561,2025-08-02,Batata Frita,42,336.0
+562,2025-08-02,Refrigerante,60,300.0
+563,2025-08-02,Milkshake,48,480.0
+564,2025-08-02,Sobremesa Especial,36,540.0
+565,2025-08-03,Hambúrguer Clássico,52,624.0
+566,2025-08-03,Cheeseburguer,35,490.0
+567,2025-08-03,Batata Frita,19,152.0
+568,2025-08-03,Refrigerante,29,145.0
+569,2025-08-03,Milkshake,21,210.0
+570,2025-08-03,Sobremesa Especial,36,540.0
+571,2025-08-04,Hambúrguer Clássico,15,180.0
+572,2025-08-04,Cheeseburguer,31,434.0
+573,2025-08-04,Batata Frita,18,144.0
+574,2025-08-04,Refrigerante,12,60.0
+575,2025-08-04,Milkshake,23,230.0
+576,2025-08-04,Sobremesa Especial,0,0.0
+577,2025-08-05,Hambúrguer Clássico,17,204.0
+578,2025-08-05,Cheeseburguer,22,308.0
+579,2025-08-05,Batata Frita,0,0.0
+580,2025-08-05,Refrigerante,26,130.0
+581,2025-08-05,Milkshake,18,180.0
+582,2025-08-05,Sobremesa Especial,10,150.0
+583,2025-08-06,Hambúrguer Clássico,31,372.0
+584,2025-08-06,Cheeseburguer,47,658.0
+585,2025-08-06,Batata Frita,26,208.0
+586,2025-08-06,Refrigerante,27,135.0
+587,2025-08-06,Milkshake,20,200.0
+588,2025-08-06,Sobremesa Especial,16,240.0
+589,2025-08-07,Hambúrguer Clássico,33,396.0
+590,2025-08-07,Cheeseburguer,16,224.0
+591,2025-08-07,Batata Frita,25,200.0
+592,2025-08-07,Refrigerante,20,100.0
+593,2025-08-07,Milkshake,29,290.0
+594,2025-08-07,Sobremesa Especial,28,420.0
+595,2025-08-08,Hambúrguer Clássico,50,600.0
+596,2025-08-08,Cheeseburguer,34,476.0
+597,2025-08-08,Batata Frita,37,296.0
+598,2025-08-08,Refrigerante,30,150.0
+599,2025-08-08,Milkshake,35,350.0
+600,2025-08-08,Sobremesa Especial,43,645.0
+601,2025-08-09,Hambúrguer Clássico,47,564.0
+602,2025-08-09,Cheeseburguer,30,420.0
+603,2025-08-09,Batata Frita,48,384.0
+604,2025-08-09,Refrigerante,53,265.0
+605,2025-08-09,Milkshake,44,440.0
+606,2025-08-09,Sobremesa Especial,58,870.0
+607,2025-08-10,Hambúrguer Clássico,32,384.0
+608,2025-08-10,Cheeseburguer,27,378.0
+609,2025-08-10,Batata Frita,22,176.0
+610,2025-08-10,Refrigerante,54,270.0
+611,2025-08-10,Milkshake,46,460.0
+612,2025-08-10,Sobremesa Especial,39,585.0
+613,2025-08-11,Hambúrguer Clássico,17,204.0
+614,2025-08-11,Cheeseburguer,3,42.0
+615,2025-08-11,Batata Frita,39,312.0
+616,2025-08-11,Refrigerante,16,80.0
+617,2025-08-11,Milkshake,16,160.0
+618,2025-08-11,Sobremesa Especial,22,330.0
+619,2025-08-12,Hambúrguer Clássico,19,228.0
+620,2025-08-12,Cheeseburguer,17,238.0
+621,2025-08-12,Batata Frita,7,56.0
+622,2025-08-12,Refrigerante,19,95.0
+623,2025-08-12,Milkshake,33,330.0
+624,2025-08-12,Sobremesa Especial,28,420.0
+625,2025-08-13,Hambúrguer Clássico,40,480.0
+626,2025-08-13,Cheeseburguer,19,266.0
+627,2025-08-13,Batata Frita,15,120.0
+628,2025-08-13,Refrigerante,23,115.0
+629,2025-08-13,Milkshake,25,250.0
+630,2025-08-13,Sobremesa Especial,35,525.0
+631,2025-08-14,Hambúrguer Clássico,8,96.0
+632,2025-08-14,Cheeseburguer,40,560.0
+633,2025-08-14,Batata Frita,23,184.0
+634,2025-08-14,Refrigerante,20,100.0
+635,2025-08-14,Milkshake,14,140.0
+636,2025-08-14,Sobremesa Especial,8,120.0
+637,2025-08-15,Hambúrguer Clássico,48,576.0
+638,2025-08-15,Cheeseburguer,40,560.0
+639,2025-08-15,Batata Frita,27,216.0
+640,2025-08-15,Refrigerante,27,135.0
+641,2025-08-15,Milkshake,36,360.0
+642,2025-08-15,Sobremesa Especial,56,840.0
+643,2025-08-16,Hambúrguer Clássico,37,444.0
+644,2025-08-16,Cheeseburguer,24,336.0
+645,2025-08-16,Batata Frita,37,296.0
+646,2025-08-16,Refrigerante,37,185.0
+647,2025-08-16,Milkshake,13,130.0
+648,2025-08-16,Sobremesa Especial,39,585.0
+649,2025-08-17,Hambúrguer Clássico,37,444.0
+650,2025-08-17,Cheeseburguer,46,644.0
+651,2025-08-17,Batata Frita,58,464.0
+652,2025-08-17,Refrigerante,51,255.0
+653,2025-08-17,Milkshake,37,370.0
+654,2025-08-17,Sobremesa Especial,28,420.0
+655,2025-08-18,Hambúrguer Clássico,40,480.0
+656,2025-08-18,Cheeseburguer,15,210.0
+657,2025-08-18,Batata Frita,15,120.0
+658,2025-08-18,Refrigerante,14,70.0
+659,2025-08-18,Milkshake,16,160.0
+660,2025-08-18,Sobremesa Especial,13,195.0
+661,2025-08-19,Hambúrguer Clássico,9,108.0
+662,2025-08-19,Cheeseburguer,9,126.0
+663,2025-08-19,Batata Frita,14,112.0
+664,2025-08-19,Refrigerante,9,45.0
+665,2025-08-19,Milkshake,7,70.0
+666,2025-08-19,Sobremesa Especial,16,240.0
+667,2025-08-20,Hambúrguer Clássico,22,264.0
+668,2025-08-20,Cheeseburguer,40,560.0
+669,2025-08-20,Batata Frita,0,0.0
+670,2025-08-20,Refrigerante,35,175.0
+671,2025-08-20,Milkshake,37,370.0
+672,2025-08-20,Sobremesa Especial,4,60.0
+673,2025-08-21,Hambúrguer Clássico,21,252.0
+674,2025-08-21,Cheeseburguer,21,294.0
+675,2025-08-21,Batata Frita,10,80.0
+676,2025-08-21,Refrigerante,17,85.0
+677,2025-08-21,Milkshake,13,130.0
+678,2025-08-21,Sobremesa Especial,42,630.0
+679,2025-08-22,Hambúrguer Clássico,49,588.0
+680,2025-08-22,Cheeseburguer,52,728.0
+681,2025-08-22,Batata Frita,47,376.0
+682,2025-08-22,Refrigerante,28,140.0
+683,2025-08-22,Milkshake,34,340.0
+684,2025-08-22,Sobremesa Especial,44,660.0
+685,2025-08-23,Hambúrguer Clássico,27,324.0
+686,2025-08-23,Cheeseburguer,47,658.0
+687,2025-08-23,Batata Frita,37,296.0
+688,2025-08-23,Refrigerante,36,180.0
+689,2025-08-23,Milkshake,47,470.0
+690,2025-08-23,Sobremesa Especial,44,660.0
+691,2025-08-24,Hambúrguer Clássico,36,432.0
+692,2025-08-24,Cheeseburguer,51,714.0
+693,2025-08-24,Batata Frita,29,232.0
+694,2025-08-24,Refrigerante,46,230.0
+695,2025-08-24,Milkshake,45,450.0
+696,2025-08-24,Sobremesa Especial,36,540.0
+697,2025-08-25,Hambúrguer Clássico,18,216.0
+698,2025-08-25,Cheeseburguer,2,28.0
+699,2025-08-25,Batata Frita,24,192.0
+700,2025-08-25,Refrigerante,13,65.0
+701,2025-08-25,Milkshake,9,90.0
+702,2025-08-25,Sobremesa Especial,25,375.0
+703,2025-08-26,Hambúrguer Clássico,7,84.0
+704,2025-08-26,Cheeseburguer,0,0.0
+705,2025-08-26,Batata Frita,0,0.0
+706,2025-08-26,Refrigerante,21,105.0
+707,2025-08-26,Milkshake,2,20.0
+708,2025-08-26,Sobremesa Especial,32,480.0
+709,2025-08-27,Hambúrguer Clássico,4,48.0
+710,2025-08-27,Cheeseburguer,41,574.0
+711,2025-08-27,Batata Frita,27,216.0
+712,2025-08-27,Refrigerante,24,120.0
+713,2025-08-27,Milkshake,19,190.0
+714,2025-08-27,Sobremesa Especial,28,420.0
+715,2025-08-28,Hambúrguer Clássico,24,288.0
+716,2025-08-28,Cheeseburguer,36,504.0
+717,2025-08-28,Batata Frita,26,208.0
+718,2025-08-28,Refrigerante,26,130.0
+719,2025-08-28,Milkshake,21,210.0
+720,2025-08-28,Sobremesa Especial,24,360.0
+721,2025-08-29,Hambúrguer Clássico,43,516.0
+722,2025-08-29,Cheeseburguer,22,308.0
+723,2025-08-29,Batata Frita,26,208.0
+724,2025-08-29,Refrigerante,47,235.0
+725,2025-08-29,Milkshake,41,410.0
+726,2025-08-29,Sobremesa Especial,38,570.0
+727,2025-08-30,Hambúrguer Clássico,40,480.0
+728,2025-08-30,Cheeseburguer,43,602.0
+729,2025-08-30,Batata Frita,34,272.0
+730,2025-08-30,Refrigerante,32,160.0
+731,2025-08-30,Milkshake,41,410.0
+732,2025-08-30,Sobremesa Especial,30,450.0
+733,2025-08-31,Hambúrguer Clássico,44,528.0
+734,2025-08-31,Cheeseburguer,22,308.0
+735,2025-08-31,Batata Frita,50,400.0
+736,2025-08-31,Refrigerante,44,220.0
+737,2025-08-31,Milkshake,42,420.0
+738,2025-08-31,Sobremesa Especial,49,735.0
+739,2025-09-01,Hambúrguer Clássico,31,372.0
+740,2025-09-01,Cheeseburguer,25,350.0
+741,2025-09-01,Batata Frita,0,0.0
+742,2025-09-01,Refrigerante,2,10.0
+743,2025-09-01,Milkshake,8,80.0
+744,2025-09-01,Sobremesa Especial,15,225.0
+745,2025-09-02,Hambúrguer Clássico,20,240.0
+746,2025-09-02,Cheeseburguer,7,98.0
+747,2025-09-02,Batata Frita,16,128.0
+748,2025-09-02,Refrigerante,7,35.0
+749,2025-09-02,Milkshake,8,80.0
+750,2025-09-02,Sobremesa Especial,0,0.0
+751,2025-09-03,Hambúrguer Clássico,15,180.0
+752,2025-09-03,Cheeseburguer,11,154.0
+753,2025-09-03,Batata Frita,15,120.0
+754,2025-09-03,Refrigerante,35,175.0
+755,2025-09-03,Milkshake,15,150.0
+756,2025-09-03,Sobremesa Especial,51,765.0
+757,2025-09-04,Hambúrguer Clássico,29,348.0
+758,2025-09-04,Cheeseburguer,26,364.0
+759,2025-09-04,Batata Frita,16,128.0
+760,2025-09-04,Refrigerante,32,160.0
+761,2025-09-04,Milkshake,19,190.0
+762,2025-09-04,Sobremesa Especial,26,390.0
+763,2025-09-05,Hambúrguer Clássico,65,780.0
+764,2025-09-05,Cheeseburguer,39,546.0
+765,2025-09-05,Batata Frita,51,408.0
+766,2025-09-05,Refrigerante,32,160.0
+767,2025-09-05,Milkshake,39,390.0
+768,2025-09-05,Sobremesa Especial,57,855.0
+769,2025-09-06,Hambúrguer Clássico,33,396.0
+770,2025-09-06,Cheeseburguer,58,812.0
+771,2025-09-06,Batata Frita,47,376.0
+772,2025-09-06,Refrigerante,34,170.0
+773,2025-09-06,Milkshake,46,460.0
+774,2025-09-06,Sobremesa Especial,49,735.0
+775,2025-09-07,Hambúrguer Clássico,46,552.0
+776,2025-09-07,Cheeseburguer,24,336.0
+777,2025-09-07,Batata Frita,32,256.0
+778,2025-09-07,Refrigerante,37,185.0
+779,2025-09-07,Milkshake,39,390.0
+780,2025-09-07,Sobremesa Especial,46,690.0
+781,2025-09-08,Hambúrguer Clássico,16,192.0
+782,2025-09-08,Cheeseburguer,1,14.0
+783,2025-09-08,Batata Frita,18,144.0
+784,2025-09-08,Refrigerante,21,105.0
+785,2025-09-08,Milkshake,20,200.0
+786,2025-09-08,Sobremesa Especial,25,375.0
+787,2025-09-09,Hambúrguer Clássico,23,276.0
+788,2025-09-09,Cheeseburguer,19,266.0
+789,2025-09-09,Batata Frita,14,112.0
+790,2025-09-09,Refrigerante,0,0.0
+791,2025-09-09,Milkshake,19,190.0
+792,2025-09-09,Sobremesa Especial,17,255.0
+793,2025-09-10,Hambúrguer Clássico,27,324.0
+794,2025-09-10,Cheeseburguer,12,168.0
+795,2025-09-10,Batata Frita,14,112.0
+796,2025-09-10,Refrigerante,35,175.0
+797,2025-09-10,Milkshake,24,240.0
+798,2025-09-10,Sobremesa Especial,31,465.0
+799,2025-09-11,Hambúrguer Clássico,25,300.0
+800,2025-09-11,Cheeseburguer,25,350.0
+801,2025-09-11,Batata Frita,34,272.0
+802,2025-09-11,Refrigerante,19,95.0
+803,2025-09-11,Milkshake,25,250.0
+804,2025-09-11,Sobremesa Especial,20,300.0
+805,2025-09-12,Hambúrguer Clássico,35,420.0
+806,2025-09-12,Cheeseburguer,36,504.0
+807,2025-09-12,Batata Frita,42,336.0
+808,2025-09-12,Refrigerante,35,175.0
+809,2025-09-12,Milkshake,52,520.0
+810,2025-09-12,Sobremesa Especial,31,465.0
+811,2025-09-13,Hambúrguer Clássico,38,456.0
+812,2025-09-13,Cheeseburguer,35,490.0
+813,2025-09-13,Batata Frita,54,432.0
+814,2025-09-13,Refrigerante,41,205.0
+815,2025-09-13,Milkshake,50,500.0
+816,2025-09-13,Sobremesa Especial,25,375.0
+817,2025-09-14,Hambúrguer Clássico,42,504.0
+818,2025-09-14,Cheeseburguer,48,672.0
+819,2025-09-14,Batata Frita,40,320.0
+820,2025-09-14,Refrigerante,50,250.0
+821,2025-09-14,Milkshake,34,340.0
+822,2025-09-14,Sobremesa Especial,54,810.0
+823,2025-09-15,Hambúrguer Clássico,37,444.0
+824,2025-09-15,Cheeseburguer,11,154.0
+825,2025-09-15,Batata Frita,10,80.0
+826,2025-09-15,Refrigerante,29,145.0
+827,2025-09-15,Milkshake,30,300.0
+828,2025-09-15,Sobremesa Especial,9,135.0
+829,2025-09-16,Hambúrguer Clássico,10,120.0
+830,2025-09-16,Cheeseburguer,12,168.0
+831,2025-09-16,Batata Frita,1,8.0
+832,2025-09-16,Refrigerante,5,25.0
+833,2025-09-16,Milkshake,4,40.0
+834,2025-09-16,Sobremesa Especial,7,105.0
+835,2025-09-17,Hambúrguer Clássico,24,288.0
+836,2025-09-17,Cheeseburguer,27,378.0
+837,2025-09-17,Batata Frita,40,320.0
+838,2025-09-17,Refrigerante,15,75.0
+839,2025-09-17,Milkshake,34,340.0
+840,2025-09-17,Sobremesa Especial,22,330.0
+841,2025-09-18,Hambúrguer Clássico,24,288.0
+842,2025-09-18,Cheeseburguer,31,434.0
+843,2025-09-18,Batata Frita,13,104.0
+844,2025-09-18,Refrigerante,28,140.0
+845,2025-09-18,Milkshake,26,260.0
+846,2025-09-18,Sobremesa Especial,29,435.0
+847,2025-09-19,Hambúrguer Clássico,42,504.0
+848,2025-09-19,Cheeseburguer,64,896.0
+849,2025-09-19,Batata Frita,33,264.0
+850,2025-09-19,Refrigerante,34,170.0
+851,2025-09-19,Milkshake,33,330.0
+852,2025-09-19,Sobremesa Especial,34,510.0
+853,2025-09-20,Hambúrguer Clássico,33,396.0
+854,2025-09-20,Cheeseburguer,51,714.0
+855,2025-09-20,Batata Frita,54,432.0
+856,2025-09-20,Refrigerante,34,170.0
+857,2025-09-20,Milkshake,31,310.0
+858,2025-09-20,Sobremesa Especial,44,660.0
+859,2025-09-21,Hambúrguer Clássico,34,408.0
+860,2025-09-21,Cheeseburguer,46,644.0
+861,2025-09-21,Batata Frita,42,336.0
+862,2025-09-21,Refrigerante,24,120.0
+863,2025-09-21,Milkshake,55,550.0
+864,2025-09-21,Sobremesa Especial,57,855.0
+865,2025-09-22,Hambúrguer Clássico,8,96.0
+866,2025-09-22,Cheeseburguer,11,154.0
+867,2025-09-22,Batata Frita,17,136.0
+868,2025-09-22,Refrigerante,18,90.0
+869,2025-09-22,Milkshake,21,210.0
+870,2025-09-22,Sobremesa Especial,35,525.0
+871,2025-09-23,Hambúrguer Clássico,13,156.0
+872,2025-09-23,Cheeseburguer,7,98.0
+873,2025-09-23,Batata Frita,1,8.0
+874,2025-09-23,Refrigerante,7,35.0
+875,2025-09-23,Milkshake,14,140.0
+876,2025-09-23,Sobremesa Especial,32,480.0
+877,2025-09-24,Hambúrguer Clássico,19,228.0
+878,2025-09-24,Cheeseburguer,27,378.0
+879,2025-09-24,Batata Frita,24,192.0
+880,2025-09-24,Refrigerante,36,180.0
+881,2025-09-24,Milkshake,50,500.0
+882,2025-09-24,Sobremesa Especial,19,285.0
+883,2025-09-25,Hambúrguer Clássico,20,240.0
+884,2025-09-25,Cheeseburguer,35,490.0
+885,2025-09-25,Batata Frita,31,248.0
+886,2025-09-25,Refrigerante,43,215.0
+887,2025-09-25,Milkshake,30,300.0
+888,2025-09-25,Sobremesa Especial,21,315.0
+889,2025-09-26,Hambúrguer Clássico,45,540.0
+890,2025-09-26,Cheeseburguer,51,714.0
+891,2025-09-26,Batata Frita,48,384.0
+892,2025-09-26,Refrigerante,45,225.0
+893,2025-09-26,Milkshake,50,500.0
+894,2025-09-26,Sobremesa Especial,51,765.0
+895,2025-09-27,Hambúrguer Clássico,53,636.0
+896,2025-09-27,Cheeseburguer,46,644.0
+897,2025-09-27,Batata Frita,38,304.0
+898,2025-09-27,Refrigerante,41,205.0
+899,2025-09-27,Milkshake,52,520.0
+900,2025-09-27,Sobremesa Especial,31,465.0
+901,2025-09-28,Hambúrguer Clássico,43,516.0
+902,2025-09-28,Cheeseburguer,36,504.0
+903,2025-09-28,Batata Frita,40,320.0
+904,2025-09-28,Refrigerante,52,260.0
+905,2025-09-28,Milkshake,41,410.0
+906,2025-09-28,Sobremesa Especial,40,600.0
+907,2025-09-29,Hambúrguer Clássico,1,12.0
+908,2025-09-29,Cheeseburguer,22,308.0
+909,2025-09-29,Batata Frita,21,168.0
+910,2025-09-29,Refrigerante,36,180.0
+911,2025-09-29,Milkshake,11,110.0
+912,2025-09-29,Sobremesa Especial,17,255.0
+913,2025-09-30,Hambúrguer Clássico,17,204.0
+914,2025-09-30,Cheeseburguer,30,420.0
+915,2025-09-30,Batata Frita,14,112.0
+916,2025-09-30,Refrigerante,17,85.0
+917,2025-09-30,Milkshake,21,210.0
+918,2025-09-30,Sobremesa Especial,16,240.0
+919,2025-10-01,Hambúrguer Clássico,20,240.0
+920,2025-10-01,Cheeseburguer,26,364.0
+921,2025-10-01,Batata Frita,35,280.0
+922,2025-10-01,Refrigerante,14,70.0
+923,2025-10-01,Milkshake,26,260.0
+924,2025-10-01,Sobremesa Especial,17,255.0
+925,2025-10-02,Hambúrguer Clássico,36,432.0
+926,2025-10-02,Cheeseburguer,9,126.0
+927,2025-10-02,Batata Frita,19,152.0
+928,2025-10-02,Refrigerante,28,140.0
+929,2025-10-02,Milkshake,40,400.0
+930,2025-10-02,Sobremesa Especial,24,360.0
+931,2025-10-03,Hambúrguer Clássico,34,408.0
+932,2025-10-03,Cheeseburguer,58,812.0
+933,2025-10-03,Batata Frita,25,200.0
+934,2025-10-03,Refrigerante,18,90.0
+935,2025-10-03,Milkshake,44,440.0
+936,2025-10-03,Sobremesa Especial,34,510.0
+937,2025-10-04,Hambúrguer Clássico,29,348.0
+938,2025-10-04,Cheeseburguer,47,658.0
+939,2025-10-04,Batata Frita,42,336.0
+940,2025-10-04,Refrigerante,34,170.0
+941,2025-10-04,Milkshake,27,270.0
+942,2025-10-04,Sobremesa Especial,48,720.0
+943,2025-10-05,Hambúrguer Clássico,46,552.0
+944,2025-10-05,Cheeseburguer,39,546.0
+945,2025-10-05,Batata Frita,58,464.0
+946,2025-10-05,Refrigerante,29,145.0
+947,2025-10-05,Milkshake,24,240.0
+948,2025-10-05,Sobremesa Especial,33,495.0
+949,2025-10-06,Hambúrguer Clássico,14,168.0
+950,2025-10-06,Cheeseburguer,17,238.0
+951,2025-10-06,Batata Frita,12,96.0
+952,2025-10-06,Refrigerante,18,90.0
+953,2025-10-06,Milkshake,2,20.0
+954,2025-10-06,Sobremesa Especial,29,435.0
+955,2025-10-07,Hambúrguer Clássico,14,168.0
+956,2025-10-07,Cheeseburguer,26,364.0
+957,2025-10-07,Batata Frita,18,144.0
+958,2025-10-07,Refrigerante,19,95.0
+959,2025-10-07,Milkshake,20,200.0
+960,2025-10-07,Sobremesa Especial,19,285.0
+961,2025-10-08,Hambúrguer Clássico,31,372.0
+962,2025-10-08,Cheeseburguer,38,532.0
+963,2025-10-08,Batata Frita,26,208.0
+964,2025-10-08,Refrigerante,32,160.0
+965,2025-10-08,Milkshake,24,240.0
+966,2025-10-08,Sobremesa Especial,39,585.0
+967,2025-10-09,Hambúrguer Clássico,18,216.0
+968,2025-10-09,Cheeseburguer,43,602.0
+969,2025-10-09,Batata Frita,24,192.0
+970,2025-10-09,Refrigerante,10,50.0
+971,2025-10-09,Milkshake,26,260.0
+972,2025-10-09,Sobremesa Especial,18,270.0
+973,2025-10-10,Hambúrguer Clássico,48,576.0
+974,2025-10-10,Cheeseburguer,33,462.0
+975,2025-10-10,Batata Frita,35,280.0
+976,2025-10-10,Refrigerante,21,105.0
+977,2025-10-10,Milkshake,35,350.0
+978,2025-10-10,Sobremesa Especial,15,225.0
+979,2025-10-11,Hambúrguer Clássico,24,288.0
+980,2025-10-11,Cheeseburguer,47,658.0
+981,2025-10-11,Batata Frita,47,376.0
+982,2025-10-11,Refrigerante,44,220.0
+983,2025-10-11,Milkshake,30,300.0
+984,2025-10-11,Sobremesa Especial,39,585.0
+985,2025-10-12,Hambúrguer Clássico,39,468.0
+986,2025-10-12,Cheeseburguer,28,392.0
+987,2025-10-12,Batata Frita,55,440.0
+988,2025-10-12,Refrigerante,48,240.0
+989,2025-10-12,Milkshake,37,370.0
+990,2025-10-12,Sobremesa Especial,40,600.0
+991,2025-10-13,Hambúrguer Clássico,17,204.0
+992,2025-10-13,Cheeseburguer,0,0.0
+993,2025-10-13,Batata Frita,12,96.0
+994,2025-10-13,Refrigerante,8,40.0
+995,2025-10-13,Milkshake,4,40.0
+996,2025-10-13,Sobremesa Especial,12,180.0
+997,2025-10-14,Hambúrguer Clássico,32,384.0
+998,2025-10-14,Cheeseburguer,21,294.0
+999,2025-10-14,Batata Frita,9,72.0
+1000,2025-10-14,Refrigerante,20,100.0
+1001,2025-10-14,Milkshake,28,280.0
+1002,2025-10-14,Sobremesa Especial,24,360.0
+1003,2025-10-15,Hambúrguer Clássico,25,300.0
+1004,2025-10-15,Cheeseburguer,18,252.0
+1005,2025-10-15,Batata Frita,31,248.0
+1006,2025-10-15,Refrigerante,28,140.0
+1007,2025-10-15,Milkshake,33,330.0
+1008,2025-10-15,Sobremesa Especial,31,465.0
+1009,2025-10-16,Hambúrguer Clássico,35,420.0
+1010,2025-10-16,Cheeseburguer,19,266.0
+1011,2025-10-16,Batata Frita,38,304.0
+1012,2025-10-16,Refrigerante,26,130.0
+1013,2025-10-16,Milkshake,45,450.0
+1014,2025-10-16,Sobremesa Especial,18,270.0
+1015,2025-10-17,Hambúrguer Clássico,57,684.0
+1016,2025-10-17,Cheeseburguer,41,574.0
+1017,2025-10-17,Batata Frita,33,264.0
+1018,2025-10-17,Refrigerante,35,175.0
+1019,2025-10-17,Milkshake,36,360.0
+1020,2025-10-17,Sobremesa Especial,44,660.0
+1021,2025-10-18,Hambúrguer Clássico,45,540.0
+1022,2025-10-18,Cheeseburguer,34,476.0
+1023,2025-10-18,Batata Frita,39,312.0
+1024,2025-10-18,Refrigerante,61,305.0
+1025,2025-10-18,Milkshake,57,570.0
+1026,2025-10-18,Sobremesa Especial,44,660.0
+1027,2025-10-19,Hambúrguer Clássico,40,480.0
+1028,2025-10-19,Cheeseburguer,41,574.0
+1029,2025-10-19,Batata Frita,46,368.0
+1030,2025-10-19,Refrigerante,29,145.0
+1031,2025-10-19,Milkshake,37,370.0
+1032,2025-10-19,Sobremesa Especial,23,345.0
+1033,2025-10-20,Hambúrguer Clássico,18,216.0
+1034,2025-10-20,Cheeseburguer,21,294.0
+1035,2025-10-20,Batata Frita,10,80.0
+1036,2025-10-20,Refrigerante,30,150.0
+1037,2025-10-20,Milkshake,2,20.0
+1038,2025-10-20,Sobremesa Especial,0,0.0
+1039,2025-10-21,Hambúrguer Clássico,17,204.0
+1040,2025-10-21,Cheeseburguer,25,350.0
+1041,2025-10-21,Batata Frita,31,248.0
+1042,2025-10-21,Refrigerante,10,50.0
+1043,2025-10-21,Milkshake,25,250.0
+1044,2025-10-21,Sobremesa Especial,14,210.0
+1045,2025-10-22,Hambúrguer Clássico,23,276.0
+1046,2025-10-22,Cheeseburguer,33,462.0
+1047,2025-10-22,Batata Frita,31,248.0
+1048,2025-10-22,Refrigerante,9,45.0
+1049,2025-10-22,Milkshake,39,390.0
+1050,2025-10-22,Sobremesa Especial,38,570.0
+1051,2025-10-23,Hambúrguer Clássico,18,216.0
+1052,2025-10-23,Cheeseburguer,28,392.0
+1053,2025-10-23,Batata Frita,29,232.0
+1054,2025-10-23,Refrigerante,27,135.0
+1055,2025-10-23,Milkshake,19,190.0
+1056,2025-10-23,Sobremesa Especial,18,270.0
+1057,2025-10-24,Hambúrguer Clássico,39,468.0
+1058,2025-10-24,Cheeseburguer,51,714.0
+1059,2025-10-24,Batata Frita,45,360.0
+1060,2025-10-24,Refrigerante,36,180.0
+1061,2025-10-24,Milkshake,47,470.0
+1062,2025-10-24,Sobremesa Especial,11,165.0
+1063,2025-10-25,Hambúrguer Clássico,51,612.0
+1064,2025-10-25,Cheeseburguer,22,308.0
+1065,2025-10-25,Batata Frita,36,288.0
+1066,2025-10-25,Refrigerante,28,140.0
+1067,2025-10-25,Milkshake,27,270.0
+1068,2025-10-25,Sobremesa Especial,51,765.0
+1069,2025-10-26,Hambúrguer Clássico,35,420.0
+1070,2025-10-26,Cheeseburguer,43,602.0
+1071,2025-10-26,Batata Frita,39,312.0
+1072,2025-10-26,Refrigerante,44,220.0
+1073,2025-10-26,Milkshake,40,400.0
+1074,2025-10-26,Sobremesa Especial,27,405.0
+1075,2025-10-27,Hambúrguer Clássico,24,288.0
+1076,2025-10-27,Cheeseburguer,10,140.0
+1077,2025-10-27,Batata Frita,0,0.0
+1078,2025-10-27,Refrigerante,10,50.0
+1079,2025-10-27,Milkshake,30,300.0
+1080,2025-10-27,Sobremesa Especial,23,345.0
+1081,2025-10-28,Hambúrguer Clássico,11,132.0
+1082,2025-10-28,Cheeseburguer,11,154.0
+1083,2025-10-28,Batata Frita,11,88.0
+1084,2025-10-28,Refrigerante,35,175.0
+1085,2025-10-28,Milkshake,18,180.0
+1086,2025-10-28,Sobremesa Especial,19,285.0
+1087,2025-10-29,Hambúrguer Clássico,35,420.0
+1088,2025-10-29,Cheeseburguer,27,378.0
+1089,2025-10-29,Batata Frita,22,176.0
+1090,2025-10-29,Refrigerante,23,115.0
+1091,2025-10-29,Milkshake,24,240.0
+1092,2025-10-29,Sobremesa Especial,24,360.0
+1093,2025-10-30,Hambúrguer Clássico,32,384.0
+1094,2025-10-30,Cheeseburguer,25,350.0
+1095,2025-10-30,Batata Frita,32,256.0
+1096,2025-10-30,Refrigerante,24,120.0
+1097,2025-10-30,Milkshake,25,250.0
+1098,2025-10-30,Sobremesa Especial,5,75.0
+1099,2025-10-31,Hambúrguer Clássico,49,588.0
+1100,2025-10-31,Cheeseburguer,43,602.0
+1101,2025-10-31,Batata Frita,49,392.0
+1102,2025-10-31,Refrigerante,11,55.0
+1103,2025-10-31,Milkshake,60,600.0
+1104,2025-10-31,Sobremesa Especial,38,570.0
