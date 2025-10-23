@@ -1,0 +1,11 @@
+Produto,Estoque_Atual,Validade,Faturamento_Total,Indice_Giro,Dias_Para_Vencer,Alerta,Estoque_Previsto
+Cheeseburger,39,2025-10-27,,,3,⚠️ Validade próxima,
+Bacon Burger,10,2025-11-01,,,8,📉 Estoque baixo,
+Veggie Burger,22,2025-10-26,,,2,⚠️ Validade próxima,
+Batata Frita,39,2025-11-03,41408.0,1061.7435897435898,10,🔥 Alta demanda,40.152041987861594
+Onion Rings,36,2025-11-03,,,10,✅ Ok,
+Refrigerante,26,2025-10-26,25780.0,991.5384615384615,2,⚠️ Validade próxima,22.79588322125528
+Milkshake,11,2025-11-05,51490.0,4680.909090909091,12,📉 Estoque baixo,13.052074790879487
+Água,32,2025-10-27,,,3,⚠️ Validade próxima,
+Brownie,34,2025-11-06,,,13,✅ Ok,
+Sorvete,19,2025-10-29,,,5,✅ Ok,

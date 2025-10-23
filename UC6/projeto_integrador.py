@@ -1,8 +1,3 @@
-# ==============================================
-# PROJETO FINAL - IA PARA GESTÃO DE VENDAS E ESTOQUE
-# Estruturado em 5 etapas para relatório
-# ==============================================
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -24,92 +19,82 @@ plt.rcParams.update({
 })
 
 # -------------------------------
-# ETAPA 1 - A INSPIRAÇÃO
-# Problema do mundo real: controle de vendas e estoque
+# 1️⃣ CARREGAR E PROCESSAR OS DADOS DE VENDAS
 # -------------------------------
-print("\n==============================")
-print("ETAPA 1: Inspiração")
-print("==============================")
-print("Problema identificado: Difícil acompanhamento de vendas e estoque.\n"
-      "Objetivo: Criar um assistente que analisa vendas passadas, gera alertas e prevê estoque ideal.")
-
-# -------------------------------
-# ETAPA 2 - DEFINIÇÃO DA APLICAÇÃO
-# -------------------------------
-print("\n==============================")
-print("ETAPA 2: Definição da Aplicação")
-print("==============================")
-print("Funcionalidades principais:")
-print("1️⃣ Importar dados de vendas e estoque")
-print("2️⃣ Calcular médias e totais de vendas/faturamento")
-print("3️⃣ Gerar alertas de estoque e validade")
-print("4️⃣ Previsão de estoque ideal com IA")
-print("5️⃣ Visualizações gráficas modernas\n")
-
-# -------------------------------
-# ETAPA 3 - MATÉRIA-PRIMA
-# -------------------------------
-print("==============================")
-print("ETAPA 3: Matéria-Prima")
-print("==============================")
-
-# Carregar dados de vendas
 df = pd.read_csv("UC6/vendas_simuladas.csv")
 df["Data"] = pd.to_datetime(df["Data"])
 
-# Traduzir dias da semana
+# Traduzir nomes dos dias da semana
 traducao_dias = {
-    "Monday": "Segunda", "Tuesday": "Terça", "Wednesday": "Quarta",
-    "Thursday": "Quinta", "Friday": "Sexta", "Saturday": "Sábado", "Sunday": "Domingo"
+    "Monday": "Segunda",
+    "Tuesday": "Terça",
+    "Wednesday": "Quarta",
+    "Thursday": "Quinta",
+    "Friday": "Sexta",
+    "Saturday": "Sábado",
+    "Sunday": "Domingo"
 }
 df["Dia_da_Semana"] = df["Data"].dt.day_name().map(traducao_dias)
 ordem_dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"]
 
-# Preços unitários e valor total
-precos = {
-    "Hambúrguer Clássico": 20.0, "Cheeseburguer": 22.0, "Bacon Burger": 25.0,
-    "Veggie Burger": 21.0, "Batata Frita": 10.0, "Onion Rings": 12.0,
-    "Refrigerante": 5.0, "Milkshake": 12.0, "Água": 4.0, "Brownie": 8.0,
-    "Sorvete": 10.0, "Sobremesa Especial": 15.0
-}
-df["Preco_Unitario"] = df["Produto"].map(precos)
-df["Valor_Total"] = df["Quantidade"] * df["Preco_Unitario"]
-
 # -------------------------------
-# ETAPA 4 - ARQUITETURA E CÁLCULOS
+# 2️⃣ CÁLCULOS DE VENDAS E FATURAMENTO
 # -------------------------------
-print("\n==============================")
-print("ETAPA 4: Arquitetura e Cálculos")
-print("==============================")
-
-# 1️⃣ Vendas e faturamento
 vendas_por_dia = df.groupby("Dia_da_Semana")["Quantidade"].sum().reindex(ordem_dias)
 vendas_por_produto = df.groupby("Produto")["Quantidade"].sum().sort_values()
 
+# Adicionar coluna de valor total se não existir
+if "Valor_Total" not in df.columns:
+    precos = {
+        "Hambúrguer Clássico": 20.0,
+        "Cheeseburguer": 22.0,
+        "Bacon Burger": 25.0,
+        "Veggie Burger": 21.0,
+        "Batata Frita": 10.0,
+        "Onion Rings": 12.0,
+        "Refrigerante": 5.0,
+        "Milkshake": 12.0,
+        "Água": 4.0,
+        "Brownie": 8.0,
+        "Sorvete": 10.0,
+        "Sobremesa Especial": 15.0
+    }
+    df["Preco_Unitario"] = df["Produto"].map(precos)
+    df["Valor_Total"] = df["Quantidade"] * df["Preco_Unitario"]
+
+# Faturamento
 faturamento_por_dia = df.groupby("Dia_da_Semana")["Valor_Total"].sum().reindex(ordem_dias)
 faturamento_por_produto = df.groupby("Produto")["Valor_Total"].sum().sort_values()
 
-print("\n🔹 Vendas por dia da semana:\n", vendas_por_dia)
-print("\n🔹 Vendas por produto:\n", vendas_por_produto)
-print("\n🔹 Faturamento por dia da semana:\n", faturamento_por_dia)
-print("\n🔹 Faturamento por produto:\n", faturamento_por_produto)
+# Médias
+media_vendas_produto_dia = (
+    df.groupby(["Produto", "Dia_da_Semana"])["Quantidade"]
+    .mean().unstack().reindex(columns=ordem_dias)
+)
+media_faturamento_produto_dia = (
+    df.groupby(["Produto", "Dia_da_Semana"])["Valor_Total"]
+    .mean().unstack().reindex(columns=ordem_dias)
+)
 
-# 2️⃣ Médias diárias
-media_vendas_produto_dia = df.groupby(["Produto", "Dia_da_Semana"])["Quantidade"].mean().unstack().reindex(columns=ordem_dias)
-media_faturamento_produto_dia = df.groupby(["Produto", "Dia_da_Semana"])["Valor_Total"].mean().unstack().reindex(columns=ordem_dias)
-
-print("\n🔹 Média diária de vendas por produto:\n", media_vendas_produto_dia.round(2))
-print("\n🔹 Média diária de faturamento por produto:\n", media_faturamento_produto_dia.round(2))
-
-# 3️⃣ Estoque
+# -------------------------------
+# 3️⃣ CARREGAR E ANALISAR O ESTOQUE
+# -------------------------------
 estoque = pd.read_csv("UC6/estoque.csv")
 estoque["Validade"] = pd.to_datetime(estoque["Validade"])
 
-estoque_analise = estoque.merge(faturamento_por_produto.rename("Faturamento_Total"), on="Produto", how="left")
+# Combinar com faturamento total
+estoque_analise = estoque.merge(
+    faturamento_por_produto.rename("Faturamento_Total"),
+    on="Produto",
+    how="left"
+)
+
+# Calcular métricas
 estoque_analise["Indice_Giro"] = estoque_analise["Faturamento_Total"] / estoque_analise["Estoque_Atual"]
 hoje = datetime.today()
 estoque_analise["Dias_Para_Vencer"] = (estoque_analise["Validade"] - hoje).dt.days
 
+# Função de alerta
 def gerar_alerta(row):
     if row["Dias_Para_Vencer"] <= 3:
         return "⚠️ Validade próxima"
@@ -122,9 +107,9 @@ def gerar_alerta(row):
 
 estoque_analise["Alerta"] = estoque_analise.apply(gerar_alerta, axis=1)
 
-print("\n🔹 Estoque e alertas:\n", estoque_analise[["Produto","Estoque_Atual","Validade","Dias_Para_Vencer","Indice_Giro","Alerta"]].round(2))
-
-# 4️⃣ Previsão de estoque ideal (IA)
+# -------------------------------
+# 4️⃣ MODELO DE IA - PREVISÃO DE ESTOQUE IDEAL
+# -------------------------------
 media_vendas_df = media_vendas_produto_dia.mean(axis=1).rename("Media_Vendas").reset_index()
 estoque_analise = estoque_analise.merge(media_vendas_df, on="Produto", how="left")
 estoque_analise["Media_Vendas"] = estoque_analise["Media_Vendas"].fillna(0)
@@ -134,20 +119,27 @@ y = estoque_analise["Estoque_Atual"]
 modelo = LinearRegression().fit(X, y)
 estoque_analise["Estoque_Previsto"] = modelo.predict(X)
 
-print("\n🔹 Previsão de estoque ideal:\n", estoque_analise[["Produto","Estoque_Atual","Estoque_Previsto","Alerta"]].round(1))
-
 # -------------------------------
-# ETAPA 5 - RELATÓRIO E VISUALIZAÇÃO
+# 5️⃣ RELATÓRIO EXECUTIVO
 # -------------------------------
 print("\n==============================")
-print("ETAPA 5: Relatório Executivo e Gráficos")
+print("📊 RELATÓRIO INTELIGENTE - STATUS DO NEGÓCIO")
 print("==============================")
-print(f"📅 Data de análise: {hoje.strftime('%d/%m/%Y')}")
+print(f"📅 Data de Análise: {hoje.strftime('%d/%m/%Y')}")
 print(f"💰 Faturamento total: R$ {faturamento_por_produto.sum():,.2f}")
 print(f"📦 Produtos com alerta: {len(estoque_analise[estoque_analise['Alerta'] != '✅ Ok'])}")
 
-# Gráficos
-# 1️⃣ Vendas por dia
+print("\n🔹 ALERTAS DE ESTOQUE E VALIDADE:\n")
+print(estoque_analise[["Produto", "Estoque_Atual", "Validade", "Dias_Para_Vencer", "Alerta"]])
+
+print("\n🔹 PREVISÃO DE ESTOQUE IDEAL (IA):\n")
+print(estoque_analise[["Produto", "Estoque_Atual", "Estoque_Previsto", "Alerta"]].round(1))
+
+# -------------------------------
+# 6️⃣ GRÁFICOS MODERNOS E INTELIGENTES
+# -------------------------------
+
+# Vendas por dia
 plt.figure(figsize=(8,5))
 sns.barplot(x=vendas_por_dia.index, y=vendas_por_dia.values, palette="coolwarm")
 plt.title("Total de Vendas por Dia da Semana (Quantidade)")
@@ -156,7 +148,7 @@ plt.ylabel("Quantidade Vendida")
 plt.tight_layout()
 plt.show()
 
-# 2️⃣ Faturamento por dia
+# Faturamento por dia
 plt.figure(figsize=(8,5))
 sns.barplot(x=faturamento_por_dia.index, y=faturamento_por_dia.values, palette="YlOrBr")
 plt.title("Faturamento Total por Dia da Semana (R$)")
@@ -165,9 +157,9 @@ plt.ylabel("Faturamento (R$)")
 plt.tight_layout()
 plt.show()
 
-# 3️⃣ Faturamento por produto
+# Faturamento por produto
 plt.figure(figsize=(8,5))
-sns.barplot(x=faturamento_por_produto.index, y=faturamento_por_produto.values, palette="Greens_r")
+sns.barplot(x=faturamento_por_produto.index, y=faturamento_por_produto.values, palette=sns.dark_palette("green", reverse=False)) # greens_r o r é pra usar o reverse das cores
 plt.title("Faturamento Total por Produto (R$)")
 plt.xlabel("Produto")
 plt.ylabel("Faturamento (R$)")
@@ -175,7 +167,7 @@ plt.xticks(rotation=30, ha='right')
 plt.tight_layout()
 plt.show()
 
-# 4️⃣ Média diária de vendas
+# Média de vendas diária
 plt.figure(figsize=(12,6))
 for produto in media_vendas_produto_dia.index:
     sns.lineplot(x=ordem_dias, y=media_vendas_produto_dia.loc[produto], marker='o', label=produto)
@@ -186,7 +178,7 @@ plt.legend(title="Produto", bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 plt.show()
 
-# 5️⃣ Média diária de faturamento
+# Média de faturamento diária
 plt.figure(figsize=(12,6))
 for produto in media_faturamento_produto_dia.index:
     sns.lineplot(x=ordem_dias, y=media_faturamento_produto_dia.loc[produto], marker='o', label=produto)
@@ -197,7 +189,7 @@ plt.legend(title="Produto", bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 plt.show()
 
-# 6️⃣ Estoque e alertas
+# Gráficos de estoque e IA
 plt.figure(figsize=(10,5))
 sns.barplot(x="Produto", y="Dias_Para_Vencer", hue="Alerta", data=estoque_analise, dodge=False, palette="coolwarm")
 plt.title("Dias Restantes para Validade por Produto")
@@ -209,9 +201,21 @@ plt.show()
 
 plt.figure(figsize=(8,5))
 sns.barplot(x="Produto", y="Estoque_Atual", hue="Alerta", data=estoque_analise, dodge=False, palette="viridis")
-plt.title("Estoque Atual por Produto com Alertas")
+plt.title("Nível de Estoque e Situação de Alerta")
 plt.xlabel("Produto")
 plt.ylabel("Estoque Atual")
 plt.xticks(rotation=30, ha='right')
 plt.tight_layout()
 plt.show()
+
+plt.figure(figsize=(8,5))
+sns.scatterplot(x="Estoque_Atual", y="Estoque_Previsto", hue="Alerta", data=estoque_analise, palette="coolwarm", s=100)
+plt.title("Previsão de Estoque Ideal x Atual (IA)")
+plt.xlabel("Estoque Atual")
+plt.ylabel("Estoque Previsto (IA)")
+plt.tight_layout()
+plt.show()
+
+print("\n✅ Análise concluída com sucesso!")
+
+
