@@ -5,9 +5,9 @@ from datetime import datetime
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
-# -------------------------------
+
 # CONFIGURAÇÕES DE ESTILO
-# -------------------------------
+
 sns.set_theme(style="whitegrid", palette="Set2")
 plt.rcParams.update({
     "axes.titlesize": 14,
@@ -18,9 +18,9 @@ plt.rcParams.update({
     "figure.facecolor": "white"
 })
 
-# -------------------------------
-# 1️⃣ CARREGAR E PROCESSAR OS DADOS DE VENDAS
-# -------------------------------
+
+#  CARREGAR E PROCESSAR OS DADOS DE VENDAS
+
 df = pd.read_csv("UC6/vendas_simuladas.csv")
 df["Data"] = pd.to_datetime(df["Data"])
 
@@ -37,9 +37,9 @@ traducao_dias = {
 df["Dia_da_Semana"] = df["Data"].dt.day_name().map(traducao_dias)
 ordem_dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"]
 
-# -------------------------------
-# 2️⃣ CÁLCULOS DE VENDAS E FATURAMENTO
-# -------------------------------
+
+#  CÁLCULOS DE VENDAS E FATURAMENTO
+
 vendas_por_dia = df.groupby("Dia_da_Semana")["Quantidade"].sum().reindex(ordem_dias)
 vendas_por_produto = df.groupby("Produto")["Quantidade"].sum().sort_values()
 
@@ -76,9 +76,9 @@ media_faturamento_produto_dia = (
     .mean().unstack().reindex(columns=ordem_dias)
 )
 
-# -------------------------------
-# 3️⃣ CARREGAR E ANALISAR O ESTOQUE
-# -------------------------------
+
+#  CARREGAR E ANALISAR O ESTOQUE
+
 estoque = pd.read_csv("UC6/estoque.csv")
 estoque["Validade"] = pd.to_datetime(estoque["Validade"])
 
@@ -97,19 +97,19 @@ estoque_analise["Dias_Para_Vencer"] = (estoque_analise["Validade"] - hoje).dt.da
 # Função de alerta
 def gerar_alerta(row):
     if row["Dias_Para_Vencer"] <= 3:
-        return "⚠️ Validade próxima"
+        return " Validade próxima"
     elif row["Estoque_Atual"] < 15:
-        return "📉 Estoque baixo"
+        return " Estoque baixo"
     elif row["Indice_Giro"] > 50:
-        return "🔥 Alta demanda"
+        return " Alta demanda"
     else:
-        return "✅ Ok"
+        return " Ok"
 
 estoque_analise["Alerta"] = estoque_analise.apply(gerar_alerta, axis=1)
 
-# -------------------------------
-# 4️⃣ MODELO DE IA - PREVISÃO DE ESTOQUE IDEAL
-# -------------------------------
+
+#   PREVISÃO DE ESTOQUE IDEAL
+
 media_vendas_df = media_vendas_produto_dia.mean(axis=1).rename("Media_Vendas").reset_index()
 estoque_analise = estoque_analise.merge(media_vendas_df, on="Produto", how="left")
 estoque_analise["Media_Vendas"] = estoque_analise["Media_Vendas"].fillna(0)
@@ -119,25 +119,25 @@ y = estoque_analise["Estoque_Atual"]
 modelo = LinearRegression().fit(X, y)
 estoque_analise["Estoque_Previsto"] = modelo.predict(X)
 
-# -------------------------------
-# 5️⃣ RELATÓRIO EXECUTIVO
-# -------------------------------
-print("\n==============================")
-print("📊 RELATÓRIO INTELIGENTE - STATUS DO NEGÓCIO")
-print("==============================")
-print(f"📅 Data de Análise: {hoje.strftime('%d/%m/%Y')}")
-print(f"💰 Faturamento total: R$ {faturamento_por_produto.sum():,.2f}")
-print(f"📦 Produtos com alerta: {len(estoque_analise[estoque_analise['Alerta'] != '✅ Ok'])}")
 
-print("\n🔹 ALERTAS DE ESTOQUE E VALIDADE:\n")
+#  print
+
+print("\n==============================")
+print(" RELATÓRIO INTELIGENTE - STATUS DO NEGÓCIO")
+print("==============================")
+print(f" Data de Análise: {hoje.strftime('%d/%m/%Y')}")
+print(f" Faturamento total: R$ {faturamento_por_produto.sum():,.2f}")
+print(f" Produtos com alerta: {len(estoque_analise[estoque_analise['Alerta'] != ' Ok'])}")
+
+print("\n ALERTAS DE ESTOQUE E VALIDADE:\n")
 print(estoque_analise[["Produto", "Estoque_Atual", "Validade", "Dias_Para_Vencer", "Alerta"]])
 
-print("\n🔹 PREVISÃO DE ESTOQUE IDEAL (IA):\n")
+print("\n PREVISÃO DE ESTOQUE IDEAL (IA):\n")
 print(estoque_analise[["Produto", "Estoque_Atual", "Estoque_Previsto", "Alerta"]].round(1))
 
-# -------------------------------
-# 6️⃣ GRÁFICOS MODERNOS E INTELIGENTES
-# -------------------------------
+
+#  GRÁFICOS 
+
 
 # Vendas por dia
 plt.figure(figsize=(8,5))
@@ -216,6 +216,6 @@ plt.ylabel("Estoque Previsto (IA)")
 plt.tight_layout()
 plt.show()
 
-print("\n✅ Análise concluída com sucesso!")
+print("\n Análise concluída com sucesso!")
 
 
